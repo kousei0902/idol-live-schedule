@@ -3,5 +3,10 @@
     "group": "TicketDive(テスト)",
     "url": "https://ticketdive.com/",
     "note": "動作確認用のテスト登録。トップページは新着枠が頻繁に変わるため、実運用では特定アーティストのページURLに差し替え推奨"
+  },
+  {
+    "group": "tiget(テスト)",
+    "url": "https://tiget.net/",
+    "note": "動作確認用のテスト登録"
   }
 ]
