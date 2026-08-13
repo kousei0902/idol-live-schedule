@@ -8,5 +8,10 @@
     "group": "tiget(テスト)",
     "url": "https://tiget.net/",
     "note": "動作確認用のテスト登録"
+  },
+  {
+    "group": "livepocket(テスト)",
+    "url": "https://livepocket.jp/",
+    "note": "動作確認用のテスト登録"
   }
 ]
