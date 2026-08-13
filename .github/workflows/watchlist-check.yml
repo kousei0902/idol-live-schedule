@@ -21,6 +21,7 @@ jobs:
           playwright install --with-deps chromium
 
       - name: Run checker
+        continue-on-error: true
         env:
           GH_TOKEN: ${{ github.token }}
         run: python3 scripts/check_watchlist.py
@@ -34,6 +35,7 @@ jobs:
         run: python3 scripts/check_x.py
 
       - name: Commit state changes
+        if: always()
         run: |
           if [ -n "$(git status --porcelain state.json events.json x_state.json)" ]; then
             git config user.name "github-actions[bot]"

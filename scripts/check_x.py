@@ -19,6 +19,7 @@ import os
 import re
 import subprocess
 import sys
+import tempfile
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -49,11 +50,17 @@ def now_iso():
 
 
 def create_issue(title, body):
-    result = subprocess.run(
-        ["gh", "issue", "create", "--title", title, "--body", body],
-        capture_output=True,
-        text=True,
-    )
+    with tempfile.NamedTemporaryFile("w", suffix=".md", delete=False, encoding="utf-8") as f:
+        f.write(body)
+        body_path = f.name
+    try:
+        result = subprocess.run(
+            ["gh", "issue", "create", "--title", title, "--body-file", body_path],
+            capture_output=True,
+            text=True,
+        )
+    finally:
+        os.unlink(body_path)
     if result.returncode != 0:
         print(f"gh issue create failed: {result.stderr}", file=sys.stderr)
         return False

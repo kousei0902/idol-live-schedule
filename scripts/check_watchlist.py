@@ -9,9 +9,11 @@ a simple content-hash diff (detects "something changed", nothing more).
 
 import hashlib
 import json
+import os
 import re
 import subprocess
 import sys
+import tempfile
 import time
 import urllib.request
 import urllib.error
@@ -322,11 +324,20 @@ PARSERS = {
 
 
 def create_issue(title, body):
-    result = subprocess.run(
-        ["gh", "issue", "create", "--title", title, "--body", body],
-        capture_output=True,
-        text=True,
-    )
+    # Body can be large (a big batch of newly-discovered events); passing it
+    # as a CLI argument risks OSError: Argument list too long, so write it
+    # to a temp file and use --body-file instead.
+    with tempfile.NamedTemporaryFile("w", suffix=".md", delete=False, encoding="utf-8") as f:
+        f.write(body)
+        body_path = f.name
+    try:
+        result = subprocess.run(
+            ["gh", "issue", "create", "--title", title, "--body-file", body_path],
+            capture_output=True,
+            text=True,
+        )
+    finally:
+        os.unlink(body_path)
     if result.returncode != 0:
         print(f"gh issue create failed: {result.stderr}", file=sys.stderr)
         return False
@@ -444,21 +455,8 @@ def main():
             if alert:
                 hash_alerts.append(alert)
 
-    if all_new_events:
-        title = f"新着ライブ情報 {len(all_new_events)}件"
-        lines = []
-        for ev in all_new_events:
-            date = ev["date"] or "日付不明"
-            venue = ev["venue"] or "会場不明"
-            lines.append(f"- **{ev['group']}** / {date} / {venue}\n  {ev['title']}\n  {ev['event_url']}")
-        body = "\n\n".join(lines)
-        create_issue(title, body)
-
-    for alert in hash_alerts:
-        title = f"新着更新の可能性: {alert['group']}"
-        body = f"{alert['url']}\n\n{alert['note']}\n\nchecked at {alert['checked_at']}"
-        create_issue(title, body)
-
+    # Persist first, notify second — a crash while creating issues (e.g. a
+    # huge one-off batch) must never cost us the newly-collected data.
     if events_changed:
         with EVENTS_PATH.open("w", encoding="utf-8") as f:
             json.dump(events_known, f, ensure_ascii=False, indent=2)
@@ -468,6 +466,31 @@ def main():
         with STATE_PATH.open("w", encoding="utf-8") as f:
             json.dump(state, f, ensure_ascii=False, indent=2)
             f.write("\n")
+
+    # GitHub issue bodies cap out around 65,536 characters; keep each issue
+    # comfortably under that by splitting large batches into chunks.
+    MAX_EVENTS_PER_ISSUE = 150
+    if all_new_events:
+        chunks = [
+            all_new_events[i:i + MAX_EVENTS_PER_ISSUE]
+            for i in range(0, len(all_new_events), MAX_EVENTS_PER_ISSUE)
+        ]
+        for idx, chunk in enumerate(chunks, start=1):
+            title = f"新着ライブ情報 {len(all_new_events)}件"
+            if len(chunks) > 1:
+                title += f" ({idx}/{len(chunks)})"
+            lines = []
+            for ev in chunk:
+                date = ev["date"] or "日付不明"
+                venue = ev["venue"] or "会場不明"
+                lines.append(f"- **{ev['group']}** / {date} / {venue}\n  {ev['title']}\n  {ev['event_url']}")
+            body = "\n\n".join(lines)
+            create_issue(title, body)
+
+    for alert in hash_alerts:
+        title = f"新着更新の可能性: {alert['group']}"
+        body = f"{alert['url']}\n\n{alert['note']}\n\nchecked at {alert['checked_at']}"
+        create_issue(title, body)
 
     print(f"done: {len(all_new_events)} new events, {len(hash_alerts)} hash-diff alerts")
 
