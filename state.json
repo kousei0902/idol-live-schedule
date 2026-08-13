@@ -1,1 +1,12 @@
-{}
+{
+  "https://ticketdive.com/": {
+    "hash": "82447ab2b80ce744c702ca48d99a8f3ae2653d869eb6c8944a59094145955d46",
+    "lastChecked": "2026-08-13T19:13:09Z",
+    "lastChanged": null
+  },
+  "https://tiget.net/": {
+    "hash": "c819b793c43e9afe3faff490c25c1de70b06300395ec9951929a4c79c8b36e4d",
+    "lastChecked": "2026-08-13T19:13:11Z",
+    "lastChanged": null
+  }
+}
