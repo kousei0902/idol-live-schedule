@@ -220,6 +220,10 @@ def check_structured(entry, parser, events_known):
         return [], False
 
     events = parser(html, url)
+    if not events:
+        soup = BeautifulSoup(html, "html.parser")
+        page_title = soup.title.get_text(strip=True) if soup.title else "(no <title>)"
+        print(f"  [debug] {group_label}: 0 events parsed; page title = {page_title!r}, body length = {len(html)}")
     new_events = []
     changed = False
     for ev in events:
