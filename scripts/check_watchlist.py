@@ -54,6 +54,34 @@ def fetch(url):
         return resp.read()
 
 
+def fetch_with_browser(url):
+    """Fetch via a real headless browser. Needed for sites behind a
+    JS-based bot challenge (e.g. AWS WAF Challenge) that a plain HTTP
+    request can't solve."""
+    from playwright.sync_api import sync_playwright
+
+    with sync_playwright() as p:
+        browser = p.chromium.launch(args=["--no-sandbox"])
+        try:
+            page = browser.new_page(user_agent=USER_AGENT, locale="ja-JP")
+            page.goto(url, timeout=30000)
+            try:
+                page.wait_for_load_state("networkidle", timeout=15000)
+            except Exception:
+                pass
+            # AWS WAF's JS challenge resolves and swaps in real content
+            # a few seconds after load; give it room before reading DOM.
+            page.wait_for_timeout(5000)
+            html = page.content()
+        finally:
+            browser.close()
+    return html.encode("utf-8")
+
+
+# Hosts whose listing is behind a JS bot-challenge and need a real browser.
+BROWSER_HOSTS = {"livepocket.jp"}
+
+
 def now_iso():
     return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
@@ -207,11 +235,11 @@ def create_issue(title, body):
     return True
 
 
-def check_structured(entry, parser, events_known):
+def check_structured(entry, parser, events_known, use_browser=False):
     url = entry["url"]
     group_label = entry.get("group", "(不明)")
     try:
-        html = fetch(url)
+        html = fetch_with_browser(url) if use_browser else fetch(url)
     except urllib.error.HTTPError as e:
         body = ""
         try:
@@ -302,7 +330,9 @@ def main():
         parser = PARSERS.get(host)
 
         if parser:
-            new_events, changed = check_structured(entry, parser, events_known)
+            new_events, changed = check_structured(
+                entry, parser, events_known, use_browser=(host in BROWSER_HOSTS)
+            )
             all_new_events.extend(new_events)
             events_changed = events_changed or changed
         else:
