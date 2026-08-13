@@ -12,11 +12,12 @@ import json
 import re
 import subprocess
 import sys
+import time
 import urllib.request
 import urllib.error
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
-from urllib.parse import urljoin, urlparse
+from urllib.parse import urljoin, urlparse, urlsplit, urlunsplit, parse_qsl, urlencode
 
 from bs4 import BeautifulSoup
 
@@ -54,32 +55,82 @@ def fetch(url):
         return resp.read()
 
 
-def fetch_with_browser(url):
-    """Fetch via a real headless browser. Needed for sites behind a
-    JS-based bot challenge (e.g. AWS WAF Challenge) that a plain HTTP
-    request can't solve."""
-    from playwright.sync_api import sync_playwright
-
-    with sync_playwright() as p:
-        browser = p.chromium.launch(args=["--no-sandbox"])
-        try:
-            page = browser.new_page(user_agent=USER_AGENT, locale="ja-JP")
-            page.goto(url, timeout=30000)
-            try:
-                page.wait_for_load_state("networkidle", timeout=15000)
-            except Exception:
-                pass
-            # AWS WAF's JS challenge resolves and swaps in real content
-            # a few seconds after load; give it room before reading DOM.
-            page.wait_for_timeout(5000)
-            html = page.content()
-        finally:
-            browser.close()
-    return html.encode("utf-8")
+def add_query_param(url, key, value):
+    parts = urlsplit(url)
+    query = dict(parse_qsl(parts.query))
+    query[key] = str(value)
+    return urlunsplit((parts.scheme, parts.netloc, parts.path, urlencode(query), parts.fragment))
 
 
 # Hosts whose listing is behind a JS bot-challenge and need a real browser.
 BROWSER_HOSTS = {"livepocket.jp"}
+
+# How to build the URL for page N (N >= 2) of a site's listing. Sites not
+# listed here only ever fetch a single page, regardless of max_pages.
+PAGE_URL_BUILDERS = {
+    "tiget.net": lambda url, page: add_query_param(url, "page", page),
+    "livepocket.jp": lambda url, page: add_query_param(url, "page", page),
+    "eplus.jp": lambda url, page: url.rstrip("/") + f"/p{page}",
+}
+
+DEFAULT_MAX_PAGES = 4
+# Pause between page requests on the same site, to be polite and avoid
+# tripping congestion/rate-limit pages (eplus.jp has shown a "混雑のお知らせ"
+# 503 under rapid repeated requests).
+PAGE_DELAY_SECONDS = 1.5
+
+
+def fetch_pages(base_url, max_pages, page_url_fn, use_browser):
+    """Fetch up to max_pages pages of a listing, returning a list of
+    (page_url, html_bytes). Stops early on a fetch error."""
+    if use_browser:
+        from playwright.sync_api import sync_playwright
+
+        pages = []
+        with sync_playwright() as p:
+            browser = p.chromium.launch(args=["--no-sandbox"])
+            try:
+                browser_page = browser.new_page(user_agent=USER_AGENT, locale="ja-JP")
+                for i in range(1, max_pages + 1):
+                    page_url = page_url_fn(base_url, i) if (page_url_fn and i > 1) else base_url
+                    try:
+                        browser_page.goto(page_url, timeout=30000)
+                        try:
+                            browser_page.wait_for_load_state("networkidle", timeout=15000)
+                        except Exception:
+                            pass
+                        # AWS WAF's JS challenge resolves and swaps in real
+                        # content a few seconds after load; give it room.
+                        browser_page.wait_for_timeout(5000 if i == 1 else 2500)
+                        pages.append((page_url, browser_page.content().encode("utf-8")))
+                    except Exception as e:
+                        print(f"  [page {i}] browser fetch failed: {type(e).__name__}: {e}")
+                        break
+                    if i < max_pages:
+                        browser_page.wait_for_timeout(int(PAGE_DELAY_SECONDS * 1000))
+            finally:
+                browser.close()
+        return pages
+
+    pages = []
+    for i in range(1, max_pages + 1):
+        page_url = page_url_fn(base_url, i) if (page_url_fn and i > 1) else base_url
+        try:
+            pages.append((page_url, fetch(page_url)))
+        except urllib.error.HTTPError as e:
+            body = ""
+            try:
+                body = e.read(300).decode("utf-8", "replace")
+            except Exception:
+                pass
+            print(f"  [page {i}] HTTP {e.code} {e.reason} :: {body}")
+            break
+        except Exception as e:
+            print(f"  [page {i}] fetch failed: {type(e).__name__}: {e}")
+            break
+        if i < max_pages:
+            time.sleep(PAGE_DELAY_SECONDS)
+    return pages
 
 
 def now_iso():
@@ -283,33 +334,32 @@ def create_issue(title, body):
     return True
 
 
-def check_structured(entry, parser, events_known, use_browser=False):
+def check_structured(entry, parser, events_known, use_browser=False, max_pages=1, page_url_fn=None):
     url = entry["url"]
     group_label = entry.get("group", "(不明)")
-    try:
-        html = fetch_with_browser(url) if use_browser else fetch(url)
-    except urllib.error.HTTPError as e:
-        body = ""
-        try:
-            body = e.read(500).decode("utf-8", "replace")
-        except Exception:
-            pass
-        print(f"[skip] {group_label} ({url}): HTTP {e.code} {e.reason} :: {body}")
-        return [], False
-    except Exception as e:
-        print(f"[skip] {group_label} ({url}): fetch failed: {type(e).__name__}: {e}")
+
+    fetched_pages = fetch_pages(url, max_pages, page_url_fn, use_browser)
+    if not fetched_pages:
+        print(f"[skip] {group_label} ({url}): no pages fetched")
         return [], False
 
-    events = parser(html, url)
-    if not events:
-        soup = BeautifulSoup(html, "html.parser")
-        page_title = soup.title.get_text(strip=True) if soup.title else "(no <title>)"
-        snippet = html[:400].decode("utf-8", "replace")
-        print(f"  [debug] {group_label}: 0 events parsed; page title = {page_title!r}, body length = {len(html)}")
-        print(f"  [debug] body snippet: {snippet!r}")
+    all_events = []
+    seen_this_run = set()
+    for page_url, html in fetched_pages:
+        events = parser(html, page_url)
+        if not events:
+            soup = BeautifulSoup(html, "html.parser")
+            page_title = soup.title.get_text(strip=True) if soup.title else "(no <title>)"
+            print(f"  [debug] {group_label}: 0 events parsed at {page_url}; page title = {page_title!r}, body length = {len(html)}")
+            break  # either the end of pagination, or a block page — stop either way
+        for ev in events:
+            if ev["event_url"] not in seen_this_run:
+                seen_this_run.add(ev["event_url"])
+                all_events.append(ev)
+
     new_events = []
     changed = False
-    for ev in events:
+    for ev in all_events:
         key = ev["event_url"]
         if key not in events_known:
             events_known[key] = {
@@ -322,7 +372,7 @@ def check_structured(entry, parser, events_known, use_browser=False):
             }
             new_events.append(ev)
             changed = True
-    print(f"[{group_label}] checked {len(events)} listings, {len(new_events)} new")
+    print(f"[{group_label}] checked {len(all_events)} listings across {len(fetched_pages)} page(s), {len(new_events)} new")
     return new_events, changed
 
 
@@ -378,8 +428,13 @@ def main():
         parser = PARSERS.get(host)
 
         if parser:
+            page_url_fn = PAGE_URL_BUILDERS.get(host)
+            max_pages = entry.get("max_pages", DEFAULT_MAX_PAGES) if page_url_fn else 1
             new_events, changed = check_structured(
-                entry, parser, events_known, use_browser=(host in BROWSER_HOSTS)
+                entry, parser, events_known,
+                use_browser=(host in BROWSER_HOSTS),
+                max_pages=max_pages,
+                page_url_fn=page_url_fn,
             )
             all_new_events.extend(new_events)
             events_changed = events_changed or changed
