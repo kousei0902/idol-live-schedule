@@ -70,33 +70,38 @@ def create_issue(title, body):
 
 def log_in(page, username, password):
     page.goto("https://x.com/i/flow/login", timeout=30000)
-    page.wait_for_timeout(2000)
 
-    username_input = page.locator('input[autocomplete="username"]').first
-    username_input.wait_for(timeout=15000)
+    # NOTE on selectors: X's username field has autocomplete="username
+    # webauthn" (a compound value — an exact-match [autocomplete="username"]
+    # selector matches nothing), and the button reads "続ける" (Continue),
+    # not "次へ" (Next). Confirmed by direct DOM inspection of the real
+    # login page. name="username_or_email" is the stable anchor.
+    username_input = page.locator('input[name="username_or_email"]').first
+    username_input.wait_for(timeout=20000)
     username_input.fill(username)
-    page.get_by_role("button", name=re.compile("次へ|Next")).first.click()
+    page.get_by_role("button", name=re.compile("続ける|次へ|Next")).first.click()
     page.wait_for_timeout(1500)
 
     # X sometimes re-asks for the username/phone as an "unusual activity"
     # check before ever showing the password field.
-    if page.locator('input[autocomplete="username"]').count() > 0 and \
+    if page.locator('input[name="username_or_email"]').count() > 0 and \
        page.locator('input[name="password"]').count() == 0:
-        retry_input = page.locator('input[autocomplete="username"], input[data-testid="ocfEnterTextTextInput"]').first
+        retry_input = page.locator('input[name="username_or_email"], input[data-testid="ocfEnterTextTextInput"]').first
         retry_input.fill(username)
-        page.get_by_role("button", name=re.compile("次へ|Next")).first.click()
+        page.get_by_role("button", name=re.compile("続ける|次へ|Next")).first.click()
         page.wait_for_timeout(1500)
 
     password_input = page.locator('input[name="password"]').first
     password_input.wait_for(timeout=15000)
     password_input.fill(password)
-    page.get_by_role("button", name=re.compile("ログイン|Log in")).first.click()
+    page.get_by_role("button", name=re.compile("ログイン|続ける|Log in")).first.click()
     page.wait_for_timeout(4000)
 
     try:
         page.wait_for_url(re.compile(r"x\.com/home"), timeout=20000)
         return True
     except Exception:
+        print(f"[debug] after login attempt, URL={page.url!r}, title={page.title()!r}")
         return False
 
 
