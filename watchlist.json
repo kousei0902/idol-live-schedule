@@ -13,5 +13,10 @@
     "group": "livepocket(テスト)",
     "url": "https://livepocket.jp/",
     "note": "動作確認用のテスト登録"
+  },
+  {
+    "group": "eplus(テスト)",
+    "url": "https://eplus.jp/",
+    "note": "動作確認用のテスト登録"
   }
 ]
