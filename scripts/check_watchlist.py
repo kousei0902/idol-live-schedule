@@ -207,8 +207,16 @@ def check_structured(entry, parser, events_known):
     group_label = entry.get("group", "(不明)")
     try:
         html = fetch(url)
-    except (urllib.error.URLError, TimeoutError, ValueError) as e:
-        print(f"[skip] {group_label} ({url}): fetch failed: {e}")
+    except urllib.error.HTTPError as e:
+        body = ""
+        try:
+            body = e.read(500).decode("utf-8", "replace")
+        except Exception:
+            pass
+        print(f"[skip] {group_label} ({url}): HTTP {e.code} {e.reason} :: {body}")
+        return [], False
+    except Exception as e:
+        print(f"[skip] {group_label} ({url}): fetch failed: {type(e).__name__}: {e}")
         return [], False
 
     events = parser(html, url)
@@ -237,8 +245,8 @@ def check_hash_fallback(entry, state):
     note = entry.get("note", "")
     try:
         content = fetch(url)
-    except (urllib.error.URLError, TimeoutError, ValueError) as e:
-        print(f"[skip] {group_label} ({url}): fetch failed: {e}")
+    except Exception as e:
+        print(f"[skip] {group_label} ({url}): fetch failed: {type(e).__name__}: {e}")
         return None
 
     digest = hashlib.sha256(content).hexdigest()
