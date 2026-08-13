@@ -19,11 +19,12 @@
 
 以下のサイトはページのHTML構造を解析して、イベントごとに「グループ名・日時・会場」を実際に抜き出します。
 
-- **tiget.net** — カテゴリ一覧ページ(`/events?categories=...`)
-- **livepocket.jp** — カテゴリ検索ページ(`/event/search?l_cat=...`)
-- **eplus.jp** — ジャンル一覧ページ(`/sf/live/...`)
+- **tiget.net** — カテゴリ一覧ページ(`/events?categories=...`)。通常のHTTP取得で解析
+- **livepocket.jp** — カテゴリ検索ページ(`/event/search?l_cat=...`)。AWS WAFのJS認証チャレンジがあるため、Playwright(ヘッドレスブラウザ)経由で取得
+- **eplus.jp** — ジャンル一覧ページ(`/sf/live/...`)。通常のHTTP取得で解析
+- **ticketdive.com** — ジャンル絞り込み機能が無いため、トップページの「新着エントリー」欄(Next.jsのページ内埋め込みJSON `__NEXT_DATA__` から取得)。**アイドル以外のジャンルも混在します**
 
-これら以外のURLを登録した場合は、ページ内容が変化したかどうかだけを検知する簡易モード(ハッシュ差分)にフォールバックします。TicketDive(ticketdive.com)はJavaScriptでイベント一覧を描画するSPAのため、静的HTML取得では中身が取れず現時点では非対応です。
+これら以外のURLを登録した場合は、ページ内容が変化したかどうかだけを検知する簡易モード(ハッシュ差分)にフォールバックします。
 
 ### 監視対象の追加方法
 

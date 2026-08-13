@@ -13,5 +13,10 @@
     "group": "eplus（アイドル）",
     "url": "https://eplus.jp/sf/live/idol",
     "note": "eplusの「アイドル」ジャンル一覧。新着イベントを構造化抽出"
+  },
+  {
+    "group": "TicketDive（新着エントリー）",
+    "url": "https://ticketdive.com/",
+    "note": "TicketDiveにはジャンル絞り込みが無いため、新着エントリー欄(全ジャンル混在)を構造化抽出"
   }
 ]
