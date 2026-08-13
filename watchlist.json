@@ -8,10 +8,5 @@
     "group": "tiget(テスト)",
     "url": "https://tiget.net/",
     "note": "動作確認用のテスト登録"
-  },
-  {
-    "group": "診断用(Wikipedia)",
-    "url": "https://ja.wikipedia.org/wiki/Wikipedia:%E3%83%88%E3%83%83%E3%83%97%E3%83%9A%E3%83%BC%E3%82%B8",
-    "note": "egressブロックがチケットサイト特有か切り分けるための一時テスト。確認後に削除予定"
   }
 ]
