@@ -94,6 +94,11 @@ html, body {
   cursor: pointer;
 }
 
+.topbar-actions {
+  display: flex;
+  gap: 8px;
+}
+
 /* Filter bar */
 .filterbar {
   padding: 12px 16px;
@@ -460,6 +465,109 @@ html, body {
   color: #e0507a;
   flex: none;
   padding: 13px 18px;
+}
+
+/* Discover search */
+#discoverSearchInput {
+  width: 100%;
+  padding: 10px 14px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface-alt);
+  color: var(--text);
+  font-size: 14px;
+  outline: none;
+  margin-bottom: 8px;
+}
+
+.discover-meta {
+  font-size: 12.5px;
+  color: var(--text-muted);
+  margin: 0 2px 10px;
+}
+
+.discover-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-height: 55vh;
+  overflow-y: auto;
+  padding-bottom: 4px;
+}
+
+.discover-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: var(--surface-alt);
+}
+
+.discover-item-main {
+  flex: 1;
+  min-width: 0;
+}
+
+.discover-source {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--accent);
+  background: var(--accent-tint);
+  border-radius: 999px;
+  padding: 2px 8px;
+  margin-bottom: 4px;
+}
+
+.discover-group {
+  font-size: 14.5px;
+  font-weight: 700;
+  color: var(--text);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.discover-title {
+  font-size: 12.5px;
+  color: var(--text-muted);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.discover-sub {
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+
+.discover-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  flex: none;
+}
+
+.discover-add-btn {
+  border: none;
+  background: var(--primary);
+  color: #fff;
+  font-size: 12.5px;
+  font-weight: 700;
+  padding: 7px 12px;
+  border-radius: 999px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.discover-link {
+  font-size: 11.5px;
+  color: var(--text-muted);
+  text-align: center;
+  text-decoration: none;
 }
 
 [hidden] { display: none !important; }

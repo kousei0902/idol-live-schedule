@@ -12,9 +12,14 @@
 
   <header class="topbar">
     <h1 class="logo">推しスケ</h1>
-    <button class="icon-btn" id="searchToggleBtn" aria-label="検索・絞り込み">
-      <svg viewBox="0 0 24 24" width="22" height="22"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><line x1="21" y1="21" x2="16.65" y2="16.65" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
-    </button>
+    <div class="topbar-actions">
+      <button class="icon-btn" id="discoverToggleBtn" aria-label="ライブを発見・検索">
+        <svg viewBox="0 0 24 24" width="22" height="22"><path d="M12 2 L14.5 9.5 L22 12 L14.5 14.5 L12 22 L9.5 14.5 L2 12 L9.5 9.5 Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+      </button>
+      <button class="icon-btn" id="searchToggleBtn" aria-label="検索・絞り込み">
+        <svg viewBox="0 0 24 24" width="22" height="22"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><line x1="21" y1="21" x2="16.65" y2="16.65" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+    </div>
   </header>
 
   <section class="filterbar" id="filterbar" hidden>
@@ -45,6 +50,21 @@
 
   <button class="fab" id="addBtn" aria-label="ライブを追加">＋</button>
 
+</div>
+
+<div class="modal-overlay" id="discoverOverlay" hidden>
+  <div class="modal">
+    <div class="modal-header">
+      <h2>ライブを検索</h2>
+      <button class="icon-btn" id="closeDiscoverBtn" aria-label="閉じる">
+        <svg viewBox="0 0 24 24" width="20" height="20"><line x1="5" y1="5" x2="19" y2="19" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><line x1="19" y1="5" x2="5" y2="19" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+
+    <input type="search" id="discoverSearchInput" placeholder="グループ名で検索(例: ○○シスターズ)" autocomplete="off">
+    <p class="discover-meta" id="discoverMeta">読み込み中...</p>
+    <div class="discover-list" id="discoverList"></div>
+  </div>
 </div>
 
 <div class="modal-overlay" id="modalOverlay" hidden>

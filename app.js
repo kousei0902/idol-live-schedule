@@ -5,6 +5,7 @@
   const GROUP_COLOR_KEY = 'oshisuke_group_colors_v1';
   const COLOR_PALETTE = ['#ff5fa2', '#7c6cf0', '#2fb380', '#e8a53d', '#3ab0d8', '#e0507a', '#8c6cf0', '#4fb0a5'];
   const DOW = ['日', '月', '火', '水', '木', '金', '土'];
+  const EVENTS_JSON_URL = 'https://raw.githubusercontent.com/kousei0902/idol-live-schedule/main/events.json';
 
   const $ = (sel) => document.querySelector(sel);
 
@@ -34,6 +35,12 @@
     fMemo: $('#fMemo'),
     groupList: $('#groupList'),
     deleteBtn: $('#deleteBtn'),
+    discoverToggleBtn: $('#discoverToggleBtn'),
+    discoverOverlay: $('#discoverOverlay'),
+    closeDiscoverBtn: $('#closeDiscoverBtn'),
+    discoverSearchInput: $('#discoverSearchInput'),
+    discoverMeta: $('#discoverMeta'),
+    discoverList: $('#discoverList'),
   };
 
   let state = {
@@ -41,6 +48,12 @@
     activeTab: 'upcoming',
     activeGroup: null,
     query: '',
+  };
+
+  let discoverState = {
+    events: null,   // null = not loaded yet
+    error: null,
+    loading: false,
   };
 
   function todayStr() {
@@ -353,6 +366,103 @@
     closeModal();
     render();
   });
+
+  // ---- Discover (search collected event data) ----
+
+  async function loadDiscoveredEvents() {
+    if (discoverState.events || discoverState.loading) return;
+    discoverState.loading = true;
+    discoverState.error = null;
+    renderDiscoverList();
+    try {
+      const res = await fetch(EVENTS_JSON_URL, { cache: 'no-store' });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const raw = await res.json();
+      const events = Object.entries(raw).map(([url, ev]) => ({ url, ...ev }));
+      events.sort((a, b) => {
+        if (!a.date && !b.date) return 0;
+        if (!a.date) return 1;
+        if (!b.date) return -1;
+        return a.date.localeCompare(b.date);
+      });
+      discoverState.events = events;
+    } catch (err) {
+      discoverState.error = err;
+    } finally {
+      discoverState.loading = false;
+      renderDiscoverList();
+    }
+  }
+
+  function filteredDiscoverEvents() {
+    if (!discoverState.events) return [];
+    const q = els.discoverSearchInput.value.trim().toLowerCase();
+    if (!q) return discoverState.events;
+    return discoverState.events.filter((ev) => {
+      const hay = `${ev.group || ''} ${ev.title || ''} ${ev.venue || ''}`.toLowerCase();
+      return hay.includes(q);
+    });
+  }
+
+  function renderDiscoverList() {
+    els.discoverList.innerHTML = '';
+
+    if (discoverState.loading) {
+      els.discoverMeta.textContent = '読み込み中...';
+      return;
+    }
+    if (discoverState.error) {
+      els.discoverMeta.textContent = '取得に失敗しました。通信環境を確認してもう一度開いてみてください。';
+      return;
+    }
+    if (!discoverState.events) return;
+
+    const results = filteredDiscoverEvents();
+    els.discoverMeta.textContent = `${discoverState.events.length}件中 ${results.length}件`;
+
+    results.slice(0, 200).forEach((ev) => {
+      const item = document.createElement('div');
+      item.className = 'discover-item';
+      item.innerHTML = `
+        <div class="discover-item-main">
+          <span class="discover-source">${escapeHtml(ev.source || '')}</span>
+          <div class="discover-group">${escapeHtml(ev.group || ev.title || '(不明)')}</div>
+          <div class="discover-title">${escapeHtml(ev.title || '')}</div>
+          <div class="discover-sub">${escapeHtml(ev.date || '日付不明')} ／ ${escapeHtml(ev.venue || '会場不明')}</div>
+        </div>
+        <div class="discover-actions">
+          <button type="button" class="discover-add-btn">追加</button>
+          <a class="discover-link" href="${escapeHtml(ev.url)}" target="_blank" rel="noopener">元ページ</a>
+        </div>
+      `;
+      item.querySelector('.discover-add-btn').addEventListener('click', () => {
+        openModal(null);
+        els.fGroup.value = ev.group || ev.title || '';
+        els.fTitle.value = ev.title || '';
+        if (ev.date) els.fDate.value = ev.date;
+        els.fVenue.value = ev.venue || '';
+        els.fMemo.value = ev.url || '';
+      });
+      els.discoverList.appendChild(item);
+    });
+  }
+
+  function openDiscover() {
+    els.discoverOverlay.hidden = false;
+    els.discoverSearchInput.focus();
+    loadDiscoveredEvents();
+  }
+
+  function closeDiscover() {
+    els.discoverOverlay.hidden = true;
+  }
+
+  els.discoverToggleBtn.addEventListener('click', openDiscover);
+  els.closeDiscoverBtn.addEventListener('click', closeDiscover);
+  els.discoverOverlay.addEventListener('click', (e) => {
+    if (e.target === els.discoverOverlay) closeDiscover();
+  });
+  els.discoverSearchInput.addEventListener('input', renderDiscoverList);
 
   render();
 })();
