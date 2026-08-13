@@ -269,9 +269,13 @@ def parse_eplus(html, base_url):
 
 
 def parse_ticketdive(html, base_url):
-    """TicketDive is a Next.js SPA with no genre filter, but the
-    homepage's server-rendered __NEXT_DATA__ blob carries a clean
-    "entryNow" (new arrivals) list with title/date/venue. Mixed genres
+    """TicketDive is a Next.js SPA with no genre filter and no listing
+    API beyond what's embedded in the homepage's server-rendered
+    __NEXT_DATA__ blob (confirmed via network-request capture: no
+    search/browse endpoint, no infinite-scroll loading). Combines every
+    section of that blob that carries individual events - "entryNow"
+    (new arrivals, has date/venue) and "carousel" (featured picks,
+    title only) - for the maximum this site exposes. Mixed genres
     (band, comedy, sports, ...) since there's no idol-only feed."""
     text = html.decode("utf-8", "replace")
     marker = "__NEXT_DATA__"
@@ -282,36 +286,37 @@ def parse_ticketdive(html, base_url):
     end = text.find("</script>", start)
     try:
         data = json.loads(text[start:end])
-        entries = data["props"]["pageProps"]["__superjsonProps"]["json"].get("entryNow", [])
+        payload = data["props"]["pageProps"]["__superjsonProps"]["json"]
     except (json.JSONDecodeError, KeyError, TypeError):
         return []
 
     events = []
     seen_urls = set()
-    for item in entries:
-        slug = item.get("url")
-        if not slug:
-            continue
-        event_url = urljoin(base_url, f"/event/{slug}")
-        if event_url in seen_urls:
-            continue
-        seen_urls.add(event_url)
-        title = item.get("title", "")
-        date = None
-        raw_date = item.get("displayStageDate") or item.get("startEventDate")
-        if raw_date:
-            try:
-                dt_utc = datetime.strptime(raw_date, "%Y-%m-%dT%H:%M:%S.%fZ")
-                date = (dt_utc + timedelta(hours=9)).strftime("%Y-%m-%d")
-            except ValueError:
-                pass
-        events.append({
-            "event_url": event_url,
-            "title": title,
-            "group": title,
-            "date": date,
-            "venue": item.get("venueName", "") or "",
-        })
+    for section in ("entryNow", "carousel", "forYouArtistEvents"):
+        for item in payload.get(section) or []:
+            slug = item.get("url")
+            if not slug:
+                continue
+            event_url = urljoin(base_url, f"/event/{slug}")
+            if event_url in seen_urls:
+                continue
+            seen_urls.add(event_url)
+            title = item.get("title", "")
+            date = None
+            raw_date = item.get("displayStageDate") or item.get("startEventDate")
+            if raw_date:
+                try:
+                    dt_utc = datetime.strptime(raw_date, "%Y-%m-%dT%H:%M:%S.%fZ")
+                    date = (dt_utc + timedelta(hours=9)).strftime("%Y-%m-%d")
+                except ValueError:
+                    pass
+            events.append({
+                "event_url": event_url,
+                "title": title,
+                "group": title,
+                "date": date,
+                "venue": item.get("venueName", "") or "",
+            })
     return events
 
 
