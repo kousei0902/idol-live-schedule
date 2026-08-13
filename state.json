@@ -1,12 +1,22 @@
 {
   "https://ticketdive.com/": {
-    "hash": "82447ab2b80ce744c702ca48d99a8f3ae2653d869eb6c8944a59094145955d46",
-    "lastChecked": "2026-08-13T19:13:09Z",
-    "lastChanged": null
+    "hash": "b070b3cfd3bf6bdb46cf26ec51b2d822f7b0606f9c172e18d1c2033cfdea705f",
+    "lastChecked": "2026-08-13T19:17:26Z",
+    "lastChanged": "2026-08-13T19:17:26Z"
   },
   "https://tiget.net/": {
-    "hash": "c819b793c43e9afe3faff490c25c1de70b06300395ec9951929a4c79c8b36e4d",
-    "lastChecked": "2026-08-13T19:13:11Z",
+    "hash": "9c289ed9a8bae26a9c1c273b2e3c6567525b0ae337fbbcd5fee3b0d20fa97f4f",
+    "lastChecked": "2026-08-13T19:17:31Z",
+    "lastChanged": "2026-08-13T19:17:31Z"
+  },
+  "https://livepocket.jp/": {
+    "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "lastChecked": "2026-08-13T19:17:32Z",
+    "lastChanged": null
+  },
+  "https://eplus.jp/": {
+    "hash": "019ddcd762a20c1766dd4de72627d96eef567fae718d69d7b03a48f88c73220a",
+    "lastChecked": "2026-08-13T19:17:32Z",
     "lastChanged": null
   }
 }
