@@ -76,10 +76,15 @@ def log_in(page, username, password):
     # selector matches nothing), and the button reads "続ける" (Continue),
     # not "次へ" (Next). Confirmed by direct DOM inspection of the real
     # login page. name="username_or_email" is the stable anchor.
+    # Submit via Enter rather than clicking the button — X's login modal
+    # has a "mask" backdrop div that intermittently intercepts pointer
+    # events on the button (observed: click retried 60+ times over 30s
+    # before timing out, even though the button itself was "visible,
+    # enabled and stable"). Enter on the focused input sidesteps it.
     username_input = page.locator('input[name="username_or_email"]').first
     username_input.wait_for(timeout=20000)
     username_input.fill(username)
-    page.get_by_role("button", name=re.compile("続ける|次へ|Next")).first.click()
+    username_input.press("Enter")
     page.wait_for_timeout(1500)
 
     # X sometimes re-asks for the username/phone as an "unusual activity"
@@ -88,13 +93,13 @@ def log_in(page, username, password):
        page.locator('input[name="password"]').count() == 0:
         retry_input = page.locator('input[name="username_or_email"], input[data-testid="ocfEnterTextTextInput"]').first
         retry_input.fill(username)
-        page.get_by_role("button", name=re.compile("続ける|次へ|Next")).first.click()
+        retry_input.press("Enter")
         page.wait_for_timeout(1500)
 
     password_input = page.locator('input[name="password"]').first
     password_input.wait_for(timeout=15000)
     password_input.fill(password)
-    page.get_by_role("button", name=re.compile("ログイン|続ける|Log in")).first.click()
+    password_input.press("Enter")
     page.wait_for_timeout(4000)
 
     try:
