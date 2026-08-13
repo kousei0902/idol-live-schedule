@@ -15174,5 +15174,669 @@
     "venue": "1000CLUB（神奈川県）",
     "source": "livepocket（ファン・アイドル）",
     "firstSeen": "2026-08-13T21:09:35Z"
+  },
+  "https://eplus.jp/sf/detail/3741160001-P0030041P021001": {
+    "title": "yosugala",
+    "group": "yosugala",
+    "date": "2026-10-18",
+    "venue": "ペニーレーン24（北海道）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/3160620001-P0030045P021001": {
+    "title": "Girls2",
+    "group": "Girls2",
+    "date": "2026-10-18",
+    "venue": "NHK大阪ホール（大阪府）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/1847490001-P0030106P021002": {
+    "title": "わーすた",
+    "group": "わーすた",
+    "date": "2026-10-18",
+    "venue": "ダイアモンドホール（愛知県）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/1705620025-P0030261P021001": {
+    "title": "PassCode",
+    "group": "PassCode",
+    "date": "2026-10-18",
+    "venue": "仙台Rensa（宮城県）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/0432800001-P0030258P021002": {
+    "title": "アンジュルム",
+    "group": "アンジュルム",
+    "date": "2026-10-18",
+    "venue": "水戸市民会館 グロービスホール（茨城県）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/3051710001-P0030041P021001": {
+    "title": "宮本佳林",
+    "group": "宮本佳林",
+    "date": "2026-10-25",
+    "venue": "E.L.L.（愛知県）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/4118130001-P0030003P021001": {
+    "title": "グットクルー",
+    "group": "グットクルー",
+    "date": "2026-10-25",
+    "venue": "神戸新聞松方ホール（兵庫県）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/3051710001-P0030041P021002": {
+    "title": "宮本佳林",
+    "group": "宮本佳林",
+    "date": "2026-10-25",
+    "venue": "E.L.L.（愛知県）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/4372310001-P0030006P021001": {
+    "title": "BNSI",
+    "group": "BNSI",
+    "date": "2026-10-28",
+    "venue": "青山RizM（東京都）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/3293110001-P0030026P021001": {
+    "title": "@onefive",
+    "group": "@onefive",
+    "date": "2026-10-30",
+    "venue": "Zepp Namba（大阪府）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/3358270001-P0030060P021001": {
+    "title": "CiON",
+    "group": "CiON",
+    "date": "2026-10-30",
+    "venue": "柏PALOOZA（千葉県）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/0145460001-P0030499P021001": {
+    "title": "モーニング娘。’26",
+    "group": "モーニング娘。’26",
+    "date": "2026-10-31",
+    "venue": "仙台サンプラザホール（宮城県）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/3371470001-P0030135P021001": {
+    "title": "M-line Special 2026 Autumn",
+    "group": "M-line Special 2026 Autumn",
+    "date": "2026-10-31",
+    "venue": "ペニーレーン24（北海道）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/3741160001-P0030042P021001": {
+    "title": "yosugala",
+    "group": "yosugala",
+    "date": "2026-10-31",
+    "venue": "KYOTO MUSE（京都府）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/3146010001-P0030119P021001": {
+    "title": "クマリデパート",
+    "group": "クマリデパート",
+    "date": "2026-10-31",
+    "venue": "LIVE HOUSE CB（福岡県）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/0145460001-P0030499P021002": {
+    "title": "モーニング娘。’26",
+    "group": "モーニング娘。’26",
+    "date": "2026-10-31",
+    "venue": "仙台サンプラザホール（宮城県）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/3371470001-P0030135P021002": {
+    "title": "M-line Special 2026 Autumn",
+    "group": "M-line Special 2026 Autumn",
+    "date": "2026-10-31",
+    "venue": "ペニーレーン24（北海道）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/1705620025-P0030262P021001": {
+    "title": "PassCode",
+    "group": "PassCode",
+    "date": "2026-10-31",
+    "venue": "金沢EIGHT HALL（石川県）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/0145460001-P0030503P021001": {
+    "title": "モーニング娘。’26",
+    "group": "モーニング娘。’26",
+    "date": "2026-11-01",
+    "venue": "盛岡市民文化ホール 大ホール（岩手県）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/3358270001-P0030061P021001": {
+    "title": "CiON",
+    "group": "CiON",
+    "date": "2026-11-01",
+    "venue": "Club JAMMER’S TAKASAKI（群馬県）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/3741160001-P0030043P021001": {
+    "title": "yosugala",
+    "group": "yosugala",
+    "date": "2026-11-01",
+    "venue": "HEAVEN’S ROCKさいたま新都心VJ-3（埼玉県）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/0145460001-P0030503P021002": {
+    "title": "モーニング娘。’26",
+    "group": "モーニング娘。’26",
+    "date": "2026-11-01",
+    "venue": "盛岡市民文化ホール 大ホール（岩手県）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/1705620025-P0030263P021001": {
+    "title": "PassCode",
+    "group": "PassCode",
+    "date": "2026-11-01",
+    "venue": "KYOTO MUSE（京都府）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/1818810001-P0030095P021001": {
+    "title": "ばってん少女隊",
+    "group": "ばってん少女隊",
+    "date": "2026-11-03",
+    "venue": "恵比寿ザ･ガーデンホール（東京都）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/3741160001-P0030044P021001": {
+    "title": "yosugala",
+    "group": "yosugala",
+    "date": "2026-11-03",
+    "venue": "高松MONSTER（香川県）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/3146010001-P0030117P021001": {
+    "title": "クマリデパート 全国ツアー2026 「おいでよ!みらでぱ!」",
+    "group": "クマリデパート 全国ツアー2026 「おいでよ!みらでぱ!」",
+    "date": "2026-11-03",
+    "venue": "BLAZE GOTANDA（東京都）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/3358270001-P0030062P021001": {
+    "title": "CiON",
+    "group": "CiON",
+    "date": "2026-11-03",
+    "venue": "HEAVEN’S ROCK宇都宮 VJ-2（栃木県）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/1059620001-P0030116P021001": {
+    "title": "i☆Ris",
+    "group": "i☆Ris",
+    "date": "2026-11-03",
+    "venue": "横浜アリーナ（神奈川県）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/1818810001-P0030095P021002": {
+    "title": "ばってん少女隊",
+    "group": "ばってん少女隊",
+    "date": "2026-11-03",
+    "venue": "恵比寿ザ･ガーデンホール（東京都）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/4372800001-P0030006P021001": {
+    "title": "fav me",
+    "group": "fav me",
+    "date": "2026-11-04",
+    "venue": "NAGOYA ReNY limited（愛知県）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/3739940001-P0030018P021001": {
+    "title": "LINKL PLANET 2nd Live Tour CONNECT PARTS",
+    "group": "LINKL PLANET 2nd Live Tour CONNECT PARTS",
+    "date": "2026-11-07",
+    "venue": "NAGOYA JAMMIN’（愛知県）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/3741160001-P0030045P021001": {
+    "title": "yosugala",
+    "group": "yosugala",
+    "date": "2026-11-07",
+    "venue": "名古屋DIAMOND HALL（愛知県）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/3739940001-P0030018P021002": {
+    "title": "LINKL PLANET 2nd Live Tour CONNECT PARTS",
+    "group": "LINKL PLANET 2nd Live Tour CONNECT PARTS",
+    "date": "2026-11-07",
+    "venue": "NAGOYA JAMMIN’（愛知県）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/1705620025-P0030264P021001": {
+    "title": "PassCode",
+    "group": "PassCode",
+    "date": "2026-11-07",
+    "venue": "HEAVEN’S ROCKさいたま新都心 VJ-3（埼玉県）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/3739940001-P0030019P021001": {
+    "title": "LINKL PLANET 2nd Live Tour CONNECT PARTS",
+    "group": "LINKL PLANET 2nd Live Tour CONNECT PARTS",
+    "date": "2026-11-08",
+    "venue": "ESAKA MUSE（大阪府）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/3741160001-P0030046P021001": {
+    "title": "yosugala",
+    "group": "yosugala",
+    "date": "2026-11-08",
+    "venue": "金沢AZ（石川県）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/3739940001-P0030019P021002": {
+    "title": "LINKL PLANET 2nd Live Tour CONNECT PARTS",
+    "group": "LINKL PLANET 2nd Live Tour CONNECT PARTS",
+    "date": "2026-11-08",
+    "venue": "ESAKA MUSE（大阪府）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/1705620025-P0030265P021001": {
+    "title": "PassCode",
+    "group": "PassCode",
+    "date": "2026-11-08",
+    "venue": "柏PALOOZA（千葉県）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/3371470001-P0030134P021001": {
+    "title": "M-line Special 2026 Autumn ～NOCTURNE～",
+    "group": "M-line Special 2026 Autumn ～NOCTURNE～",
+    "date": "2026-11-14",
+    "venue": "福岡DRUM LOGOS（福岡県）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/3371470001-P0030134P021002": {
+    "title": "M-line Special 2026 Autumn ～NOCTURNE～",
+    "group": "M-line Special 2026 Autumn ～NOCTURNE～",
+    "date": "2026-11-14",
+    "venue": "福岡DRUM LOGOS（福岡県）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/1705620025-P0030266P021001": {
+    "title": "PassCode",
+    "group": "PassCode",
+    "date": "2026-11-14",
+    "venue": "高松オリーブホール（香川県）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/1818810001-P0030097P021001": {
+    "title": "ばってん少女隊",
+    "group": "ばってん少女隊",
+    "date": "2026-11-15",
+    "venue": "DRUM LOGOS（福岡県）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/1705620025-P0030267P021001": {
+    "title": "PassCode",
+    "group": "PassCode",
+    "date": "2026-11-15",
+    "venue": "LIVE VANQUISH（広島県）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/1818810001-P0030097P021002": {
+    "title": "ばってん少女隊",
+    "group": "ばってん少女隊",
+    "date": "2026-11-15",
+    "venue": "DRUM LOGOS（福岡県）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/3923750001-P0030008P021001": {
+    "title": "CANDY TUNE",
+    "group": "CANDY TUNE",
+    "date": "2026-11-17",
+    "venue": "新潟県民会館 大ホール（新潟県）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/1845100001-P0030005P021001": {
+    "title": "仮面女子",
+    "group": "仮面女子",
+    "date": "2026-11-19",
+    "venue": "Zepp Shinjuku (TOKYO)（東京都）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/3923750001-P0030009P021001": {
+    "title": "CANDY TUNE",
+    "group": "CANDY TUNE",
+    "date": "2026-11-19",
+    "venue": "本多の森北電ホール（石川県）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/3371470001-P0030136P021001": {
+    "title": "M-line Special 2026 Autumn",
+    "group": "M-line Special 2026 Autumn",
+    "date": "2026-11-21",
+    "venue": "東別院テラスホール(東別院ホール)（愛知県）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/4469550002-P0030003P021001": {
+    "title": "ナナコロビヤオキ 東名阪Zepp Tour -天下一舞闘会- 桶狭間の戦い",
+    "group": "ナナコロビヤオキ 東名阪Zepp Tour -天下一舞闘会- 桶狭間の戦い",
+    "date": "2026-11-21",
+    "venue": "Zepp Nagoya（愛知県）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/1705620025-P0030268P021001": {
+    "title": "PassCode",
+    "group": "PassCode",
+    "date": "2026-11-21",
+    "venue": "BEAT STATION（福岡県）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/3371470001-P0030136P021002": {
+    "title": "M-line Special 2026 Autumn",
+    "group": "M-line Special 2026 Autumn",
+    "date": "2026-11-21",
+    "venue": "東別院テラスホール(東別院ホール)（愛知県）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/3358270001-P0030067P021001": {
+    "title": "CiON",
+    "group": "CiON",
+    "date": "2026-11-22",
+    "venue": "名古屋スクールオブミュージック専門学校（愛知県）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/1705620025-P0030269P021001": {
+    "title": "PassCode",
+    "group": "PassCode",
+    "date": "2026-11-22",
+    "venue": "Harbor Studio（兵庫県）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/3358270001-P0030067P021002": {
+    "title": "CiON",
+    "group": "CiON",
+    "date": "2026-11-22",
+    "venue": "名古屋スクールオブミュージック専門学校（愛知県）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/3358270001-P0030059P021001": {
+    "title": "CiON",
+    "group": "CiON",
+    "date": "2026-11-23",
+    "venue": "DROP（大阪府）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/1705620025-P0030270P021001": {
+    "title": "PassCode",
+    "group": "PassCode",
+    "date": "2026-11-27",
+    "venue": "ペニーレーン24（北海道）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/3358270001-P0030065P021001": {
+    "title": "CiON",
+    "group": "CiON",
+    "date": "2026-11-28",
+    "venue": "LIVE HOUSE enn 2nd（宮城県）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/4469550002-P0030004P021001": {
+    "title": "ナナコロビヤオキ 東名阪Zepp Tour -天下一舞闘会- 桶狭間の戦い",
+    "group": "ナナコロビヤオキ 東名阪Zepp Tour -天下一舞闘会- 桶狭間の戦い",
+    "date": "2026-11-28",
+    "venue": "Zepp Osaka Bayside（大阪府）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/1705620025-P0030271P021001": {
+    "title": "PassCode",
+    "group": "PassCode",
+    "date": "2026-11-28",
+    "venue": "小樽 GOLDSTONE（北海道）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/3358270001-P0030066P021001": {
+    "title": "CiON",
+    "group": "CiON",
+    "date": "2026-12-05",
+    "venue": "SIX ONE Live STAR（広島県）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/3741160001-P0030047P021002": {
+    "title": "yosugala",
+    "group": "yosugala",
+    "date": "2026-12-05",
+    "venue": "YOKOHAMA Bay Hall（神奈川県）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/3741160001-P0030047P021001": {
+    "title": "yosugala",
+    "group": "yosugala",
+    "date": "2026-12-06",
+    "venue": "YOKOHAMA Bay Hall（神奈川県）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/3358270001-P0030064P021001": {
+    "title": "CiON",
+    "group": "CiON",
+    "date": "2026-12-06",
+    "venue": "ROOMS（福岡県）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/4372800001-P0030007P021001": {
+    "title": "fav me",
+    "group": "fav me",
+    "date": "2026-12-08",
+    "venue": "BIGCAT（大阪府）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/3937830001-P0030006P021001": {
+    "title": "HOSHIKUMA MINAMI",
+    "group": "HOSHIKUMA MINAMI",
+    "date": "2026-12-09",
+    "venue": "渋谷クラブクアトロ（東京都）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/4358690001-P0030007P021001": {
+    "title": "diig 全国ツアー「また君に会いたくなった」",
+    "group": "diig 全国ツアー「また君に会いたくなった」",
+    "date": "2026-12-12",
+    "venue": "Livehouse CB（福岡県）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/1705620025-P0030275P021001": {
+    "title": "PassCode",
+    "group": "PassCode",
+    "date": "2026-12-17",
+    "venue": "Zepp DiverCity TOKYO（東京都）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/1705620025-P0030275P021002": {
+    "title": "PassCode",
+    "group": "PassCode",
+    "date": "2026-12-18",
+    "venue": "Zepp DiverCity TOKYO（東京都）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/4358690001-P0030008P021001": {
+    "title": "diig 全国ツアー「また君に会いたくなった」",
+    "group": "diig 全国ツアー「また君に会いたくなった」",
+    "date": "2026-12-19",
+    "venue": "伏見ライオンシアター（愛知県）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/4372800001-P0030004P021001": {
+    "title": "fav me",
+    "group": "fav me",
+    "date": "2026-12-25",
+    "venue": "Zepp Shinjuku (TOKYO)（東京都）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/3358270001-P0030063P021001": {
+    "title": "CiON",
+    "group": "CiON",
+    "date": "2026-12-25",
+    "venue": "Zepp Haneda(TOKYO)（東京都）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/4173280001-P0030018P021001": {
+    "title": "CENT/セントチヒロ･チッチ",
+    "group": "CENT/セントチヒロ･チッチ",
+    "date": "2026-12-27",
+    "venue": "ヒューリックホール東京（東京都）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/4173280001-P0030018P021002": {
+    "title": "CENT/セントチヒロ･チッチ",
+    "group": "CENT/セントチヒロ･チッチ",
+    "date": "2026-12-27",
+    "venue": "ヒューリックホール東京（東京都）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/3485660001-P0030094P021001": {
+    "title": "Quubi",
+    "group": "Quubi",
+    "date": "2026-12-28",
+    "venue": "渋谷CLUB QUATTRO（東京都）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/4469550002-P0030005P021001": {
+    "title": "ナナコロビヤオキ 東名阪Zepp Tour -天下一舞闘会- 桶狭間の戦い",
+    "group": "ナナコロビヤオキ 東名阪Zepp Tour -天下一舞闘会- 桶狭間の戦い",
+    "date": "2027-01-05",
+    "venue": "Zepp Shinjuku (TOKYO)（東京都）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/4358690001-P0030009P021001": {
+    "title": "diig 全国ツアー「また君に会いたくなった」",
+    "group": "diig 全国ツアー「また君に会いたくなった」",
+    "date": "2027-01-10",
+    "venue": "Live House ANIMA（大阪府）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/4358690001-P0030010P021001": {
+    "title": "diig 全国ツアー「また君に会いたくなった」",
+    "group": "diig 全国ツアー「また君に会いたくなった」",
+    "date": "2027-01-16",
+    "venue": "Live House Hearts（埼玉県）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/4358690001-P0030011P021001": {
+    "title": "diig 全国ツアー「また君に会いたくなった」",
+    "group": "diig 全国ツアー「また君に会いたくなった」",
+    "date": "2027-01-31",
+    "venue": "新宿 LOFT（東京都）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://eplus.jp/sf/detail/4563610001-P0030001P021001": {
+    "title": "ハルニシオン",
+    "group": "ハルニシオン",
+    "date": "2027-03-27",
+    "venue": "Kanadevia Hall（東京都）",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://ticketdive.com/event/oogiri-live-yamagata-20261017": {
+    "title": "笑い飯・千鳥の大喜利ライブin山形",
+    "group": "笑い飯・千鳥の大喜利ライブin山形",
+    "date": null,
+    "venue": "",
+    "source": "TicketDive（新着エントリー）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://ticketdive.com/event/umezz-horrorhouse": {
+    "title": "UMEZZ HORROR HOUSE　〜漂流教室と思考実験展〜",
+    "group": "UMEZZ HORROR HOUSE　〜漂流教室と思考実験展〜",
+    "date": null,
+    "venue": "",
+    "source": "TicketDive（新着エントリー）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://ticketdive.com/event/chouutagematuri": {
+    "title": "UtaGe!×FES☆TIVE 主催サーキット『超宴祭！』",
+    "group": "UtaGe!×FES☆TIVE 主催サーキット『超宴祭！』",
+    "date": null,
+    "venue": "",
+    "source": "TicketDive（新着エントリー）",
+    "firstSeen": "2026-08-13T21:56:37Z"
+  },
+  "https://ticketdive.com/event/nsp20260820": {
+    "title": "ZERO-8イベントライブ~ Night School Party",
+    "group": "ZERO-8イベントライブ~ Night School Party",
+    "date": null,
+    "venue": "",
+    "source": "TicketDive（新着エントリー）",
+    "firstSeen": "2026-08-13T21:56:37Z"
   }
 }
