@@ -1,0 +1,358 @@
+(() => {
+  'use strict';
+
+  const STORAGE_KEY = 'oshisuke_lives_v1';
+  const GROUP_COLOR_KEY = 'oshisuke_group_colors_v1';
+  const COLOR_PALETTE = ['#ff5fa2', '#7c6cf0', '#2fb380', '#e8a53d', '#3ab0d8', '#e0507a', '#8c6cf0', '#4fb0a5'];
+  const DOW = ['日', '月', '火', '水', '木', '金', '土'];
+
+  const $ = (sel) => document.querySelector(sel);
+
+  const els = {
+    list: $('#list'),
+    emptyState: $('#emptyState'),
+    nextLiveCard: $('#nextLiveCard'),
+    nextLiveDays: $('#nextLiveDays'),
+    nextLiveDetail: $('#nextLiveDetail'),
+    tabs: $('#statusTabs'),
+    filterbar: $('#filterbar'),
+    searchToggleBtn: $('#searchToggleBtn'),
+    searchInput: $('#searchInput'),
+    groupChips: $('#groupChips'),
+    addBtn: $('#addBtn'),
+    modalOverlay: $('#modalOverlay'),
+    modalTitle: $('#modalTitle'),
+    closeModalBtn: $('#closeModalBtn'),
+    form: $('#liveForm'),
+    fId: $('#liveId'),
+    fGroup: $('#fGroup'),
+    fTitle: $('#fTitle'),
+    fDate: $('#fDate'),
+    fTime: $('#fTime'),
+    fVenue: $('#fVenue'),
+    fStatus: $('#fStatus'),
+    fMemo: $('#fMemo'),
+    groupList: $('#groupList'),
+    deleteBtn: $('#deleteBtn'),
+  };
+
+  let state = {
+    lives: loadLives(),
+    activeTab: 'upcoming',
+    activeGroup: null,
+    query: '',
+  };
+
+  function todayStr() {
+    const d = new Date();
+    return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
+  }
+
+  function pad(n) { return String(n).padStart(2, '0'); }
+
+  function uid() {
+    return Date.now().toString(36) + Math.random().toString(36).slice(2, 7);
+  }
+
+  function seedData() {
+    const t = new Date();
+    const offset = (days) => {
+      const d = new Date(t);
+      d.setDate(d.getDate() + days);
+      return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
+    };
+    return [
+      {
+        id: uid(), group: 'サンプル☆スターズ', title: '夏の単独公演 2026',
+        date: offset(5), time: '18:00', venue: 'Zepp DiverCity',
+        status: 'go', memo: 'チケット: アリーナ整理番号120番台'
+      },
+      {
+        id: uid(), group: 'サンプル☆スターズ', title: '定期公演 vol.12',
+        date: offset(19), time: '19:00', venue: '渋谷公会堂',
+        status: 'interested', memo: ''
+      },
+      {
+        id: uid(), group: 'ネオンドール', title: '対バンライブ「STARLIGHT」',
+        date: offset(33), time: '17:30', venue: '大阪城ホール',
+        status: 'undecided', memo: '遠征になるので要検討'
+      },
+      {
+        id: uid(), group: 'ネオンドール', title: '春ツアー ファイナル',
+        date: offset(-10), time: '18:30', venue: '幕張メッセ',
+        status: 'go', memo: '楽しかった!'
+      },
+    ];
+  }
+
+  function loadLives() {
+    try {
+      const raw = localStorage.getItem(STORAGE_KEY);
+      if (raw) return JSON.parse(raw);
+      const seeded = seedData();
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(seeded));
+      return seeded;
+    } catch (e) {
+      return [];
+    }
+  }
+
+  function saveLives() {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(state.lives));
+  }
+
+  function loadGroupColors() {
+    try {
+      return JSON.parse(localStorage.getItem(GROUP_COLOR_KEY)) || {};
+    } catch (e) { return {}; }
+  }
+  function saveGroupColors(map) {
+    localStorage.setItem(GROUP_COLOR_KEY, JSON.stringify(map));
+  }
+  function colorForGroup(group) {
+    const map = loadGroupColors();
+    if (map[group]) return map[group];
+    const used = Object.values(map);
+    const next = COLOR_PALETTE.find((c) => !used.includes(c)) ||
+      COLOR_PALETTE[Object.keys(map).length % COLOR_PALETTE.length];
+    map[group] = next;
+    saveGroupColors(map);
+    return next;
+  }
+
+  function allGroups() {
+    return [...new Set(state.lives.map((l) => l.group))].sort();
+  }
+
+  function formatDateLabel(dateStr) {
+    const [y, m, d] = dateStr.split('-').map(Number);
+    const dow = DOW[new Date(y, m - 1, d).getDay()];
+    return { m, d, dow };
+  }
+
+  function monthLabel(dateStr) {
+    const [y, m] = dateStr.split('-').map(Number);
+    return `${y}年${m}月`;
+  }
+
+  function computeStatusBucket(live) {
+    if (live.date < todayStr()) return 'done';
+    return live.status; // go | interested | undecided
+  }
+
+  function statusLabel(bucket) {
+    return { go: '参戦する', interested: '気になる', undecided: '未定', done: '終了' }[bucket] || bucket;
+  }
+
+  function renderGroupChips() {
+    const groups = allGroups();
+    els.groupChips.innerHTML = '';
+    const allChip = document.createElement('button');
+    allChip.className = 'chip' + (state.activeGroup === null ? ' active' : '');
+    allChip.textContent = 'すべて';
+    allChip.onclick = () => { state.activeGroup = null; render(); };
+    els.groupChips.appendChild(allChip);
+
+    groups.forEach((g) => {
+      const chip = document.createElement('button');
+      chip.className = 'chip' + (state.activeGroup === g ? ' active' : '');
+      chip.textContent = g;
+      chip.onclick = () => { state.activeGroup = state.activeGroup === g ? null : g; render(); };
+      els.groupChips.appendChild(chip);
+    });
+  }
+
+  function updateGroupDatalist() {
+    els.groupList.innerHTML = allGroups().map((g) => `<option value="${escapeHtml(g)}">`).join('');
+  }
+
+  function escapeHtml(str) {
+    return String(str).replace(/[&<>"']/g, (c) => ({
+      '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+    }[c]));
+  }
+
+  function filteredLives() {
+    const q = state.query.trim().toLowerCase();
+    return state.lives.filter((l) => {
+      const bucket = computeStatusBucket(l);
+      if (state.activeTab === 'upcoming' && bucket === 'done') return false;
+      if (state.activeTab !== 'all' && state.activeTab !== 'upcoming' && bucket !== state.activeTab) return false;
+      if (state.activeGroup && l.group !== state.activeGroup) return false;
+      if (q) {
+        const hay = `${l.group} ${l.title} ${l.venue}`.toLowerCase();
+        if (!hay.includes(q)) return false;
+      }
+      return true;
+    }).sort((a, b) => a.date.localeCompare(b.date) || (a.time || '').localeCompare(b.time || ''));
+  }
+
+  function renderNextLive() {
+    const upcoming = state.lives
+      .filter((l) => l.date >= todayStr() && l.status !== 'undecided')
+      .sort((a, b) => a.date.localeCompare(b.date))[0]
+      || state.lives.filter((l) => l.date >= todayStr()).sort((a, b) => a.date.localeCompare(b.date))[0];
+
+    if (!upcoming) {
+      els.nextLiveCard.hidden = true;
+      return;
+    }
+    els.nextLiveCard.hidden = false;
+    const today = new Date(todayStr());
+    const target = new Date(upcoming.date);
+    const diffDays = Math.round((target - today) / 86400000);
+    els.nextLiveDays.textContent = diffDays <= 0 ? '本日' : diffDays;
+    if (diffDays <= 0) els.nextLiveDays.nextElementSibling.style.display = 'none';
+    else els.nextLiveDays.nextElementSibling.style.display = '';
+
+    els.nextLiveDetail.innerHTML =
+      `<strong>${escapeHtml(upcoming.group)}</strong> ${escapeHtml(upcoming.title || '')}<br>` +
+      `${upcoming.date}${upcoming.time ? ' ' + upcoming.time : ''}${upcoming.venue ? ' ／ ' + escapeHtml(upcoming.venue) : ''}`;
+  }
+
+  function renderList() {
+    const lives = filteredLives();
+    els.list.innerHTML = '';
+    els.emptyState.hidden = lives.length !== 0;
+
+    let lastMonth = null;
+    lives.forEach((live) => {
+      const mLabel = monthLabel(live.date);
+      if (mLabel !== lastMonth) {
+        const h = document.createElement('div');
+        h.className = 'month-header';
+        h.textContent = mLabel;
+        els.list.appendChild(h);
+        lastMonth = mLabel;
+      }
+      els.list.appendChild(renderCard(live));
+    });
+  }
+
+  function renderCard(live) {
+    const { m, d, dow } = formatDateLabel(live.date);
+    const bucket = computeStatusBucket(live);
+    const isToday = live.date === todayStr();
+
+    const card = document.createElement('div');
+    card.className = 'card' + (isToday ? ' is-today' : '');
+    card.innerHTML = `
+      <div class="card-date">
+        <div class="dow">${dow}</div>
+        <div class="day">${d}</div>
+      </div>
+      <div class="card-body">
+        <div class="card-top">
+          <span class="group-dot" style="background:${colorForGroup(live.group)}"></span>
+          <span class="group-name">${escapeHtml(live.group)}</span>
+        </div>
+        <div class="card-title">${escapeHtml(live.title || '(タイトル未設定)')}</div>
+        <div class="card-meta">
+          ${live.time ? `<span>${live.time}〜</span>` : ''}
+          ${live.venue ? `<span>${escapeHtml(live.venue)}</span>` : ''}
+        </div>
+        <span class="status-badge status-${bucket}">${statusLabel(bucket)}</span>
+      </div>
+    `;
+    card.addEventListener('click', () => openModal(live));
+    return card;
+  }
+
+  function render() {
+    renderGroupChips();
+    updateGroupDatalist();
+    renderNextLive();
+    renderList();
+  }
+
+  // Tabs
+  els.tabs.addEventListener('click', (e) => {
+    const btn = e.target.closest('.tab');
+    if (!btn) return;
+    els.tabs.querySelectorAll('.tab').forEach((b) => b.classList.remove('active'));
+    btn.classList.add('active');
+    state.activeTab = btn.dataset.status;
+    renderList();
+  });
+
+  // Search toggle
+  els.searchToggleBtn.addEventListener('click', () => {
+    els.filterbar.hidden = !els.filterbar.hidden;
+    if (!els.filterbar.hidden) els.searchInput.focus();
+  });
+  els.searchInput.addEventListener('input', (e) => {
+    state.query = e.target.value;
+    renderList();
+  });
+
+  // Modal
+  function openModal(live) {
+    els.form.reset();
+    if (live) {
+      els.modalTitle.textContent = 'ライブを編集';
+      els.fId.value = live.id;
+      els.fGroup.value = live.group;
+      els.fTitle.value = live.title || '';
+      els.fDate.value = live.date;
+      els.fTime.value = live.time || '';
+      els.fVenue.value = live.venue || '';
+      els.fStatus.value = live.status;
+      els.fMemo.value = live.memo || '';
+      els.deleteBtn.hidden = false;
+    } else {
+      els.modalTitle.textContent = 'ライブを追加';
+      els.fId.value = '';
+      els.fDate.value = todayStr();
+      els.fStatus.value = 'interested';
+      els.deleteBtn.hidden = true;
+    }
+    updateGroupDatalist();
+    els.modalOverlay.hidden = false;
+  }
+
+  function closeModal() {
+    els.modalOverlay.hidden = true;
+  }
+
+  els.addBtn.addEventListener('click', () => openModal(null));
+  els.closeModalBtn.addEventListener('click', closeModal);
+  els.modalOverlay.addEventListener('click', (e) => {
+    if (e.target === els.modalOverlay) closeModal();
+  });
+
+  els.form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const id = els.fId.value || uid();
+    const live = {
+      id,
+      group: els.fGroup.value.trim(),
+      title: els.fTitle.value.trim(),
+      date: els.fDate.value,
+      time: els.fTime.value,
+      venue: els.fVenue.value.trim(),
+      status: els.fStatus.value,
+      memo: els.fMemo.value.trim(),
+    };
+    if (!live.group || !live.date) return;
+
+    const idx = state.lives.findIndex((l) => l.id === id);
+    if (idx >= 0) state.lives[idx] = live;
+    else state.lives.push(live);
+
+    saveLives();
+    closeModal();
+    render();
+  });
+
+  els.deleteBtn.addEventListener('click', () => {
+    const id = els.fId.value;
+    if (!id) return;
+    if (!confirm('このライブ予定を削除しますか?')) return;
+    state.lives = state.lives.filter((l) => l.id !== id);
+    saveLives();
+    closeModal();
+    render();
+  });
+
+  render();
+})();

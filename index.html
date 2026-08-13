@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover">
+<title>推しスケ - ライブスケジュール管理</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+
+  <header class="topbar">
+    <h1 class="logo">推しスケ</h1>
+    <button class="icon-btn" id="searchToggleBtn" aria-label="検索・絞り込み">
+      <svg viewBox="0 0 24 24" width="22" height="22"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><line x1="21" y1="21" x2="16.65" y2="16.65" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+  </header>
+
+  <section class="filterbar" id="filterbar" hidden>
+    <input type="search" id="searchInput" placeholder="グループ名・会場・タイトルで検索" autocomplete="off">
+    <div class="chiprow" id="groupChips"></div>
+  </section>
+
+  <section class="next-live" id="nextLiveCard" hidden>
+    <div class="next-live-label">次のライブまで</div>
+    <div class="next-live-main">
+      <span class="next-live-days" id="nextLiveDays">--</span>
+      <span class="next-live-unit">日</span>
+    </div>
+    <div class="next-live-detail" id="nextLiveDetail"></div>
+  </section>
+
+  <nav class="tabbar" id="statusTabs">
+    <button class="tab active" data-status="upcoming">予定</button>
+    <button class="tab" data-status="go">参戦</button>
+    <button class="tab" data-status="interested">気になる</button>
+    <button class="tab" data-status="done">終了</button>
+    <button class="tab" data-status="all">すべて</button>
+  </nav>
+
+  <main class="list" id="list"></main>
+
+  <p class="empty-state" id="emptyState" hidden>予定されているライブはありません。<br>右下の「+」から追加しましょう。</p>
+
+  <button class="fab" id="addBtn" aria-label="ライブを追加">＋</button>
+
+</div>
+
+<div class="modal-overlay" id="modalOverlay" hidden>
+  <div class="modal">
+    <div class="modal-header">
+      <h2 id="modalTitle">ライブを追加</h2>
+      <button class="icon-btn" id="closeModalBtn" aria-label="閉じる">
+        <svg viewBox="0 0 24 24" width="20" height="20"><line x1="5" y1="5" x2="19" y2="19" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><line x1="19" y1="5" x2="5" y2="19" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+
+    <form id="liveForm">
+      <input type="hidden" id="liveId">
+
+      <label class="field">
+        <span>グループ・アーティスト名 <em>*</em></span>
+        <input type="text" id="fGroup" list="groupList" required placeholder="例: ○○シスターズ">
+        <datalist id="groupList"></datalist>
+      </label>
+
+      <label class="field">
+        <span>公演タイトル</span>
+        <input type="text" id="fTitle" placeholder="例: 春の単独公演2026">
+      </label>
+
+      <div class="field-row">
+        <label class="field">
+          <span>日付 <em>*</em></span>
+          <input type="date" id="fDate" required>
+        </label>
+        <label class="field">
+          <span>開演時刻</span>
+          <input type="time" id="fTime">
+        </label>
+      </div>
+
+      <label class="field">
+        <span>会場</span>
+        <input type="text" id="fVenue" placeholder="例: 東京ドームシティホール">
+      </label>
+
+      <label class="field">
+        <span>ステータス</span>
+        <select id="fStatus">
+          <option value="go">参戦する</option>
+          <option value="interested" selected>気になる</option>
+          <option value="undecided">未定</option>
+        </select>
+      </label>
+
+      <label class="field">
+        <span>メモ</span>
+        <textarea id="fMemo" rows="3" placeholder="チケット情報、座席、持ち物など"></textarea>
+      </label>
+
+      <div class="modal-actions">
+        <button type="button" class="btn-danger" id="deleteBtn" hidden>削除</button>
+        <button type="submit" class="btn-primary">保存</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
