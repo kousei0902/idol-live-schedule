@@ -1,22 +1,17 @@
 [
   {
-    "group": "TicketDive(テスト)",
-    "url": "https://ticketdive.com/",
-    "note": "動作確認用のテスト登録。トップページは新着枠が頻繁に変わるため、実運用では特定アーティストのページURLに差し替え推奨"
+    "group": "tiget（アイドルジャンル）",
+    "url": "https://tiget.net/events?categories=29",
+    "note": "tigetの「アイドル」カテゴリ一覧。新着イベントを構造化抽出"
   },
   {
-    "group": "tiget(テスト)",
-    "url": "https://tiget.net/",
-    "note": "動作確認用のテスト登録"
+    "group": "livepocket（ファン・アイドル）",
+    "url": "https://livepocket.jp/event/search?l_cat=%E3%83%95%E3%82%A1%E3%83%B3%E3%83%BB%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB",
+    "note": "livepocketの「ファン・アイドル」カテゴリ一覧。新着イベントを構造化抽出"
   },
   {
-    "group": "livepocket(テスト)",
-    "url": "https://livepocket.jp/",
-    "note": "動作確認用のテスト登録"
-  },
-  {
-    "group": "eplus(テスト)",
-    "url": "https://eplus.jp/",
-    "note": "動作確認用のテスト登録"
+    "group": "eplus（アイドル）",
+    "url": "https://eplus.jp/sf/live/idol",
+    "note": "eplusの「アイドル」ジャンル一覧。新着イベントを構造化抽出"
   }
 ]
