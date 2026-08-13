@@ -25,12 +25,20 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: python3 scripts/check_watchlist.py
 
+      - name: Check X (following timeline)
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+          X_USERNAME: ${{ secrets.X_USERNAME }}
+          X_PASSWORD: ${{ secrets.X_PASSWORD }}
+        run: python3 scripts/check_x.py
+
       - name: Commit state changes
         run: |
-          if [ -n "$(git status --porcelain state.json events.json)" ]; then
+          if [ -n "$(git status --porcelain state.json events.json x_state.json)" ]; then
             git config user.name "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
-            git add state.json events.json
+            git add state.json events.json x_state.json
             git commit -m "chore: update watch state"
             git push
           else
