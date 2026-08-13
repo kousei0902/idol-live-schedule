@@ -228,7 +228,9 @@ def check_structured(entry, parser, events_known):
     if not events:
         soup = BeautifulSoup(html, "html.parser")
         page_title = soup.title.get_text(strip=True) if soup.title else "(no <title>)"
+        snippet = html[:400].decode("utf-8", "replace")
         print(f"  [debug] {group_label}: 0 events parsed; page title = {page_title!r}, body length = {len(html)}")
+        print(f"  [debug] body snippet: {snippet!r}")
     new_events = []
     changed = False
     for ev in events:
