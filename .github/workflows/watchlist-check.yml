@@ -1,0 +1,33 @@
+name: Watchlist Check
+
+on:
+  schedule:
+    - cron: "0 */3 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run checker
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/check_watchlist.py
+
+      - name: Commit state changes
+        run: |
+          if [ -n "$(git status --porcelain state.json)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add state.json
+            git commit -m "chore: update watch state"
+            git push
+          else
+            echo "No state changes to commit"
+          fi

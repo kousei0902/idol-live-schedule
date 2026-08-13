@@ -13,7 +13,7 @@
 
 ## 自動監視(新着チェック)
 
-`watchlist.json` に登録したURLを、クラウド上で定期的にチェックし、ページ内容に変化があれば GitHub Issue を作成して知らせる仕組みです。
+`watchlist.json` に登録したURLを、GitHub Actions が3時間ごとに自動でチェックし、ページ内容に変化があれば GitHub Issue を作成して知らせる仕組みです(`.github/workflows/watchlist-check.yml` / `scripts/check_watchlist.py`)。GitHubのサーバー上で動くので、自分のPCを起動していなくても動きます。
 
 ### 監視対象の追加方法
 
@@ -38,12 +38,16 @@
 ### 仕組み
 
 - `state.json`: 各URLの前回チェック時のハッシュ値・日時を保存(自動更新されるファイルです。手動編集不要)
-- クラウドルーティンが一定間隔で起動し、`watchlist.json` の各URLを取得 → 前回の内容と比較
+- GitHub Actions が3時間ごとに起動し、`watchlist.json` の各URLを取得 → 前回の内容と比較
 - 変化を検知したら、このリポジトリに GitHub Issue を作成(タイトルに対象グループ名を含む)。GitHubのデフォルト設定では、Issueが作成されるとリポジトリオーナーにメール通知が届きます
 - 検知結果は `state.json` に反映してコミット
+
+### 手動でテスト実行する方法
+
+GitHubの当該リポジトリページ → 「Actions」タブ → 「Watchlist Check」 → 「Run workflow」で、スケジュールを待たずにすぐ実行できます。
 
 ### 制限・注意
 
 - 変化があったことは検知できますが、内容の自動解析(日付・会場の自動抽出)までは行いません。Issueの本文とURLを見て、必要であれば `index.html` から手動でライブ予定を追加してください
-- JavaScriptで動的に描画されるページは、取得したHTMLに情報が含まれず正しく検知できない場合があります
-- チェック間隔はルーティン設定で変更できます(最短1時間ごと)
+- JavaScriptで動的に描画されるページは、取得したHTMLに情報が含まれず正しく検知できない場合があります(その場合はページ内の静的なテキストが変わったときのみ検知します)
+- チェック間隔は `.github/workflows/watchlist-check.yml` の cron 設定で変更できます(GitHub Actions の実質的な最短間隔は5分ですが、頻繁すぎる実行は避けてください)
