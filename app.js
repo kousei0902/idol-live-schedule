@@ -101,44 +101,10 @@
     return Date.now().toString(36) + Math.random().toString(36).slice(2, 7);
   }
 
-  function seedData() {
-    const t = new Date();
-    const offset = (days) => {
-      const d = new Date(t);
-      d.setDate(d.getDate() + days);
-      return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
-    };
-    return [
-      {
-        id: uid(), group: 'サンプル☆スターズ', title: '夏の単独公演 2026',
-        date: offset(5), time: '18:00', venue: 'Zepp DiverCity',
-        status: 'go', memo: 'チケット: アリーナ整理番号120番台'
-      },
-      {
-        id: uid(), group: 'サンプル☆スターズ', title: '定期公演 vol.12',
-        date: offset(19), time: '19:00', venue: '渋谷公会堂',
-        status: 'interested', memo: ''
-      },
-      {
-        id: uid(), group: 'ネオンドール', title: '対バンライブ「STARLIGHT」',
-        date: offset(33), time: '17:30', venue: '大阪城ホール',
-        status: 'undecided', memo: '遠征になるので要検討'
-      },
-      {
-        id: uid(), group: 'ネオンドール', title: '春ツアー ファイナル',
-        date: offset(-10), time: '18:30', venue: '幕張メッセ',
-        status: 'go', memo: '楽しかった!'
-      },
-    ];
-  }
-
   function loadLives() {
     try {
       const raw = localStorage.getItem(STORAGE_KEY);
-      if (raw) return JSON.parse(raw);
-      const seeded = seedData();
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(seeded));
-      return seeded;
+      return raw ? JSON.parse(raw) : [];
     } catch (e) {
       return [];
     }
