@@ -3,6 +3,8 @@
 
   const STORAGE_KEY = 'oshisuke_lives_v1';
   const GROUP_COLOR_KEY = 'oshisuke_group_colors_v1';
+  const FAVORITE_GROUPS_KEY = 'oshisuke_favorite_groups_v1';
+  const FAVORITES_FILTER = '__favorites__';
   const COLOR_PALETTE = ['#ff5fa2', '#7c6cf0', '#2fb380', '#e8a53d', '#3ab0d8', '#e0507a', '#8c6cf0', '#4fb0a5'];
   const DOW = ['日', '月', '火', '水', '木', '金', '土'];
   const EVENTS_JSON_URL = 'https://raw.githubusercontent.com/kousei0902/idol-live-schedule/main/events.json';
@@ -54,6 +56,8 @@
     discoverPrefSelect: $('#discoverPrefSelect'),
     discoverMeta: $('#discoverMeta'),
     discoverList: $('#discoverList'),
+    discoverFavToggleBtn: $('#discoverFavToggleBtn'),
+    discoverFavChips: $('#discoverFavChips'),
   };
 
   let state = {
@@ -61,6 +65,7 @@
     activeTab: 'upcoming',
     activeGroup: null,
     query: '',
+    favoriteGroups: loadFavoriteGroups(),
   };
 
   let discoverState = {
@@ -127,6 +132,27 @@
     localStorage.setItem(STORAGE_KEY, JSON.stringify(state.lives));
   }
 
+  function loadFavoriteGroups() {
+    try {
+      const raw = JSON.parse(localStorage.getItem(FAVORITE_GROUPS_KEY));
+      return Array.isArray(raw) ? raw : [];
+    } catch (e) { return []; }
+  }
+  function saveFavoriteGroups() {
+    localStorage.setItem(FAVORITE_GROUPS_KEY, JSON.stringify(state.favoriteGroups));
+  }
+  function isFavoriteGroup(name) {
+    return state.favoriteGroups.includes(name);
+  }
+  function toggleFavoriteGroup(name) {
+    name = (name || '').trim();
+    if (!name) return;
+    const idx = state.favoriteGroups.indexOf(name);
+    if (idx >= 0) state.favoriteGroups.splice(idx, 1);
+    else state.favoriteGroups.push(name);
+    saveFavoriteGroups();
+  }
+
   function loadGroupColors() {
     try {
       return JSON.parse(localStorage.getItem(GROUP_COLOR_KEY)) || {};
@@ -179,11 +205,37 @@
     allChip.onclick = () => { state.activeGroup = null; render(); };
     els.groupChips.appendChild(allChip);
 
+    if (state.favoriteGroups.length) {
+      const favChip = document.createElement('button');
+      favChip.className = 'chip chip-favorite' + (state.activeGroup === FAVORITES_FILTER ? ' active' : '');
+      favChip.textContent = '★ お気に入り';
+      favChip.onclick = () => {
+        state.activeGroup = state.activeGroup === FAVORITES_FILTER ? null : FAVORITES_FILTER;
+        render();
+      };
+      els.groupChips.appendChild(favChip);
+    }
+
     groups.forEach((g) => {
       const chip = document.createElement('button');
-      chip.className = 'chip' + (state.activeGroup === g ? ' active' : '');
-      chip.textContent = g;
-      chip.onclick = () => { state.activeGroup = state.activeGroup === g ? null : g; render(); };
+      chip.className = 'chip chip-group' + (state.activeGroup === g ? ' active' : '');
+
+      const star = document.createElement('span');
+      star.className = 'chip-star' + (isFavoriteGroup(g) ? ' is-favorite' : '');
+      star.textContent = isFavoriteGroup(g) ? '★' : '☆';
+      star.setAttribute('role', 'button');
+      star.setAttribute('aria-label', 'お気に入り切替');
+      star.addEventListener('click', (e) => {
+        e.stopPropagation();
+        toggleFavoriteGroup(g);
+        render();
+      });
+      chip.appendChild(star);
+      chip.appendChild(document.createTextNode(g));
+      chip.addEventListener('click', () => {
+        state.activeGroup = state.activeGroup === g ? null : g;
+        render();
+      });
       els.groupChips.appendChild(chip);
     });
   }
@@ -204,7 +256,9 @@
       const bucket = computeStatusBucket(l);
       if (state.activeTab === 'upcoming' && bucket === 'done') return false;
       if (state.activeTab !== 'all' && state.activeTab !== 'upcoming' && bucket !== state.activeTab) return false;
-      if (state.activeGroup && l.group !== state.activeGroup) return false;
+      if (state.activeGroup === FAVORITES_FILTER) {
+        if (!isFavoriteGroup(l.group)) return false;
+      } else if (state.activeGroup && l.group !== state.activeGroup) return false;
       if (q) {
         const hay = `${l.group} ${l.title} ${l.venue}`.toLowerCase();
         if (!hay.includes(q)) return false;
@@ -421,6 +475,47 @@
     });
   }
 
+  function updateDiscoverFavToggle() {
+    const q = els.discoverSearchInput.value.trim();
+    const active = !!q && isFavoriteGroup(q);
+    els.discoverFavToggleBtn.textContent = active ? '★' : '☆';
+    els.discoverFavToggleBtn.classList.toggle('is-favorite', active);
+    els.discoverFavToggleBtn.disabled = !q;
+  }
+
+  function renderDiscoverFavChips() {
+    els.discoverFavChips.innerHTML = '';
+    state.favoriteGroups.forEach((name) => {
+      const chip = document.createElement('span');
+      chip.className = 'discover-fav-chip';
+
+      const label = document.createElement('button');
+      label.type = 'button';
+      label.className = 'discover-fav-chip-label';
+      label.textContent = name;
+      label.addEventListener('click', () => {
+        els.discoverSearchInput.value = name;
+        updateDiscoverFavToggle();
+        renderDiscoverList();
+      });
+
+      const remove = document.createElement('button');
+      remove.type = 'button';
+      remove.className = 'discover-fav-chip-remove';
+      remove.setAttribute('aria-label', `${name}をお気に入りから削除`);
+      remove.textContent = '×';
+      remove.addEventListener('click', () => {
+        toggleFavoriteGroup(name);
+        renderDiscoverFavChips();
+        updateDiscoverFavToggle();
+      });
+
+      chip.appendChild(label);
+      chip.appendChild(remove);
+      els.discoverFavChips.appendChild(chip);
+    });
+  }
+
   function sourceLabel(ev) {
     // Show the actual ticket-selling site the link goes to, not the
     // watchlist entry that found it (liveidol.blog is an aggregator -
@@ -479,6 +574,8 @@
   function openDiscover() {
     els.discoverOverlay.hidden = false;
     els.discoverSearchInput.focus();
+    renderDiscoverFavChips();
+    updateDiscoverFavToggle();
     loadDiscoveredEvents();
   }
 
@@ -498,7 +595,15 @@
   els.discoverOverlay.addEventListener('click', (e) => {
     if (e.target === els.discoverOverlay) closeDiscover();
   });
-  els.discoverSearchInput.addEventListener('input', renderDiscoverList);
+  els.discoverSearchInput.addEventListener('input', () => {
+    updateDiscoverFavToggle();
+    renderDiscoverList();
+  });
+  els.discoverFavToggleBtn.addEventListener('click', () => {
+    toggleFavoriteGroup(els.discoverSearchInput.value.trim());
+    updateDiscoverFavToggle();
+    renderDiscoverFavChips();
+  });
   els.discoverDateInput.addEventListener('input', () => {
     els.discoverDateClearBtn.hidden = !els.discoverDateInput.value;
     renderDiscoverList();

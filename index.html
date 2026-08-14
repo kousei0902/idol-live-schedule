@@ -62,7 +62,11 @@
     </div>
 
     <div class="discover-filters">
-      <input type="search" id="discoverSearchInput" placeholder="グループ名で検索(例: ○○シスターズ)" autocomplete="off">
+      <div class="discover-search-row">
+        <input type="search" id="discoverSearchInput" placeholder="グループ名で検索(例: ○○シスターズ)" autocomplete="off">
+        <button type="button" class="discover-fav-toggle" id="discoverFavToggleBtn" aria-label="このグループ名をお気に入り登録">☆</button>
+      </div>
+      <div class="discover-fav-chips" id="discoverFavChips"></div>
       <div class="discover-date-row">
         <input type="date" id="discoverDateInput" aria-label="日付で絞り込み">
         <button type="button" class="discover-date-clear" id="discoverDateClearBtn" hidden>日付をクリア</button>

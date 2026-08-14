@@ -143,6 +143,40 @@ html, body {
   color: #fff;
 }
 
+.chip-group {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.chip-star {
+  color: var(--text-muted);
+  font-size: 13px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.chip-star.is-favorite {
+  color: var(--warn);
+}
+
+.chip.active .chip-star,
+.chip.active .chip-star.is-favorite {
+  color: #fff;
+}
+
+.chip-favorite {
+  color: var(--warn);
+  border-color: var(--warn-tint);
+  background: var(--warn-tint);
+}
+
+.chip-favorite.active {
+  background: var(--warn);
+  border-color: var(--warn);
+  color: #fff;
+}
+
 /* Next live card */
 .next-live {
   margin: 16px;
@@ -475,8 +509,15 @@ html, body {
   margin-bottom: 8px;
 }
 
+.discover-search-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
 #discoverSearchInput {
-  width: 100%;
+  flex: 1;
+  min-width: 0;
   padding: 10px 14px;
   border-radius: 999px;
   border: 1px solid var(--border);
@@ -484,6 +525,64 @@ html, body {
   color: var(--text);
   font-size: 14px;
   outline: none;
+}
+
+.discover-fav-toggle {
+  flex: none;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  background: var(--surface-alt);
+  color: var(--text-muted);
+  font-size: 17px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.discover-fav-toggle:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.discover-fav-toggle.is-favorite {
+  color: var(--warn);
+  border-color: var(--warn);
+}
+
+.discover-fav-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.discover-fav-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 4px 4px 12px;
+  border-radius: 999px;
+  background: var(--warn-tint);
+  font-size: 12.5px;
+}
+
+.discover-fav-chip-label {
+  border: none;
+  background: none;
+  color: var(--text);
+  font-size: 12.5px;
+  cursor: pointer;
+  padding: 2px 0;
+}
+
+.discover-fav-chip-remove {
+  border: none;
+  background: none;
+  color: var(--text-muted);
+  font-size: 13px;
+  line-height: 1;
+  padding: 2px 6px;
+  cursor: pointer;
 }
 
 .discover-date-row {
