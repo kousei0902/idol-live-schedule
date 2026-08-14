@@ -23,6 +23,7 @@
 - **livepocket.jp** — カテゴリ検索ページ(`/event/search?l_cat=...`)。AWS WAFのJS認証チャレンジがあるため、Playwright(ヘッドレスブラウザ)経由で取得
 - **eplus.jp** — ジャンル一覧ページ(`/sf/live/...`)。通常のHTTP取得で解析
 - **ticketdive.com** — ジャンル絞り込み機能が無いため、トップページの「新着エントリー」欄(Next.jsのページ内埋め込みJSON `__NEXT_DATA__` から取得)。**アイドル以外のジャンルも混在します**
+- **liveidol.blog** — 20以上のチケット・会場サイト(tiget/livepocket/eplus/ticketdive/チケットぴあ/buzz-ticketなど)を横断集約している第三者サイト。`/live/` ページ内埋め込みJSON(`scheduleData`)から一括抽出。**event_urlが元サイトを指すため、上記の各サイト専用パーサーと自動的に重複排除されます**。特にticketdive.comは自サイト直取得より遥かに多くの件数(数百件)をここ経由で拾えます
 
 これら以外のURLを登録した場合は、ページ内容が変化したかどうかだけを検知する簡易モード(ハッシュ差分)にフォールバックします。
 

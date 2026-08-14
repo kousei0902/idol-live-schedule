@@ -320,11 +320,70 @@ def parse_ticketdive(html, base_url):
     return events
 
 
+def parse_liveidol(html, base_url):
+    """liveidol.blog is a third-party aggregator: its /live/ schedule
+    page embeds a single JS array (`const scheduleData = [...]`) with
+    every event it has collected from 20+ ticket/venue sites (tiget,
+    livepocket, eplus, ticketdive, t.pia, buzz-ticket, ...), including
+    many more ticketdive.com entries than that site's own page exposes
+    directly. No pagination and no JS execution needed - it's a plain
+    JS variable in the server-rendered HTML, extracted by balancing
+    brackets rather than a <script type="application/json"> tag since
+    it isn't one. event_url points at the ORIGINAL ticket site, which
+    is convenient: it dedupes for free against events already found by
+    the site-specific parsers above (both key on event_url)."""
+    text = html.decode("utf-8", "replace")
+    marker = "const scheduleData = "
+    idx = text.find(marker)
+    if idx == -1:
+        return []
+    start = idx + len(marker)
+    depth = 0
+    end = None
+    for i in range(start, len(text)):
+        c = text[i]
+        if c == "[":
+            depth += 1
+        elif c == "]":
+            depth -= 1
+            if depth == 0:
+                end = i + 1
+                break
+    if end is None:
+        return []
+    try:
+        data = json.loads(text[start:end])
+    except json.JSONDecodeError:
+        return []
+
+    events = []
+    seen_urls = set()
+    for item in data:
+        event_url = item.get("event_url")
+        if not event_url:
+            continue
+        event_url = urljoin(base_url, event_url)
+        if event_url in seen_urls:
+            continue
+        seen_urls.add(event_url)
+        title = item.get("event_name", "") or ""
+        venue = item.get("venue_name", "") or ""
+        events.append({
+            "event_url": event_url,
+            "title": title,
+            "group": title,
+            "date": item.get("event_date") or None,
+            "venue": venue,
+        })
+    return events
+
+
 PARSERS = {
     "tiget.net": parse_tiget,
     "livepocket.jp": parse_livepocket,
     "eplus.jp": parse_eplus,
     "ticketdive.com": parse_ticketdive,
+    "liveidol.blog": parse_liveidol,
 }
 
 

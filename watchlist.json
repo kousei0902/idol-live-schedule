@@ -21,5 +21,10 @@
     "group": "TicketDive（新着エントリー）",
     "url": "https://ticketdive.com/",
     "note": "TicketDiveにはジャンル絞り込みが無いため、新着エントリー欄(全ジャンル混在)を構造化抽出"
+  },
+  {
+    "group": "liveidol.blog（集約サイト）",
+    "url": "https://liveidol.blog/live/",
+    "note": "20以上のチケット・会場サイトを横断集約している第三者サイト。ページ内埋め込みJSON(scheduleData)から一括抽出。event_urlは元サイト(tiget/livepocket/eplus/ticketdive/t.pia等)を指すため、他エントリと自動的に重複排除される"
   }
 ]
