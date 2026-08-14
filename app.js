@@ -63,6 +63,13 @@
     favManageAddBtn: $('#favManageAddBtn'),
     favManageList: $('#favManageList'),
     favManageEmpty: $('#favManageEmpty'),
+    viewToggle: $('#viewToggle'),
+    calendarView: $('#calendarView'),
+    calendarPrevBtn: $('#calendarPrevBtn'),
+    calendarNextBtn: $('#calendarNextBtn'),
+    calendarMonthLabel: $('#calendarMonthLabel'),
+    calendarGrid: $('#calendarGrid'),
+    calendarDayDetail: $('#calendarDayDetail'),
   };
 
   let state = {
@@ -71,6 +78,10 @@
     activeGroup: null,
     query: '',
     favoriteGroups: loadFavoriteGroups(),
+    viewMode: 'list',
+    calendarYear: new Date().getFullYear(),
+    calendarMonth: new Date().getMonth() + 1,
+    selectedDate: null,
   };
 
   let discoverState = {
@@ -382,12 +393,106 @@
     return card;
   }
 
+  function renderHomeContent() {
+    if (state.viewMode === 'calendar') {
+      els.list.hidden = true;
+      els.emptyState.hidden = true;
+      els.calendarView.hidden = false;
+      renderCalendarView();
+    } else {
+      els.calendarView.hidden = true;
+      els.list.hidden = false;
+      renderList();
+    }
+  }
+
+  function renderCalendarView() {
+    const byDate = {};
+    filteredLives().forEach((l) => {
+      (byDate[l.date] = byDate[l.date] || []).push(l);
+    });
+
+    const y = state.calendarYear;
+    const m = state.calendarMonth;
+    els.calendarMonthLabel.textContent = `${y}年${m}月`;
+
+    const firstDow = new Date(y, m - 1, 1).getDay();
+    const daysInMonth = new Date(y, m, 0).getDate();
+    const today = todayStr();
+
+    els.calendarGrid.innerHTML = '';
+    for (let i = 0; i < firstDow; i++) {
+      const padCell = document.createElement('div');
+      padCell.className = 'calendar-cell calendar-cell-empty';
+      els.calendarGrid.appendChild(padCell);
+    }
+    for (let d = 1; d <= daysInMonth; d++) {
+      const dateStr = `${y}-${pad(m)}-${pad(d)}`;
+      const dayLives = byDate[dateStr] || [];
+      const cell = document.createElement('button');
+      cell.type = 'button';
+      cell.className = 'calendar-cell';
+      if (dateStr === today) cell.classList.add('is-today');
+      if (dateStr === state.selectedDate) cell.classList.add('is-selected');
+      if (dayLives.length) cell.classList.add('has-events');
+      const dots = dayLives.slice(0, 3)
+        .map((l) => `<span class="calendar-dot" style="background:${colorForGroup(l.group)}"></span>`)
+        .join('');
+      cell.innerHTML = `<span class="calendar-cell-day">${d}</span><span class="calendar-cell-dots">${dots}</span>`;
+      cell.addEventListener('click', () => {
+        state.selectedDate = state.selectedDate === dateStr ? null : dateStr;
+        renderCalendarView();
+      });
+      els.calendarGrid.appendChild(cell);
+    }
+
+    els.calendarDayDetail.innerHTML = '';
+    if (!state.selectedDate) {
+      const hint = document.createElement('p');
+      hint.className = 'calendar-hint';
+      hint.textContent = '日付をタップすると予定を表示します。';
+      els.calendarDayDetail.appendChild(hint);
+      return;
+    }
+    const selectedLives = (byDate[state.selectedDate] || [])
+      .slice()
+      .sort((a, b) => (a.time || '').localeCompare(b.time || ''));
+    if (!selectedLives.length) {
+      const hint = document.createElement('p');
+      hint.className = 'calendar-hint';
+      hint.textContent = 'この日の予定はありません。';
+      els.calendarDayDetail.appendChild(hint);
+      return;
+    }
+    selectedLives.forEach((live) => els.calendarDayDetail.appendChild(renderCard(live)));
+  }
+
   function render() {
     renderGroupChips();
     updateGroupDatalist();
     renderNextLive();
-    renderList();
+    renderHomeContent();
   }
+
+  els.viewToggle.addEventListener('click', (e) => {
+    const btn = e.target.closest('.view-toggle-btn');
+    if (!btn) return;
+    state.viewMode = btn.dataset.view;
+    els.viewToggle.querySelectorAll('.view-toggle-btn').forEach((b) => b.classList.toggle('active', b === btn));
+    renderHomeContent();
+  });
+  els.calendarPrevBtn.addEventListener('click', () => {
+    state.calendarMonth -= 1;
+    if (state.calendarMonth < 1) { state.calendarMonth = 12; state.calendarYear -= 1; }
+    state.selectedDate = null;
+    renderCalendarView();
+  });
+  els.calendarNextBtn.addEventListener('click', () => {
+    state.calendarMonth += 1;
+    if (state.calendarMonth > 12) { state.calendarMonth = 1; state.calendarYear += 1; }
+    state.selectedDate = null;
+    renderCalendarView();
+  });
 
   // Tabs
   els.tabs.addEventListener('click', (e) => {
@@ -396,7 +501,7 @@
     els.tabs.querySelectorAll('.tab').forEach((b) => b.classList.remove('active'));
     btn.classList.add('active');
     state.activeTab = btn.dataset.status;
-    renderList();
+    renderHomeContent();
   });
 
   // Search toggle
@@ -406,7 +511,7 @@
   });
   els.searchInput.addEventListener('input', (e) => {
     state.query = e.target.value;
-    renderList();
+    renderHomeContent();
   });
 
   // Modal
