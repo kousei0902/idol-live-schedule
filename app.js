@@ -404,6 +404,18 @@
     });
   }
 
+  function sourceLabel(ev) {
+    // Show the actual ticket-selling site the link goes to, not the
+    // watchlist entry that found it (liveidol.blog is an aggregator -
+    // its entries' urls point at tiget/ticketdive/etc., which is the
+    // more useful thing to show here).
+    try {
+      return new URL(ev.url).hostname.replace(/^www\./, '');
+    } catch (err) {
+      return ev.source || '';
+    }
+  }
+
   function renderDiscoverList() {
     els.discoverList.innerHTML = '';
 
@@ -425,7 +437,7 @@
       item.className = 'discover-item';
       item.innerHTML = `
         <div class="discover-item-main">
-          <span class="discover-source">${escapeHtml(ev.source || '')}</span>
+          <span class="discover-source">${escapeHtml(sourceLabel(ev))}</span>
           <div class="discover-group">${escapeHtml(ev.group || ev.title || '(不明)')}</div>
           <div class="discover-title">${escapeHtml(ev.title || '')}</div>
           <div class="discover-sub">${escapeHtml(ev.date || '日付不明')} ／ ${escapeHtml(ev.venue || '会場不明')}</div>
