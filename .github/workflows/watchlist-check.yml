@@ -26,13 +26,15 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: python3 scripts/check_watchlist.py
 
-      - name: Check X (following timeline)
-        continue-on-error: true
-        env:
-          GH_TOKEN: ${{ github.token }}
-          X_USERNAME: ${{ secrets.X_USERNAME }}
-          X_PASSWORD: ${{ secrets.X_PASSWORD }}
-        run: python3 scripts/check_x.py
+      # X(旧Twitter)のチェックは一時停止中(Xのログイン制限のため)。
+      # 再開する場合はこのステップを戻してください。
+      # - name: Check X (following timeline)
+      #   continue-on-error: true
+      #   env:
+      #     GH_TOKEN: ${{ github.token }}
+      #     X_USERNAME: ${{ secrets.X_USERNAME }}
+      #     X_PASSWORD: ${{ secrets.X_PASSWORD }}
+      #   run: python3 scripts/check_x.py
 
       - name: Commit state changes
         if: always()
