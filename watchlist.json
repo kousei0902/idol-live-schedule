@@ -25,6 +25,7 @@
   {
     "group": "liveidol.blog（集約サイト）",
     "url": "https://liveidol.blog/live/",
-    "note": "20以上のチケット・会場サイトを横断集約している第三者サイト。ページ内埋め込みJSON(scheduleData)から一括抽出。event_urlは元サイト(tiget/livepocket/eplus/ticketdive/t.pia等)を指すため、他エントリと自動的に重複排除される"
+    "note": "20以上のチケット・会場サイトを横断集約している第三者サイト。ページ内埋め込みJSON(scheduleData)から一括抽出。event_urlは元サイト(tiget/livepocket/eplus/ticketdive/t.pia等)を指すため、他エントリと自動的に重複排除される。schedule_startパラメータで3週間ずつ未来にずらして取得(実測: 704/208/81/45/26/19件と減衰し、7ページ目以降はほぼ空)",
+    "max_pages": 7
   }
 ]

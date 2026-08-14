@@ -39,6 +39,7 @@ REQUEST_HEADERS = {
 }
 
 JP_DATE_RE = re.compile(r"(\d{4})[年/](\d{1,2})[月/](\d{1,2})")
+JST = timezone(timedelta(hours=9))
 
 
 def load_json(path, default):
@@ -69,10 +70,24 @@ BROWSER_HOSTS = {"livepocket.jp"}
 
 # How to build the URL for page N (N >= 2) of a site's listing. Sites not
 # listed here only ever fetch a single page, regardless of max_pages.
+def _liveidol_page_url(url, page):
+    # liveidol.blog's /live/ page shows a rolling 3-week (21-day) window
+    # starting from "today" by default, but a `schedule_start=YYYY-MM-DD`
+    # query param (confirmed via its own date-picker's change handler,
+    # which does window.location.assign with that param) fetches a fresh
+    # server-rendered 21-day window from any start date. Event counts
+    # taper off the further out you go (confirmed: 704 -> 208 -> 81 -> 45
+    # -> 26 -> 19 across 6 successive 21-day windows), so page N asks for
+    # the window starting 21*(N-1) days from today.
+    start_date = datetime.now(JST).date() + timedelta(days=21 * (page - 1))
+    return add_query_param(url, "schedule_start", start_date.isoformat())
+
+
 PAGE_URL_BUILDERS = {
     "tiget.net": lambda url, page: add_query_param(url, "page", page),
     "livepocket.jp": lambda url, page: add_query_param(url, "page", page),
     "eplus.jp": lambda url, page: url.rstrip("/") + f"/p{page}",
+    "liveidol.blog": _liveidol_page_url,
 }
 
 DEFAULT_MAX_PAGES = 4
