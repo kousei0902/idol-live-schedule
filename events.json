@@ -16158,5 +16158,117 @@
     "venue": "ホットスタッフ川越パーク（川越水上公園）（埼玉県）",
     "source": "livepocket（ファン・アイドル）",
     "firstSeen": "2026-08-14T07:22:16Z"
+  },
+  "https://tiget.net/events/512435": {
+    "title": "Alice Syndrome 実験記録 Vol.3",
+    "group": "アリス症候群 / 義澄牙-GIZGA- / Lonely²...",
+    "date": "2026-09-11",
+    "venue": "",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-14T09:57:58Z"
+  },
+  "https://tiget.net/events/510710": {
+    "title": "Snack Bar KONJYO〜根性月がママになる夜〜",
+    "group": "垣内D納言 / 根性月",
+    "date": "2026-10-03",
+    "venue": "東京都",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-14T09:57:58Z"
+  },
+  "https://tiget.net/events/514487": {
+    "title": "國安さゆり（わがなま）生誕祭2026～ツーマン×5杯～",
+    "group": "國安さゆり",
+    "date": "2026-09-20",
+    "venue": "東京都",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-14T09:57:58Z"
+  },
+  "https://tiget.net/events/514666": {
+    "title": "BREAKTHROUGH Vol.2",
+    "group": "BREAKTHROUGH Vol.2",
+    "date": "2026-10-22",
+    "venue": "大阪府",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-14T09:57:58Z"
+  },
+  "https://tiget.net/events/514644": {
+    "title": "八束くるみ生誕卒業企画協賛金",
+    "group": "八束くるみ生誕卒業企画協賛金",
+    "date": "2026-08-23",
+    "venue": "東京都",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-14T09:57:58Z"
+  },
+  "https://tiget.net/events/514631": {
+    "title": "WstudioRED 11th ANNIVERSARY LIVE",
+    "group": "ゐ虎、",
+    "date": "2026-09-13",
+    "venue": "愛媛県",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-14T09:57:58Z"
+  },
+  "https://tiget.net/events/514574": {
+    "title": "『KiLLiNG ME vol.66』",
+    "group": "僕には通じない / 終末のステラ / GLIM of GR...",
+    "date": "2026-08-23",
+    "venue": "東京都",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-14T09:57:58Z"
+  },
+  "https://tiget.net/events/514549": {
+    "title": "「ZEST SUPER LIVE」夜公演",
+    "group": "瀬口こころ / ＊青空ダイアリー＊ / #ヒトメボレ / ...",
+    "date": "2026-08-16",
+    "venue": "東京都",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-14T09:57:58Z"
+  },
+  "https://tiget.net/events/514548": {
+    "title": "「ZEST SUPER LIVE」昼公演",
+    "group": "瀬口こころ / AMOmillion / Everglit...",
+    "date": "2026-08-16",
+    "venue": "東京都",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-14T09:57:58Z"
+  },
+  "https://tiget.net/events/514544": {
+    "title": "東北おどってみた革命『ODOREVO』-オドレボ-",
+    "group": "まゆたろう / 星月おとは / 白鹿リオ / 菊地 彩純 ...",
+    "date": "2026-08-28",
+    "venue": "宮城県",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-14T09:57:58Z"
+  },
+  "https://livepocket.jp/e/20260911_night_lofta": {
+    "title": "GAOU ACG TALK LIVE Vol.3",
+    "group": "がおー / 川村竜 / ミートたけし",
+    "date": "2026-09-11",
+    "venue": "阿佐ヶ谷ロフトA（東京都）",
+    "source": "livepocket（ファン・アイドル）",
+    "firstSeen": "2026-08-14T10:00:59Z"
+  },
+  "https://livepocket.jp/e/20260922natsunomujina": {
+    "title": "ナツノムジナ presents 「Pale [5] Curtain」",
+    "group": "ナツノムジナ / 5 Star Cowboy",
+    "date": "2026-09-22",
+    "venue": "下北沢BASEMENTBAR（東京都）",
+    "source": "livepocket（ファン・アイドル）",
+    "firstSeen": "2026-08-14T10:00:59Z"
+  },
+  "https://livepocket.jp/e/20260829_day_lofta": {
+    "title": "アメコミトークライブ しゃべんじゃーず『スパイダーマンBND後夜祭』",
+    "group": "柳生玄十郎 / さんぽ　岩永 / ポルコ　森井",
+    "date": "2026-08-29",
+    "venue": "阿佐ヶ谷ロフトA（東京都）",
+    "source": "livepocket（ファン・アイドル）",
+    "firstSeen": "2026-08-14T10:00:59Z"
+  },
+  "https://livepocket.jp/e/lyricade": {
+    "title": "WWW & WWW X Anniversaries \"LYRICADE\"",
+    "group": "lilbesh ramko with Friends / swetty / ODETRASH / VaVa / krynX -Produced by krynX Set- / eijin / the bercedes menz / Le Makeup / SleepInside / cephalo / iga / MADEINBEN10 / otuyyuto / ksr:3 / glico / DJ melody / トップシークレットマン / ほしのおと",
+    "date": "2026-10-25",
+    "venue": "WWW / WWW X / WWW β（東京都）",
+    "source": "livepocket（ファン・アイドル）",
+    "firstSeen": "2026-08-14T10:00:59Z"
   }
 }
