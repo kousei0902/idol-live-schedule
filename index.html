@@ -61,7 +61,13 @@
       </button>
     </div>
 
-    <input type="search" id="discoverSearchInput" placeholder="グループ名で検索(例: ○○シスターズ)" autocomplete="off">
+    <div class="discover-filters">
+      <input type="search" id="discoverSearchInput" placeholder="グループ名で検索(例: ○○シスターズ)" autocomplete="off">
+      <div class="discover-date-row">
+        <input type="date" id="discoverDateInput" aria-label="日付で絞り込み">
+        <button type="button" class="discover-date-clear" id="discoverDateClearBtn" hidden>日付をクリア</button>
+      </div>
+    </div>
     <p class="discover-meta" id="discoverMeta">読み込み中...</p>
     <div class="discover-list" id="discoverList"></div>
   </div>

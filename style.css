@@ -468,6 +468,13 @@ html, body {
 }
 
 /* Discover search */
+.discover-filters {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
 #discoverSearchInput {
   width: 100%;
   padding: 10px 14px;
@@ -477,7 +484,32 @@ html, body {
   color: var(--text);
   font-size: 14px;
   outline: none;
-  margin-bottom: 8px;
+}
+
+.discover-date-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#discoverDateInput {
+  padding: 8px 12px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface-alt);
+  color: var(--text);
+  font-size: 13px;
+  outline: none;
+}
+
+.discover-date-clear {
+  border: none;
+  background: none;
+  color: var(--primary);
+  font-size: 12.5px;
+  font-weight: 600;
+  padding: 4px 2px;
+  cursor: pointer;
 }
 
 .discover-meta {

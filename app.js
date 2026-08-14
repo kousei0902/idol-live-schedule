@@ -39,6 +39,8 @@
     discoverOverlay: $('#discoverOverlay'),
     closeDiscoverBtn: $('#closeDiscoverBtn'),
     discoverSearchInput: $('#discoverSearchInput'),
+    discoverDateInput: $('#discoverDateInput'),
+    discoverDateClearBtn: $('#discoverDateClearBtn'),
     discoverMeta: $('#discoverMeta'),
     discoverList: $('#discoverList'),
   };
@@ -397,8 +399,10 @@
   function filteredDiscoverEvents() {
     if (!discoverState.events) return [];
     const q = els.discoverSearchInput.value.trim().toLowerCase();
-    if (!q) return discoverState.events;
+    const dateFilter = els.discoverDateInput.value;
     return discoverState.events.filter((ev) => {
+      if (dateFilter && ev.date !== dateFilter) return false;
+      if (!q) return true;
       const hay = `${ev.group || ''} ${ev.title || ''} ${ev.venue || ''}`.toLowerCase();
       return hay.includes(q);
     });
@@ -475,6 +479,15 @@
     if (e.target === els.discoverOverlay) closeDiscover();
   });
   els.discoverSearchInput.addEventListener('input', renderDiscoverList);
+  els.discoverDateInput.addEventListener('input', () => {
+    els.discoverDateClearBtn.hidden = !els.discoverDateInput.value;
+    renderDiscoverList();
+  });
+  els.discoverDateClearBtn.addEventListener('click', () => {
+    els.discoverDateInput.value = '';
+    els.discoverDateClearBtn.hidden = true;
+    renderDiscoverList();
+  });
 
   render();
 })();
