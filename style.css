@@ -361,6 +361,7 @@ html, body {
 .status-interested { background: var(--primary-tint); color: var(--primary-dark); }
 .status-undecided { background: var(--warn-tint); color: var(--warn); }
 .status-done { background: var(--border); color: var(--text-muted); }
+.status-attended { background: var(--success-tint); color: var(--success); }
 
 .empty-state {
   text-align: center;

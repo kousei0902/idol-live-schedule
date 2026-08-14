@@ -188,12 +188,12 @@
   }
 
   function computeStatusBucket(live) {
-    if (live.date < todayStr()) return 'done';
+    if (live.date < todayStr()) return live.status === 'go' ? 'attended' : 'done';
     return live.status; // go | interested | undecided
   }
 
   function statusLabel(bucket) {
-    return { go: '参戦する', interested: '気になる', undecided: '未定', done: '終了' }[bucket] || bucket;
+    return { go: '参戦する', interested: '気になる', undecided: '未定', done: '終了', attended: '参戦済み' }[bucket] || bucket;
   }
 
   function renderGroupChips() {
@@ -252,9 +252,10 @@
 
   function filteredLives() {
     const q = state.query.trim().toLowerCase();
-    return state.lives.filter((l) => {
+    const isAttendedTab = state.activeTab === 'attended';
+    const result = state.lives.filter((l) => {
       const bucket = computeStatusBucket(l);
-      if (state.activeTab === 'upcoming' && bucket === 'done') return false;
+      if (state.activeTab === 'upcoming' && (bucket === 'done' || bucket === 'attended')) return false;
       if (state.activeTab !== 'all' && state.activeTab !== 'upcoming' && bucket !== state.activeTab) return false;
       if (state.activeGroup === FAVORITES_FILTER) {
         if (!isFavoriteGroup(l.group)) return false;
@@ -264,7 +265,12 @@
         if (!hay.includes(q)) return false;
       }
       return true;
-    }).sort((a, b) => a.date.localeCompare(b.date) || (a.time || '').localeCompare(b.time || ''));
+    });
+    // History reads newest-first; every other tab reads soonest-first.
+    result.sort((a, b) => isAttendedTab
+      ? (b.date.localeCompare(a.date) || (b.time || '').localeCompare(a.time || ''))
+      : (a.date.localeCompare(b.date) || (a.time || '').localeCompare(b.time || '')));
+    return result;
   }
 
   function renderNextLive() {
