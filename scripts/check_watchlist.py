@@ -383,10 +383,17 @@ def parse_liveidol(html, base_url):
         seen_urls.add(event_url)
         title = item.get("event_name", "") or ""
         venue = item.get("venue_name", "") or ""
+        # "performers" is a real (if occasionally noisy - some entries mix
+        # in "開場：8:00"-style notes) lineup string, e.g. "MELYUME /
+        # マイノリティアラート / ...". Using it as group (rather than
+        # duplicating the event name) is what makes in-app search-by-group
+        # actually find these events - the event name alone rarely matches
+        # a performer's name.
+        performers = item.get("performers", "") or ""
         events.append({
             "event_url": event_url,
             "title": title,
-            "group": title,
+            "group": performers or title,
             "date": item.get("event_date") or None,
             "venue": venue,
         })
