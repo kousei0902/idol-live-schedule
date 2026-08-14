@@ -6,6 +6,16 @@
   const COLOR_PALETTE = ['#ff5fa2', '#7c6cf0', '#2fb380', '#e8a53d', '#3ab0d8', '#e0507a', '#8c6cf0', '#4fb0a5'];
   const DOW = ['日', '月', '火', '水', '木', '金', '土'];
   const EVENTS_JSON_URL = 'https://raw.githubusercontent.com/kousei0902/idol-live-schedule/main/events.json';
+  const PREFECTURES = [
+    '北海道', '青森県', '岩手県', '宮城県', '秋田県', '山形県', '福島県',
+    '茨城県', '栃木県', '群馬県', '埼玉県', '千葉県', '東京都', '神奈川県',
+    '新潟県', '富山県', '石川県', '福井県', '山梨県', '長野県',
+    '岐阜県', '静岡県', '愛知県', '三重県',
+    '滋賀県', '京都府', '大阪府', '兵庫県', '奈良県', '和歌山県',
+    '鳥取県', '島根県', '岡山県', '広島県', '山口県',
+    '徳島県', '香川県', '愛媛県', '高知県',
+    '福岡県', '佐賀県', '長崎県', '熊本県', '大分県', '宮崎県', '鹿児島県', '沖縄県',
+  ];
 
   const $ = (sel) => document.querySelector(sel);
 
@@ -41,6 +51,7 @@
     discoverSearchInput: $('#discoverSearchInput'),
     discoverDateInput: $('#discoverDateInput'),
     discoverDateClearBtn: $('#discoverDateClearBtn'),
+    discoverPrefSelect: $('#discoverPrefSelect'),
     discoverMeta: $('#discoverMeta'),
     discoverList: $('#discoverList'),
   };
@@ -400,8 +411,10 @@
     if (!discoverState.events) return [];
     const q = els.discoverSearchInput.value.trim().toLowerCase();
     const dateFilter = els.discoverDateInput.value;
+    const prefFilter = els.discoverPrefSelect.value;
     return discoverState.events.filter((ev) => {
       if (dateFilter && ev.date !== dateFilter) return false;
+      if (prefFilter && ev.prefecture !== prefFilter) return false;
       if (!q) return true;
       const hay = `${ev.group || ''} ${ev.title || ''} ${ev.venue || ''}`.toLowerCase();
       return hay.includes(q);
@@ -473,6 +486,13 @@
     els.discoverOverlay.hidden = true;
   }
 
+  PREFECTURES.forEach((pref) => {
+    const opt = document.createElement('option');
+    opt.value = pref;
+    opt.textContent = pref;
+    els.discoverPrefSelect.appendChild(opt);
+  });
+
   els.discoverToggleBtn.addEventListener('click', openDiscover);
   els.closeDiscoverBtn.addEventListener('click', closeDiscover);
   els.discoverOverlay.addEventListener('click', (e) => {
@@ -488,6 +508,7 @@
     els.discoverDateClearBtn.hidden = true;
     renderDiscoverList();
   });
+  els.discoverPrefSelect.addEventListener('change', renderDiscoverList);
 
   render();
 })();

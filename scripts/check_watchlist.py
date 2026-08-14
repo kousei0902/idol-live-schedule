@@ -41,6 +41,29 @@ REQUEST_HEADERS = {
 JP_DATE_RE = re.compile(r"(\d{4})[年/](\d{1,2})[月/](\d{1,2})")
 JST = timezone(timedelta(hours=9))
 
+PREFECTURES = [
+    "北海道", "青森県", "岩手県", "宮城県", "秋田県", "山形県", "福島県",
+    "茨城県", "栃木県", "群馬県", "埼玉県", "千葉県", "東京都", "神奈川県",
+    "新潟県", "富山県", "石川県", "福井県", "山梨県", "長野県",
+    "岐阜県", "静岡県", "愛知県", "三重県",
+    "滋賀県", "京都府", "大阪府", "兵庫県", "奈良県", "和歌山県",
+    "鳥取県", "島根県", "岡山県", "広島県", "山口県",
+    "徳島県", "香川県", "愛媛県", "高知県",
+    "福岡県", "佐賀県", "長崎県", "熊本県", "大分県", "宮崎県", "鹿児島県", "沖縄県",
+]
+
+
+def extract_prefecture(text):
+    """Best-effort prefecture guess from a venue string. tiget's venue
+    field is literally just the prefecture name; eplus/livepocket use
+    "会場名（都道府県）"; both match here as a plain substring check."""
+    if not text:
+        return None
+    for pref in PREFECTURES:
+        if pref in text:
+            return pref
+    return None
+
 
 def load_json(path, default):
     if not path.exists():
@@ -207,6 +230,7 @@ def parse_tiget(html, base_url):
             "group": group or title,
             "date": date,
             "venue": venue,
+            "prefecture": extract_prefecture(venue),
         })
     return events
 
@@ -243,6 +267,7 @@ def parse_livepocket(html, base_url):
             "group": group or title,
             "date": date,
             "venue": venue,
+            "prefecture": extract_prefecture(venue),
         })
     return events
 
@@ -279,6 +304,7 @@ def parse_eplus(html, base_url):
             "group": title,
             "date": date,
             "venue": venue,
+            "prefecture": extract_prefecture(venue),
         })
     return events
 
@@ -325,12 +351,14 @@ def parse_ticketdive(html, base_url):
                     date = (dt_utc + timedelta(hours=9)).strftime("%Y-%m-%d")
                 except ValueError:
                     pass
+            venue = item.get("venueName", "") or ""
             events.append({
                 "event_url": event_url,
                 "title": title,
                 "group": title,
                 "date": date,
-                "venue": item.get("venueName", "") or "",
+                "venue": venue,
+                "prefecture": extract_prefecture(venue),
             })
     return events
 
@@ -396,6 +424,7 @@ def parse_liveidol(html, base_url):
             "group": performers or title,
             "date": item.get("event_date") or None,
             "venue": venue,
+            "prefecture": item.get("prefecture") or extract_prefecture(venue),
         })
     return events
 
@@ -464,6 +493,7 @@ def check_structured(entry, parser, events_known, use_browser=False, max_pages=1
                 "group": ev["group"],
                 "date": ev["date"],
                 "venue": ev["venue"],
+                "prefecture": ev.get("prefecture"),
                 "source": group_label,
                 "firstSeen": now_iso(),
             }
