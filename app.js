@@ -47,9 +47,6 @@
     fMemo: $('#fMemo'),
     groupList: $('#groupList'),
     deleteBtn: $('#deleteBtn'),
-    discoverToggleBtn: $('#discoverToggleBtn'),
-    discoverOverlay: $('#discoverOverlay'),
-    closeDiscoverBtn: $('#closeDiscoverBtn'),
     discoverSearchInput: $('#discoverSearchInput'),
     discoverDateInput: $('#discoverDateInput'),
     discoverDateClearBtn: $('#discoverDateClearBtn'),
@@ -58,6 +55,14 @@
     discoverList: $('#discoverList'),
     discoverFavToggleBtn: $('#discoverFavToggleBtn'),
     discoverFavChips: $('#discoverFavChips'),
+    bottomNav: $('#bottomNav'),
+    homeScreen: $('#homeScreen'),
+    searchScreen: $('#searchScreen'),
+    otherScreen: $('#otherScreen'),
+    favManageInput: $('#favManageInput'),
+    favManageAddBtn: $('#favManageAddBtn'),
+    favManageList: $('#favManageList'),
+    favManageEmpty: $('#favManageEmpty'),
   };
 
   let state = {
@@ -153,6 +158,39 @@
     saveFavoriteGroups();
   }
 
+  // Favorites are shared across the home, search, and other screens - keep
+  // all three in sync whenever the list changes, regardless of which one
+  // triggered the change.
+  function onFavoritesChanged() {
+    render();
+    renderDiscoverFavChips();
+    updateDiscoverFavToggle();
+    renderFavManageList();
+  }
+
+  function renderFavManageList() {
+    els.favManageList.innerHTML = '';
+    els.favManageEmpty.hidden = state.favoriteGroups.length !== 0;
+    state.favoriteGroups.forEach((name) => {
+      const row = document.createElement('div');
+      row.className = 'fav-manage-item';
+      const label = document.createElement('span');
+      label.textContent = name;
+      const remove = document.createElement('button');
+      remove.type = 'button';
+      remove.className = 'fav-manage-remove';
+      remove.setAttribute('aria-label', `${name}をお気に入りから削除`);
+      remove.textContent = '×';
+      remove.addEventListener('click', () => {
+        toggleFavoriteGroup(name);
+        onFavoritesChanged();
+      });
+      row.appendChild(label);
+      row.appendChild(remove);
+      els.favManageList.appendChild(row);
+    });
+  }
+
   function loadGroupColors() {
     try {
       return JSON.parse(localStorage.getItem(GROUP_COLOR_KEY)) || {};
@@ -228,7 +266,7 @@
       star.addEventListener('click', (e) => {
         e.stopPropagation();
         toggleFavoriteGroup(g);
-        render();
+        onFavoritesChanged();
       });
       chip.appendChild(star);
       chip.appendChild(document.createTextNode(g));
@@ -512,8 +550,7 @@
       remove.textContent = '×';
       remove.addEventListener('click', () => {
         toggleFavoriteGroup(name);
-        renderDiscoverFavChips();
-        updateDiscoverFavToggle();
+        onFavoritesChanged();
       });
 
       chip.appendChild(label);
@@ -577,16 +614,22 @@
     });
   }
 
-  function openDiscover() {
-    els.discoverOverlay.hidden = false;
-    els.discoverSearchInput.focus();
-    renderDiscoverFavChips();
-    updateDiscoverFavToggle();
-    loadDiscoveredEvents();
-  }
+  const SCREENS = { home: els.homeScreen, search: els.searchScreen, other: els.otherScreen };
 
-  function closeDiscover() {
-    els.discoverOverlay.hidden = true;
+  function switchScreen(name) {
+    Object.entries(SCREENS).forEach(([key, el]) => { el.hidden = key !== name; });
+    els.bottomNav.querySelectorAll('.bottombar-btn').forEach((btn) => {
+      btn.classList.toggle('active', btn.dataset.screen === name);
+    });
+    els.addBtn.hidden = name !== 'home';
+    if (name === 'search') {
+      els.discoverSearchInput.focus();
+      renderDiscoverFavChips();
+      updateDiscoverFavToggle();
+      loadDiscoveredEvents();
+    } else if (name === 'other') {
+      renderFavManageList();
+    }
   }
 
   PREFECTURES.forEach((pref) => {
@@ -596,10 +639,21 @@
     els.discoverPrefSelect.appendChild(opt);
   });
 
-  els.discoverToggleBtn.addEventListener('click', openDiscover);
-  els.closeDiscoverBtn.addEventListener('click', closeDiscover);
-  els.discoverOverlay.addEventListener('click', (e) => {
-    if (e.target === els.discoverOverlay) closeDiscover();
+  els.bottomNav.addEventListener('click', (e) => {
+    const btn = e.target.closest('.bottombar-btn');
+    if (!btn) return;
+    switchScreen(btn.dataset.screen);
+  });
+  els.favManageAddBtn.addEventListener('click', () => {
+    const name = els.favManageInput.value.trim();
+    if (name && !isFavoriteGroup(name)) toggleFavoriteGroup(name);
+    els.favManageInput.value = '';
+    onFavoritesChanged();
+  });
+  els.favManageInput.addEventListener('keydown', (e) => {
+    if (e.key !== 'Enter') return;
+    e.preventDefault();
+    els.favManageAddBtn.click();
   });
   els.discoverSearchInput.addEventListener('input', () => {
     updateDiscoverFavToggle();
@@ -607,8 +661,7 @@
   });
   els.discoverFavToggleBtn.addEventListener('click', () => {
     toggleFavoriteGroup(els.discoverSearchInput.value.trim());
-    updateDiscoverFavToggle();
-    renderDiscoverFavChips();
+    onFavoritesChanged();
   });
   els.discoverDateInput.addEventListener('input', () => {
     els.discoverDateClearBtn.hidden = !els.discoverDateInput.value;

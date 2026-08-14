@@ -13,55 +13,42 @@
   <header class="topbar">
     <h1 class="logo">推しスケ</h1>
     <div class="topbar-actions">
-      <button class="icon-btn" id="discoverToggleBtn" aria-label="ライブを発見・検索">
-        <svg viewBox="0 0 24 24" width="22" height="22"><path d="M12 2 L14.5 9.5 L22 12 L14.5 14.5 L12 22 L9.5 14.5 L2 12 L9.5 9.5 Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
-      </button>
       <button class="icon-btn" id="searchToggleBtn" aria-label="検索・絞り込み">
         <svg viewBox="0 0 24 24" width="22" height="22"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><line x1="21" y1="21" x2="16.65" y2="16.65" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
       </button>
     </div>
   </header>
 
-  <section class="filterbar" id="filterbar" hidden>
-    <input type="search" id="searchInput" placeholder="グループ名・会場・タイトルで検索" autocomplete="off">
-    <div class="chiprow" id="groupChips"></div>
-  </section>
+  <div class="screen" id="homeScreen">
+    <section class="filterbar" id="filterbar" hidden>
+      <input type="search" id="searchInput" placeholder="グループ名・会場・タイトルで検索" autocomplete="off">
+      <div class="chiprow" id="groupChips"></div>
+    </section>
 
-  <section class="next-live" id="nextLiveCard" hidden>
-    <div class="next-live-label">次のライブまで</div>
-    <div class="next-live-main">
-      <span class="next-live-days" id="nextLiveDays">--</span>
-      <span class="next-live-unit">日</span>
-    </div>
-    <div class="next-live-detail" id="nextLiveDetail"></div>
-  </section>
+    <section class="next-live" id="nextLiveCard" hidden>
+      <div class="next-live-label">次のライブまで</div>
+      <div class="next-live-main">
+        <span class="next-live-days" id="nextLiveDays">--</span>
+        <span class="next-live-unit">日</span>
+      </div>
+      <div class="next-live-detail" id="nextLiveDetail"></div>
+    </section>
 
-  <nav class="tabbar" id="statusTabs">
-    <button class="tab active" data-status="upcoming">予定</button>
-    <button class="tab" data-status="go">参戦</button>
-    <button class="tab" data-status="interested">気になる</button>
-    <button class="tab" data-status="done">終了</button>
-    <button class="tab" data-status="attended">行った</button>
-    <button class="tab" data-status="all">すべて</button>
-  </nav>
+    <nav class="tabbar" id="statusTabs">
+      <button class="tab active" data-status="upcoming">予定</button>
+      <button class="tab" data-status="go">参戦</button>
+      <button class="tab" data-status="interested">気になる</button>
+      <button class="tab" data-status="done">終了</button>
+      <button class="tab" data-status="attended">行った</button>
+      <button class="tab" data-status="all">すべて</button>
+    </nav>
 
-  <main class="list" id="list"></main>
+    <main class="list" id="list"></main>
 
-  <p class="empty-state" id="emptyState" hidden>予定されているライブはありません。<br>右下の「+」から追加しましょう。</p>
+    <p class="empty-state" id="emptyState" hidden>予定されているライブはありません。<br>右下の「+」から追加しましょう。</p>
+  </div>
 
-  <button class="fab" id="addBtn" aria-label="ライブを追加">＋</button>
-
-</div>
-
-<div class="modal-overlay" id="discoverOverlay" hidden>
-  <div class="modal">
-    <div class="modal-header">
-      <h2>ライブを検索</h2>
-      <button class="icon-btn" id="closeDiscoverBtn" aria-label="閉じる">
-        <svg viewBox="0 0 24 24" width="20" height="20"><line x1="5" y1="5" x2="19" y2="19" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><line x1="19" y1="5" x2="5" y2="19" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
-      </button>
-    </div>
-
+  <div class="screen" id="searchScreen" hidden>
     <div class="discover-filters">
       <div class="discover-search-row">
         <input type="search" id="discoverSearchInput" placeholder="グループ名で検索(例: ○○シスターズ)" autocomplete="off">
@@ -79,6 +66,42 @@
     <p class="discover-meta" id="discoverMeta">読み込み中...</p>
     <div class="discover-list" id="discoverList"></div>
   </div>
+
+  <div class="screen" id="otherScreen" hidden>
+    <section class="settings-section">
+      <h2 class="settings-title">★ お気に入りグループ</h2>
+      <div class="fav-manage-row">
+        <input type="text" id="favManageInput" placeholder="グループ名を入力して追加">
+        <button type="button" class="btn-primary" id="favManageAddBtn">追加</button>
+      </div>
+      <div class="fav-manage-list" id="favManageList"></div>
+      <p class="settings-hint" id="favManageEmpty">まだお気に入りがありません。</p>
+    </section>
+
+    <section class="settings-section">
+      <h2 class="settings-title">このアプリについて</h2>
+      <p class="settings-hint">推しスケは、アイドル・アーティストのライブスケジュールをまとめて確認できる個人用アプリです。ホームで自分の予定を管理し、検索タブでは自動収集した数千件のライブ情報からグループ名・日付・地域で探せます。</p>
+      <a class="settings-link" href="https://github.com/kousei0902/idol-live-schedule" target="_blank" rel="noopener">GitHubリポジトリを見る</a>
+    </section>
+  </div>
+
+  <button class="fab" id="addBtn" aria-label="ライブを追加">＋</button>
+
+  <nav class="bottombar" id="bottomNav">
+    <button class="bottombar-btn active" data-screen="home" aria-label="ホーム">
+      <svg viewBox="0 0 24 24" width="22" height="22"><path d="M4 11 L12 4 L20 11 V20 A1 1 0 0 1 19 21 H14 V15 H10 V21 H5 A1 1 0 0 1 4 20 Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/></svg>
+      <span>ホーム</span>
+    </button>
+    <button class="bottombar-btn" data-screen="search" aria-label="検索">
+      <svg viewBox="0 0 24 24" width="22" height="22"><path d="M12 2 L14.5 9.5 L22 12 L14.5 14.5 L12 22 L9.5 14.5 L2 12 L9.5 9.5 Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+      <span>検索</span>
+    </button>
+    <button class="bottombar-btn" data-screen="other" aria-label="その他">
+      <svg viewBox="0 0 24 24" width="22" height="22"><rect x="4" y="4" width="7" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="2"/><rect x="13" y="4" width="7" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="2"/><rect x="4" y="13" width="7" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="2"/><rect x="13" y="13" width="7" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+      <span>その他</span>
+    </button>
+  </nav>
+
 </div>
 
 <div class="modal-overlay" id="modalOverlay" hidden>
