@@ -16430,5 +16430,61 @@
     "venue": "アリオ八尾 4F MOVIX八尾（大阪府）",
     "source": "livepocket（ファン・アイドル）",
     "firstSeen": "2026-08-14T12:58:42Z"
+  },
+  "https://tiget.net/events/512397": {
+    "title": "ESTLINK☆茉白せいな生誕祭2026",
+    "group": "ESTLINK☆茉白せいな生誕祭2026",
+    "date": "2026-09-03",
+    "venue": "東京都",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-14T15:48:23Z"
+  },
+  "https://livepocket.jp/e/cm1108": {
+    "title": "QUEST of TDGP Vol.2",
+    "group": "TDGP",
+    "date": "2026-11-08",
+    "venue": "渋谷ClubMalcolm（東京都）",
+    "source": "livepocket（ファン・アイドル）",
+    "firstSeen": "2026-08-14T15:51:14Z"
+  },
+  "https://livepocket.jp/e/my220": {
+    "title": "ジェニュインザアイドル単独公演特別版 -公演チケット-",
+    "group": "空羽珠雅 / 星宮廉 / 渋谷真生 / 遥叶多 / 田代真音翔 / 片上勇志 / ジェニュインザアイドル",
+    "date": "2026-08-20",
+    "venue": "StudioFreedom（東京都）",
+    "source": "livepocket（ファン・アイドル）",
+    "firstSeen": "2026-08-14T15:51:14Z"
+  },
+  "https://livepocket.jp/e/m03ti": {
+    "title": "9/17(木)Dr.CUTTER5ヶ月連続主催『傷跡つけに来ました』",
+    "group": "Dr.CUTTER / アカデミック・ホラー / ゼンゼロランカー / XILUX",
+    "date": "2026-09-17",
+    "venue": "新高円寺LOFTX（東京都）",
+    "source": "livepocket（ファン・アイドル）",
+    "firstSeen": "2026-08-14T15:51:14Z"
+  },
+  "https://ticketdive.com/event/MEGAFON-Tour2026": {
+    "title": "MEGAFON TOUR 2026 「START LINE」",
+    "group": "MEGAFON TOUR 2026 「START LINE」",
+    "date": "2026-10-17",
+    "venue": "小樽GOLD STONE",
+    "source": "TicketDive（新着エントリー）",
+    "firstSeen": "2026-08-14T15:51:15Z"
+  },
+  "https://ticketdive.com/event/utagetosaikounonatsu2026": {
+    "title": "UtaGe! FREE LIVE『宴と最高の夏！2026』",
+    "group": "UtaGe! FREE LIVE『宴と最高の夏！2026』",
+    "date": "2026-09-30",
+    "venue": "東急歌舞伎町タワー周辺特設会場",
+    "source": "TicketDive（新着エントリー）",
+    "firstSeen": "2026-08-14T15:51:15Z"
+  },
+  "https://ticketdive.com/event/popgalaxy0816": {
+    "title": "POP GALAXY 2026 -DAY2-一般",
+    "group": "POP GALAXY 2026 -DAY2-一般",
+    "date": "2026-08-16",
+    "venue": "お台場R地区",
+    "source": "TicketDive（新着エントリー）",
+    "firstSeen": "2026-08-14T15:51:15Z"
   }
 }
