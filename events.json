@@ -25677,5 +25677,68 @@
     "prefecture": null,
     "source": "TicketDive（新着エントリー）",
     "firstSeen": "2026-08-15T06:33:15Z"
+  },
+  "https://tiget.net/events/514829": {
+    "title": "漫才オレンジレンジ",
+    "group": "牛女しらす / 可児正 / センチネル / フランツ / ...",
+    "date": "2026-09-28",
+    "venue": "東京都",
+    "prefecture": "東京都",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-15T09:23:50Z"
+  },
+  "https://tiget.net/events/514793": {
+    "title": "GIGA•GIGA SONIC ～幕張メッセ直前SP～",
+    "group": "SoRaLis / MOON RABBiTS / -天架-...",
+    "date": "2026-09-09",
+    "venue": "神奈川県",
+    "prefecture": "神奈川県",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-15T09:23:50Z"
+  },
+  "https://tiget.net/events/514770": {
+    "title": "「FUTURE: SUPER LIVE 2026」@大塚FUTU...",
+    "group": "Re:INCARNATION / 夢みるアドレセンス / ...",
+    "date": "2026-08-22",
+    "venue": "東京都",
+    "prefecture": "東京都",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-15T09:23:50Z"
+  },
+  "https://tiget.net/events/514729": {
+    "title": "vVibe! 2nd Anniversary One-Man L...",
+    "group": "vVibe! 2nd Anniversary One-Man L...",
+    "date": "2026-09-14",
+    "venue": "東京都",
+    "prefecture": "東京都",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-15T09:23:50Z"
+  },
+  "https://tiget.net/events/514727": {
+    "title": "vVibe! 2nd Anniversary One-Man L...",
+    "group": "vVibe! 2nd Anniversary One-Man L...",
+    "date": "2026-09-14",
+    "venue": "東京都",
+    "prefecture": "東京都",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-15T09:23:50Z"
+  },
+  "https://tiget.net/events/514703": {
+    "title": "M+ You vol.1 ~hao Birthday Special~",
+    "group": "BxB / A-dnis. / Ci-nic / AKIR...",
+    "date": "2026-09-08",
+    "venue": "東京都",
+    "prefecture": "東京都",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-15T09:23:50Z"
+  },
+  "https://livepocket.jp/e/lwnx4": {
+    "title": "横浜みんなでありがとうライブ",
+    "group": "牛女  / ミネ  / おばた最高  / 清水駿平  / ドラマ☆麺",
+    "date": "2026-09-29",
+    "venue": "Naked Loft Yokohama（神奈川県）",
+    "prefecture": "神奈川県",
+    "source": "livepocket（ファン・アイドル）",
+    "firstSeen": "2026-08-15T09:26:36Z"
   }
 }
