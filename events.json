@@ -26082,5 +26082,50 @@
     "prefecture": null,
     "source": "TicketDive（新着エントリー）",
     "firstSeen": "2026-08-15T12:31:04Z"
+  },
+  "https://tiget.net/events/514534": {
+    "title": "アイドル道場-歌舞伎町サーキット-",
+    "group": "アイドル道場-歌舞伎町サーキット-",
+    "date": "2026-09-12",
+    "venue": "",
+    "prefecture": null,
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-15T15:18:00Z"
+  },
+  "https://tiget.net/events/514589": {
+    "title": "アニノマス“兄の日”公演　「アニノマスの宴」",
+    "group": "アニノマス",
+    "date": "2026-08-23",
+    "venue": "",
+    "prefecture": null,
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-15T15:18:00Z"
+  },
+  "https://tiget.net/events/514928": {
+    "title": "S★魂Vol.33 S★魂　秋祭り",
+    "group": "S★魂Vol.33 S★魂　秋祭り",
+    "date": "2026-09-19",
+    "venue": "愛知県",
+    "prefecture": "愛知県",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-15T15:18:00Z"
+  },
+  "https://tiget.net/events/514927": {
+    "title": "「JPI SUMMER END LIVE ―現実と異世界の境界線―」",
+    "group": "「JPI SUMMER END LIVE ―現実と異世界の境界線―」",
+    "date": "2026-08-28",
+    "venue": "東京都",
+    "prefecture": "東京都",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-15T15:18:00Z"
+  },
+  "https://ticketdive.com/event/KP_0816": {
+    "title": "8/16(日) KAWAII PARTY FREE!!",
+    "group": "8/16(日) KAWAII PARTY FREE!!",
+    "date": "2026-08-16",
+    "venue": "ステラボール",
+    "prefecture": null,
+    "source": "TicketDive（新着エントリー）",
+    "firstSeen": "2026-08-15T15:20:44Z"
   }
 }
