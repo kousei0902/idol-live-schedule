@@ -25605,5 +25605,77 @@
     "prefecture": "大阪府",
     "source": "livepocket（ファン・アイドル）",
     "firstSeen": "2026-08-15T03:40:12Z"
+  },
+  "https://tiget.net/events/514658": {
+    "title": "ラストブルー定期公演 LAST BLUE SHOWCASE -B...",
+    "group": "ラストブルー",
+    "date": "2026-09-14",
+    "venue": "東京都",
+    "prefecture": "東京都",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-15T06:30:30Z"
+  },
+  "https://tiget.net/events/513790": {
+    "title": "新天町だョ！全員集合",
+    "group": "パピマシェ / #SSSG / レチェルチェ / CHER...",
+    "date": "2026-08-23",
+    "venue": "福岡県",
+    "prefecture": "福岡県",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-15T06:30:30Z"
+  },
+  "https://tiget.net/events/514819": {
+    "title": "アユスクファンミーティング!! 〜ワンマン映像鑑賞会〜",
+    "group": "I to U $CREAMing!!",
+    "date": "2026-08-23",
+    "venue": "東京都",
+    "prefecture": "東京都",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-15T06:30:30Z"
+  },
+  "https://tiget.net/events/514762": {
+    "title": "ぱじゃまぱーてぃーへようこそ",
+    "group": "ユノローグ / 苺愛あまね / 麻雛紗弥 / 花澤ゆず",
+    "date": "2026-08-21",
+    "venue": "大阪府",
+    "prefecture": "大阪府",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-15T06:30:30Z"
+  },
+  "https://livepocket.jp/e/woos_anindowho": {
+    "title": "WOos pre. 杏仁豆腐 an in do who release party",
+    "group": "WOos",
+    "date": "2026-11-02",
+    "venue": "下北沢BASEMENTBAR（東京都）",
+    "prefecture": "東京都",
+    "source": "livepocket（ファン・アイドル）",
+    "firstSeen": "2026-08-15T06:33:14Z"
+  },
+  "https://livepocket.jp/e/260907n": {
+    "title": "intangible #4",
+    "group": "intangible #4",
+    "date": "2026-09-07",
+    "venue": "月見ル君想フ（東京都）",
+    "prefecture": "東京都",
+    "source": "livepocket（ファン・アイドル）",
+    "firstSeen": "2026-08-15T06:33:14Z"
+  },
+  "https://livepocket.jp/e/40271": {
+    "title": "#挨拶できひんやつ何やってもダメ",
+    "group": "キュニコ / めっちゃ梨央 / グデイ / ミ米ミ",
+    "date": "2026-09-11",
+    "venue": "ROCK CAFE LOFT is your room（東京都）",
+    "prefecture": "東京都",
+    "source": "livepocket（ファン・アイドル）",
+    "firstSeen": "2026-08-15T06:33:14Z"
+  },
+  "https://ticketdive.com/event/YON_PIECE": {
+    "title": "YON PIECE -ROMANCE DAWN 冒険の夜明け-",
+    "group": "YON PIECE -ROMANCE DAWN 冒険の夜明け-",
+    "date": "2026-09-14",
+    "venue": "Spotify O-EAST",
+    "prefecture": null,
+    "source": "TicketDive（新着エントリー）",
+    "firstSeen": "2026-08-15T06:33:15Z"
   }
 }
