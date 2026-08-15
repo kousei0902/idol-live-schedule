@@ -25740,5 +25740,347 @@
     "prefecture": "神奈川県",
     "source": "livepocket（ファン・アイドル）",
     "firstSeen": "2026-08-15T09:26:36Z"
+  },
+  "https://tiget.net/events/514546": {
+    "title": "ジエメイ x マザリ  2MAN in TAIWAN",
+    "group": "マザリ / ジエメイ / THEΔRAREz",
+    "date": "2026-09-04",
+    "venue": "",
+    "prefecture": null,
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-15T12:28:02Z"
+  },
+  "https://tiget.net/events/512159": {
+    "title": "こよゆか撮影会",
+    "group": "Koyoka / 木之宮有香",
+    "date": "2026-09-20",
+    "venue": "",
+    "prefecture": null,
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-15T12:28:02Z"
+  },
+  "https://tiget.net/events/514550": {
+    "title": "一凛3rdワンマンライブ OPERATION : DEEP CO...",
+    "group": "一凛",
+    "date": "2026-11-23",
+    "venue": "東京都",
+    "prefecture": "東京都",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-15T12:28:02Z"
+  },
+  "https://tiget.net/events/514554": {
+    "title": "Decameron Party 第31夜",
+    "group": "希咲 / 花澤ゆず / 柳那瀬翠凪 / 姫七森こいし / ...",
+    "date": "2026-08-26",
+    "venue": "大阪府",
+    "prefecture": "大阪府",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-15T12:28:02Z"
+  },
+  "https://tiget.net/events/512369": {
+    "title": "👑Qtwins 主催♦︎ 「QUEENDOM-炎宴-弐の巻-」",
+    "group": "Qtwins / じゆりぴ / 大野舞 / 加藤いくみ /...",
+    "date": "2026-09-04",
+    "venue": "東京都",
+    "prefecture": "東京都",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-15T12:28:02Z"
+  },
+  "https://tiget.net/events/513716": {
+    "title": "夏の終わり、おばんざいの夜。",
+    "group": "君影ラン",
+    "date": "2026-08-29",
+    "venue": "",
+    "prefecture": null,
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-15T12:28:02Z"
+  },
+  "https://tiget.net/events/514676": {
+    "title": "GIRLS! GIRLS! RELATION! Vol.76",
+    "group": "GIRLS! GIRLS! RELATION! Vol.76",
+    "date": "2026-09-08",
+    "venue": "東京都",
+    "prefecture": "東京都",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-15T12:28:02Z"
+  },
+  "https://tiget.net/events/514899": {
+    "title": "仲間と一緒にSEKAIE☆はじめませんか？",
+    "group": "SEKAIE☆",
+    "date": "2026-09-01",
+    "venue": "東京都",
+    "prefecture": "東京都",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-15T12:28:02Z"
+  },
+  "https://tiget.net/events/514898": {
+    "title": "【数量限定】  私服オンラインチェキ",
+    "group": "SEKAIE☆",
+    "date": "2026-08-23",
+    "venue": "",
+    "prefecture": null,
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-15T12:28:02Z"
+  },
+  "https://tiget.net/events/514895": {
+    "title": "朗読劇　残響ノート　Vol.1",
+    "group": "琴吹楓",
+    "date": "2026-09-16",
+    "venue": "東京都",
+    "prefecture": "東京都",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-15T12:28:02Z"
+  },
+  "https://tiget.net/events/514892": {
+    "title": "ときめき☆high school vol.17",
+    "group": "白雪ここな / ぴより / きる / タジマホノカ / 藤...",
+    "date": "2026-09-09",
+    "venue": "ライブ配信",
+    "prefecture": null,
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-15T12:28:02Z"
+  },
+  "https://tiget.net/events/514891": {
+    "title": "もりながぴの卒業ライブ",
+    "group": "しゅみぇる",
+    "date": "2026-09-27",
+    "venue": "広島県",
+    "prefecture": "広島県",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-15T12:28:02Z"
+  },
+  "https://tiget.net/events/514885": {
+    "title": "理想の少女　翠城みさきバースデーLIVE",
+    "group": "girl of my dream",
+    "date": "2026-09-22",
+    "venue": "北海道",
+    "prefecture": "北海道",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-15T12:28:02Z"
+  },
+  "https://tiget.net/events/514881": {
+    "title": "バリスゴ天神祭 Vol.7 〜渚ここな生誕祭〜",
+    "group": "天神娘 / RE:mee / めんたい娘 / すずひま",
+    "date": "2026-09-05",
+    "venue": "福岡県",
+    "prefecture": "福岡県",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-15T12:28:02Z"
+  },
+  "https://tiget.net/events/514869": {
+    "title": "漫才オレンジレンジ",
+    "group": "牛女しらす / 可児正 / センチネル / フランツ / ...",
+    "date": "2026-09-28",
+    "venue": "東京都",
+    "prefecture": "東京都",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-15T12:28:02Z"
+  },
+  "https://tiget.net/events/514867": {
+    "title": "【2部】8/21(金) 『LEVEL4-man vol.211』...",
+    "group": "EMPATHY / LEIWAN / AIBECK / C...",
+    "date": "2026-08-21",
+    "venue": "愛知県",
+    "prefecture": "愛知県",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-15T12:28:02Z"
+  },
+  "https://tiget.net/events/514859": {
+    "title": "浴衣撮影会 りく",
+    "group": "バッシュエンタテインメント",
+    "date": "2026-08-16",
+    "venue": "",
+    "prefecture": null,
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-15T12:28:02Z"
+  },
+  "https://tiget.net/events/514858": {
+    "title": "浴衣撮影会 ここの",
+    "group": "バッシュエンタテインメント",
+    "date": "2026-08-16",
+    "venue": "",
+    "prefecture": null,
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-15T12:28:02Z"
+  },
+  "https://tiget.net/events/514857": {
+    "title": "浴衣撮影会 りりか",
+    "group": "浴衣撮影会 りりか",
+    "date": "2026-08-16",
+    "venue": "",
+    "prefecture": null,
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-15T12:28:02Z"
+  },
+  "https://tiget.net/events/514856": {
+    "title": "『夏だ！LIVE後！BBQだ！』",
+    "group": "Nosquael / ロロキルッ！ / SICXXX.",
+    "date": "2026-08-22",
+    "venue": "",
+    "prefecture": null,
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-15T12:28:02Z"
+  },
+  "https://tiget.net/events/514827": {
+    "title": "『Fプレ』",
+    "group": "『Fプレ』",
+    "date": "2026-09-29",
+    "venue": "東京都",
+    "prefecture": "東京都",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-15T12:28:02Z"
+  },
+  "https://tiget.net/events/514821": {
+    "title": "Able-Gleam 新体制お披露目LIVE",
+    "group": "Able-Gleam 新体制お披露目LIVE",
+    "date": "2026-09-06",
+    "venue": "宮城県",
+    "prefecture": "宮城県",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-15T12:28:02Z"
+  },
+  "https://tiget.net/events/514680": {
+    "title": "君叶いのは生誕祭前対バンLIVE",
+    "group": "リリシック学園研修生 / パイナップルクラブ / ぼや〜ぢゅ",
+    "date": "2026-08-30",
+    "venue": "大阪府",
+    "prefecture": "大阪府",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-15T12:28:02Z"
+  },
+  "https://livepocket.jp/e/0wxdy": {
+    "title": "UNIVERSE企画 4th anniversary 『Dance party』",
+    "group": "FOKALITE / yumegiwa last girl / NUANCE / キュニコ / おやすみホログラム / Payrin’s / airattic / スパンコールグッドタイムズ",
+    "date": "2026-09-12",
+    "venue": "新宿MARZ（東京都）",
+    "prefecture": "東京都",
+    "source": "livepocket（ファン・アイドル）",
+    "firstSeen": "2026-08-15T12:30:47Z"
+  },
+  "https://livepocket.jp/e/f243l": {
+    "title": "08/23『毒花ノ宴』at.NAGOYA",
+    "group": "DaTuRa-ダチュラ- / tzmiki  / SHIROMIZAKANA  / アクリム",
+    "date": "2026-08-23",
+    "venue": "名古屋ell.SIZE（愛知県）",
+    "prefecture": "愛知県",
+    "source": "livepocket（ファン・アイドル）",
+    "firstSeen": "2026-08-15T12:30:47Z"
+  },
+  "https://livepocket.jp/e/caff55": {
+    "title": "Caffeine LIVE（Vol.55）",
+    "group": "the CHERRY BOY  / 月光グリーン / ナイトdeライト / Watana Besta SOCIAL club / O.A. 大森俊治と わたなべゆうか  / MC：川井“J”竜輔",
+    "date": "2026-11-01",
+    "venue": "PLANT（北海道）",
+    "prefecture": "北海道",
+    "source": "livepocket（ファン・アイドル）",
+    "firstSeen": "2026-08-15T12:30:47Z"
+  },
+  "https://livepocket.jp/e/4luj2": {
+    "title": "UNION ROCK vol.4",
+    "group": "音癒 / The Märbles / no-no / mM7th / Mitei",
+    "date": "2026-09-17",
+    "venue": "渋谷チェルシーホテル（東京都）",
+    "prefecture": "東京都",
+    "source": "livepocket（ファン・アイドル）",
+    "firstSeen": "2026-08-15T12:30:47Z"
+  },
+  "https://livepocket.jp/e/20260925www": {
+    "title": "AMINO ACID x LOCAL WORLD -Dinamarca-",
+    "group": "Dinamarca / + TBA",
+    "date": "2026-09-25",
+    "venue": "WWW & WWWβ（東京都）",
+    "prefecture": "東京都",
+    "source": "livepocket（ファン・アイドル）",
+    "firstSeen": "2026-08-15T12:30:47Z"
+  },
+  "https://eplus.jp/sf/detail/2734830001-P0030148P021001": {
+    "title": "いぎなり東北産 『ソロ曲ステーション』",
+    "group": "いぎなり東北産 『ソロ曲ステーション』",
+    "date": "2026-08-29",
+    "venue": "THEATRE 1010（東京都）",
+    "prefecture": "東京都",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-15T12:31:03Z"
+  },
+  "https://eplus.jp/sf/detail/0289330001-P0030128P021001": {
+    "title": "SKE48 佐藤佳穂 2nd ソロライブ ～今宵は月が綺麗ですね～",
+    "group": "SKE48 佐藤佳穂 2nd ソロライブ ～今宵は月が綺麗ですね～",
+    "date": "2026-09-03",
+    "venue": "Zephyr Hall（愛知県）",
+    "prefecture": "愛知県",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-15T12:31:03Z"
+  },
+  "https://eplus.jp/sf/detail/2029630001-P0030562P021001": {
+    "title": "MARQUEE Fes. -day1-",
+    "group": "MARQUEE Fes. -day1-",
+    "date": "2026-09-15",
+    "venue": "Spotify O-EAST（東京都）",
+    "prefecture": "東京都",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-15T12:31:03Z"
+  },
+  "https://eplus.jp/sf/detail/2029630001-P0030563P021001": {
+    "title": "MARQUEE Fes. -day2-",
+    "group": "MARQUEE Fes. -day2-",
+    "date": "2026-09-16",
+    "venue": "Spotify O-EAST（東京都）",
+    "prefecture": "東京都",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-15T12:31:03Z"
+  },
+  "https://eplus.jp/sf/detail/4020380001-P0030019P021001": {
+    "title": "フクフェス vol.6 STU48 福田朱里主催フェス",
+    "group": "フクフェス vol.6 STU48 福田朱里主催フェス",
+    "date": "2026-09-20",
+    "venue": "高松festhalle（香川県）",
+    "prefecture": "香川県",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-15T12:31:03Z"
+  },
+  "https://eplus.jp/sf/detail/4020380001-P0030019P021002": {
+    "title": "フクフェス vol.6 STU48 福田朱里主催フェス",
+    "group": "フクフェス vol.6 STU48 福田朱里主催フェス",
+    "date": "2026-09-20",
+    "venue": "高松festhalle（香川県）",
+    "prefecture": "香川県",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-15T12:31:03Z"
+  },
+  "https://eplus.jp/sf/detail/4020380001-P0030020P021001": {
+    "title": "フクフェス vol.6 STU48 福田朱里主催フェス",
+    "group": "フクフェス vol.6 STU48 福田朱里主催フェス",
+    "date": "2026-09-21",
+    "venue": "高松festhalle（香川県）",
+    "prefecture": "香川県",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-15T12:31:03Z"
+  },
+  "https://eplus.jp/sf/detail/1818810001-P0030098P021001": {
+    "title": "ばってん少女隊",
+    "group": "ばってん少女隊",
+    "date": "2026-10-12",
+    "venue": "SOUND SHOWER ark 清水（静岡県）",
+    "prefecture": "静岡県",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-15T12:31:03Z"
+  },
+  "https://eplus.jp/sf/detail/1818810001-P0030098P021002": {
+    "title": "ばってん少女隊",
+    "group": "ばってん少女隊",
+    "date": "2026-10-12",
+    "venue": "SOUND SHOWER ark 清水（静岡県）",
+    "prefecture": "静岡県",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-15T12:31:03Z"
+  },
+  "https://ticketdive.com/event/saikyomuteki-popup2026": {
+    "title": "最強無敵連合POPUPショップ",
+    "group": "最強無敵連合POPUPショップ",
+    "date": "2026-08-27",
+    "venue": "LAIDOUT SHIBUYA",
+    "prefecture": null,
+    "source": "TicketDive（新着エントリー）",
+    "firstSeen": "2026-08-15T12:31:04Z"
   }
 }
