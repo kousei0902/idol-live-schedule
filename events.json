@@ -26127,5 +26127,77 @@
     "prefecture": null,
     "source": "TicketDive（新着エントリー）",
     "firstSeen": "2026-08-15T15:20:44Z"
+  },
+  "https://tiget.net/events/514941": {
+    "title": "恋するツインテール公演",
+    "group": "わんだふる×ぱにっく / 妄想ヒロイン / Lunouir...",
+    "date": "2026-08-27",
+    "venue": "大阪府",
+    "prefecture": "大阪府",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-15T18:23:43Z"
+  },
+  "https://tiget.net/events/514931": {
+    "title": "LuvHz Pre.午後5時のお茶会 Vol.45 -ハウツー世...",
+    "group": "LuvHz / ハウツー世界征服",
+    "date": "2026-08-17",
+    "venue": "大阪府",
+    "prefecture": "大阪府",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-15T18:23:43Z"
+  },
+  "https://eplus.jp/sf/detail/3371470001-P0030130P021001": {
+    "title": "M-line Special 2026 Autumn ～NOCTURNE～",
+    "group": "M-line Special 2026 Autumn ～NOCTURNE～",
+    "date": "2026-11-03",
+    "venue": "仙台darwin（宮城県）",
+    "prefecture": "宮城県",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-15T18:26:50Z"
+  },
+  "https://eplus.jp/sf/detail/3371470001-P0030130P021002": {
+    "title": "M-line Special 2026 Autumn ～NOCTURNE～",
+    "group": "M-line Special 2026 Autumn ～NOCTURNE～",
+    "date": "2026-11-03",
+    "venue": "仙台darwin（宮城県）",
+    "prefecture": "宮城県",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-15T18:26:50Z"
+  },
+  "https://eplus.jp/sf/detail/3218830001-P0030025P021001": {
+    "title": "22/7",
+    "group": "22/7",
+    "date": "2026-11-07",
+    "venue": "東京国際フォーラム ホールA（東京都）",
+    "prefecture": "東京都",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-15T18:26:50Z"
+  },
+  "https://eplus.jp/sf/detail/3800270001-P0030003P021001": {
+    "title": "美味しい曖昧",
+    "group": "美味しい曖昧",
+    "date": "2026-11-16",
+    "venue": "Spotify O-WEST（東京都）",
+    "prefecture": "東京都",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-15T18:26:50Z"
+  },
+  "https://eplus.jp/sf/detail/1994490001-P0030049P021001": {
+    "title": "LADYBABY",
+    "group": "LADYBABY",
+    "date": "2026-12-01",
+    "venue": "Spotify O-EAST（東京都）",
+    "prefecture": "東京都",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-15T18:26:50Z"
+  },
+  "https://eplus.jp/sf/detail/4018060001-P0030032P021001": {
+    "title": "JINKS BANDSET ONEMANLIVE「Brave the New Day」",
+    "group": "JINKS BANDSET ONEMANLIVE「Brave the New Day」",
+    "date": "2027-02-14",
+    "venue": "福岡DRUM LOGOS（福岡県）",
+    "prefecture": "福岡県",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-15T18:26:50Z"
   }
 }
