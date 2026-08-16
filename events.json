@@ -26316,5 +26316,68 @@
     "prefecture": null,
     "source": "TicketDive（新着エントリー）",
     "firstSeen": "2026-08-16T03:49:27Z"
+  },
+  "https://tiget.net/events/515009": {
+    "title": "悠白渚月定期公演vol.4",
+    "group": "悠白渚月 / 小鳥遊朱寿from CandyCross /...",
+    "date": "2026-08-25",
+    "venue": "福岡県",
+    "prefecture": "福岡県",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-16T06:32:11Z"
+  },
+  "https://tiget.net/events/514991": {
+    "title": "MUSCLE CIRCUS 〜おもちゃの大冒険〜　東京公演　松山...",
+    "group": "松山あおい",
+    "date": "2026-09-06",
+    "venue": "東京都",
+    "prefecture": "東京都",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-16T06:32:11Z"
+  },
+  "https://livepocket.jp/e/books_and_something_2026": {
+    "title": "books & something LIVE 2026",
+    "group": "おとぎ話 / ハシリコミーズ",
+    "date": "2026-10-03",
+    "venue": "FEVER（東京都）",
+    "prefecture": "東京都",
+    "source": "livepocket（ファン・アイドル）",
+    "firstSeen": "2026-08-16T06:35:02Z"
+  },
+  "https://livepocket.jp/e/dwkya": {
+    "title": "Ride On Monday",
+    "group": "宮田大樹 / 菊田 雪心 / Ka-mue / 龍星 / 幻奏法師 / KITA坊主with石川賢次",
+    "date": "2026-11-09",
+    "venue": "SPADE BOX / HeartLand（愛知県）",
+    "prefecture": "愛知県",
+    "source": "livepocket（ファン・アイドル）",
+    "firstSeen": "2026-08-16T06:35:02Z"
+  },
+  "https://livepocket.jp/e/0rjxn": {
+    "title": "MUSIC BOX 100",
+    "group": "桜aimer / 一人バンドshogo / 小山真実 / IBUKI",
+    "date": "2026-10-16",
+    "venue": "SPADE BOX（愛知県）",
+    "prefecture": "愛知県",
+    "source": "livepocket（ファン・アイドル）",
+    "firstSeen": "2026-08-16T06:35:02Z"
+  },
+  "https://livepocket.jp/e/vent__20260829": {
+    "title": "MATRIXXMAN",
+    "group": "MATRiXXMAN",
+    "date": "2026-08-29",
+    "venue": "VENT（東京都）",
+    "prefecture": "東京都",
+    "source": "livepocket（ファン・アイドル）",
+    "firstSeen": "2026-08-16T06:35:02Z"
+  },
+  "https://livepocket.jp/e/1_elf": {
+    "title": "Ride On Monday",
+    "group": "宮田大樹 / 末藤亜季 / MüNi",
+    "date": "2026-10-05",
+    "venue": "SPADE BOX / HeartLand（愛知県）",
+    "prefecture": "愛知県",
+    "source": "livepocket（ファン・アイドル）",
+    "firstSeen": "2026-08-16T06:35:02Z"
   }
 }
