@@ -26478,5 +26478,2876 @@
     "prefecture": null,
     "source": "TicketDive（新着エントリー）",
     "firstSeen": "2026-08-16T09:27:15Z"
+  },
+  "https://tiget.net/events/513544": {
+    "title": "HINA birthday LIVE : LOVE GAME",
+    "group": "INSPIRE / 鈴木楓恋 / 黒須遥",
+    "date": "2026-09-26",
+    "venue": "東京都",
+    "prefecture": "東京都",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-16T12:29:44Z"
+  },
+  "https://tiget.net/events/514553": {
+    "title": "『YIF Vol.12 ～MOZZ 安里 Birthday Ev...",
+    "group": "UNEIZ / MOZZ / Citrus Harmony...",
+    "date": "2026-09-20",
+    "venue": "山口県",
+    "prefecture": "山口県",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-16T12:29:44Z"
+  },
+  "https://tiget.net/events/514552": {
+    "title": "『YIF Vol.11 ～Melty Dream～』",
+    "group": "Trifleur / NiTELiTE / 天みれば君の幸...",
+    "date": "2026-09-19",
+    "venue": "山口県",
+    "prefecture": "山口県",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-16T12:29:44Z"
+  },
+  "https://tiget.net/events/514547": {
+    "title": "Candye♡Syrup Festival 1.5th anni...",
+    "group": "Candye♡Syrup Festival 1.5th anni...",
+    "date": "2026-09-19",
+    "venue": "東京都",
+    "prefecture": "東京都",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-16T12:29:44Z"
+  },
+  "https://tiget.net/events/514573": {
+    "title": "バリスゴ天神祭 Vol.8〜天神祭LIVE〜",
+    "group": "めんたい娘 / Anju / はなぱんまん / 宮嶌ひな ...",
+    "date": "2026-09-21",
+    "venue": "福岡県",
+    "prefecture": "福岡県",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-16T12:29:44Z"
+  },
+  "https://tiget.net/events/500304": {
+    "title": "玉樹凜久活動10周年ワンマン ＆ 生誕主催ライブ(タイトル仮)ワ...",
+    "group": "玉樹凜久",
+    "date": "2027-04-03",
+    "venue": "東京都",
+    "prefecture": "東京都",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-16T12:29:44Z"
+  },
+  "https://tiget.net/events/514934": {
+    "title": "IDOL LOCALITY vol.2",
+    "group": "スキにNaRaReYo / ぷらちなまふぃあ。 / 7テン...",
+    "date": "2026-08-30",
+    "venue": "東京都",
+    "prefecture": "東京都",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-16T12:29:44Z"
+  },
+  "https://tiget.net/events/514862": {
+    "title": "AZ-ON THEΔRAREz  鳴ル神 3MANLIVE in...",
+    "group": "AZ-ON / THEΔRAREz / 鳴ル神",
+    "date": "2026-09-06",
+    "venue": "",
+    "prefecture": null,
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-16T12:29:44Z"
+  },
+  "https://tiget.net/events/515086": {
+    "title": "IDOL CAMP in AOYAMA -NIGHT-",
+    "group": "ソラネルカンパニー / 泡沫Lyrics / ソレイユの影...",
+    "date": "2026-08-30",
+    "venue": "東京都",
+    "prefecture": "東京都",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-16T12:29:44Z"
+  },
+  "https://tiget.net/events/515084": {
+    "title": "0番線と夜明け前 2nd ONEMAN LIVE 「佐藤美咲の場合」",
+    "group": "0番線と夜明け前",
+    "date": "2026-08-29",
+    "venue": "京都府",
+    "prefecture": "京都府",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-16T12:29:44Z"
+  },
+  "https://tiget.net/events/515074": {
+    "title": "こってり汗之助＆青春カフェさくらい単独公演「自惚れ」",
+    "group": "こってり汗之助＆青春カフェさくらい単独公演「自惚れ」",
+    "date": "2026-11-01",
+    "venue": "",
+    "prefecture": null,
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-16T12:29:44Z"
+  },
+  "https://tiget.net/events/515042": {
+    "title": "「ALLiCA ONE MAN TOUR2026 〜ALLiCA...",
+    "group": "ALLiCA",
+    "date": "2026-09-06",
+    "venue": "東京都",
+    "prefecture": "東京都",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-16T12:29:44Z"
+  },
+  "https://tiget.net/events/514990": {
+    "title": "日本橋戦線",
+    "group": "日本橋戦線",
+    "date": "2026-09-26",
+    "venue": "大阪府",
+    "prefecture": "大阪府",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-16T12:29:44Z"
+  },
+  "https://tiget.net/events/511899": {
+    "title": "「ALLiCAカツ様の降臨祭 〜ON MY BEAT〜」",
+    "group": "「ALLiCAカツ様の降臨祭 〜ON MY BEAT〜」",
+    "date": "2026-10-03",
+    "venue": "東京都",
+    "prefecture": "東京都",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-16T12:29:44Z"
+  },
+  "https://tiget.net/events/475928": {
+    "title": "🎓 にこっと学園☆アイドル部 - みんなでつくるLIVE -",
+    "group": "花咲花奈 / 七瀬美澪 / 小兎妃れいら / 瀬川侑宇 /...",
+    "date": "2026-08-21",
+    "venue": "大阪府",
+    "prefecture": "大阪府",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-16T12:29:44Z"
+  },
+  "https://livepocket.jp/e/da_vamp_96": {
+    "title": "DA VAMP vol.96",
+    "group": "TIGHT / 縷々 / LUNARISE / ADMIRAL×BANQUET / BrainBeat / Babyinspire / 終末のステラ / ブルベア",
+    "date": "2026-09-17",
+    "venue": "浅草VAMPKIN（東京都）",
+    "prefecture": "東京都",
+    "source": "livepocket（ファン・アイドル）",
+    "firstSeen": "2026-08-16T12:32:44Z"
+  },
+  "https://livepocket.jp/e/rumble0922": {
+    "title": "『Rumble』round.09",
+    "group": "DEXCORE / マザリ",
+    "date": "2026-09-22",
+    "venue": "SHIBUYA THE GAME（東京都）",
+    "prefecture": "東京都",
+    "source": "livepocket（ファン・アイドル）",
+    "firstSeen": "2026-08-16T12:32:44Z"
+  },
+  "https://livepocket.jp/e/makeahood1": {
+    "title": "Hitoyo pre.【MAKE A HOOD Vol.1】",
+    "group": "Hitoyo / GORILLA SNOC / Sleepless Endorphine / Hijack Mind / Heartfield / Stuck in Pain",
+    "date": "2026-11-01",
+    "venue": "新宿ANTIKNOCK（東京都）",
+    "prefecture": "東京都",
+    "source": "livepocket（ファン・アイドル）",
+    "firstSeen": "2026-08-16T12:32:44Z"
+  },
+  "https://livepocket.jp/e/i0hy9": {
+    "title": "灼熱・北堀江カレーフェス!!",
+    "group": "妖狐繚乱 / プラリオン / 稀月莉愛 / 海凪きぬ / 卯月ひなみ / これピコ(仮)",
+    "date": "2026-08-20",
+    "venue": "北堀江 club vijon（大阪府）",
+    "prefecture": "大阪府",
+    "source": "livepocket（ファン・アイドル）",
+    "firstSeen": "2026-08-16T12:32:44Z"
+  },
+  "https://livepocket.jp/e/jxljh": {
+    "title": "ポジティブモンスター定期公演【アイドルスターの登竜モン】～スタモンvol.78～",
+    "group": "ポジティブモンスター / じなんぼ～いずシギハラ / ひまわりが咲く頃に",
+    "date": "2026-09-09",
+    "venue": "ライブハウス代々木Barbara（東京都）",
+    "prefecture": "東京都",
+    "source": "livepocket（ファン・アイドル）",
+    "firstSeen": "2026-08-16T12:32:44Z"
+  },
+  "https://ticketdive.com/event/SPRISEpreSingSingSing0817": {
+    "title": "SPRISE pre. 『Sing Sing Sing』",
+    "group": "SPRISE / アブソプ / #PANnana / Lumi Prima / GRINOAH / マギマギ研修生 / GΛLNØA / ハピネスクラッカー！ / むげんこんぜ / ぼや〜ぢゅ / Arch Angel / Serenade / ココロシンドローム / うぃるめり！",
+    "date": "2026-08-17",
+    "venue": "FANJ twice",
+    "prefecture": "大阪",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/fun-and-pop_vol1": {
+    "title": "FUN! and POP! vol.01",
+    "group": "白地図プロローグ / 撫子の音返し / DRAWCY / éclatcia",
+    "date": "2026-08-17",
+    "venue": "日暮里ネコシアター",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/kitto-yukinobd_2026": {
+    "title": "『湊ゆきの生誕祭2026』",
+    "group": "きっと大切だった / 湊ゆきの / Blue Cheese Choco Fondue / MATANAGOYA / mofu/mofu / 清水まりん / スコティッシュドール",
+    "date": "2026-08-17",
+    "venue": "NAGOYA ReNY limited",
+    "prefecture": "愛知",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://tiget.net/events/513312": {
+    "title": "もりもりまつり！",
+    "group": "森宮藍 / 石岡実咲 / 七瀬ひまり / ミマ／MIMA / 井上由郁 / 南日めい / 星乃ゆめ / 姫川なつめ / 心葉あゆ",
+    "date": "2026-08-17",
+    "venue": "ViBlue EBISU",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/colorlinix_vl": {
+    "title": "COLORLiNIX vol.Ⅵ",
+    "group": "PURE ME / 感情線は時をこえて / LOVE××BAD / AIWO / JINKS / .LiNIXLiNE.",
+    "date": "2026-08-17",
+    "venue": "Live House ANIMA",
+    "prefecture": "大阪",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/0817_galaxy": {
+    "title": "Hiragana 1st Anniversary",
+    "group": "ど〜げん坂69 / 道玄坂69",
+    "date": "2026-08-17",
+    "venue": "秋葉原GALAXY",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/paradogs_vol4": {
+    "title": "LΩPARA pre. 『PARA=DOGS Vol.4』",
+    "group": "LΩPARA / 丑03-USHIMITSU- / City lizard / T.M.P / #いづごはん / heeka",
+    "date": "2026-08-17",
+    "venue": "BEYOND",
+    "prefecture": "大阪",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/PX7YNSWyDpSb8XLhLO0C": {
+    "title": "推せ推せムーブメント！ 妹SP",
+    "group": "ミニワチャ / レッスントゥミー / PUREMORPH / KIKO",
+    "date": "2026-08-17",
+    "venue": "四谷LOTUS",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/aerolipop0817": {
+    "title": "Aerolipop定期公演 Vol.3 『レーシング衣装ライブ』",
+    "group": "Aerolipop",
+    "date": "2026-08-17",
+    "venue": "GOTANDA G4",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://livepocket.jp/e/sbifn": {
+    "title": "【8/17(月)開催】織莉叶(#Mooove!)PARADE掲載記念イベント",
+    "group": "織莉叶",
+    "date": "2026-08-17",
+    "venue": "ABClabo",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/20260818_ueno": {
+    "title": "アナ×キュン×SUPERライブ2026 〜夏休みSP!!編〜",
+    "group": "Spiralia / ひなてん! / ネコプラpixx. / SUPER JYAPON / アイテムはてるてるのみ / Falench. / にっぽん！真骨頂 / KATA☆CHU / KATACOTO＊BANK / ぶっとび！パンデミック / SHINKA↑ / PrincessGarden-姫庭- / BANZAI JAPAN / いつだって青い春。 / 道玄坂69 / ど〜げん坂69 / ヴィランの掟 / LiVREAL / chocolat d'ange / セツナソウ / キミトサクハナ / GrrrDoll / BABY BLOOM / MOON RABBiTS / Maison*Lily / あまいものつめあわせ / イイトコドリ / ポップキャスト / AILOS / 依依≠恋恋 / 甘いものには毒がある。 / SHiroFraiN / LumiDay / OTOMICHI / BANKURUWASE!! / Secret Pinky / ♮リアスクライブ / NO FRAME / Bright Charm / ドキドキハキミノセイ / Sepiacode",
+    "date": "2026-08-18",
+    "venue": "上野恩賜公園野外ステージ",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/fullstorage": {
+    "title": "フルコース×なう♡すとれーじ 2MANLIVE 『フル♡すとれーじ』",
+    "group": "フルコース / なう♡すとれーじ",
+    "date": "2026-08-18",
+    "venue": "代官山SpaceOdd",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/angereve20260818": {
+    "title": "【8/18】Ange☆Reve単独公演〜平日えんじぇる〜",
+    "group": "Ange☆Reve / 優木ゆうな / 初季 / 梓奈ふゆこ / 星みのり / 三丸結愛 / 乃上恋々 / 佐野鈴歌 / Jewel☆Garden-Sprout!!",
+    "date": "2026-08-18",
+    "venue": "秋葉原ZEST",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://livepocket.jp/e/mzex0": {
+    "title": "MIXED UP #10",
+    "group": "Chalca",
+    "date": "2026-08-18",
+    "venue": "CHIC HALL SHIBUYA",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://livepocket.jp/e/girlstalk8": {
+    "title": "真夜中のGirlｓTalk公開収録Vol.8【8月18日】",
+    "group": "大塚のりか / 坂本梨奈 / 天野ひろこ / GREAT MONKEYS （アスミマインド/アヤメイレブン/マナツジャパン/マヒロチャン） / 玉城穂乃華（ZEROSTYLE）",
+    "date": "2026-08-18",
+    "venue": "池袋リヴォイス",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/Fillemimi_vol20": {
+    "title": "Fille mimi定期公演 思い出ミルフィーユ vol.20",
+    "group": "Fillemimi",
+    "date": "2026-08-18",
+    "venue": "#G8 ナンバーゲート",
+    "prefecture": "大阪",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/nestteiki25": {
+    "title": "MAGICAL SPEC Spotify O-nest 定期公演 vol.25 MAGICAL SPEC無銭ライブ",
+    "group": "MAGICAL SPEC",
+    "date": "2026-08-19",
+    "venue": "Spotify O-nest",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/miniuraraka0819": {
+    "title": "女性限定公演 うららか mini",
+    "group": "衛星とカラテア",
+    "date": "2026-08-19",
+    "venue": "恵比寿CreAto",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://tiget.net/events/513247": {
+    "title": "幻響回遊 -GENKYOKAIYU-",
+    "group": "KAMuRO / CRYZ / ボクセカ / LyricalPopPradox / 妖狐繚乱 / LuvHz / マギマギ研修生",
+    "date": "2026-08-19",
+    "venue": "#G8 ナンバーゲート 大阪",
+    "prefecture": "大阪",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/20260819_nikipre": {
+    "title": "#ﾆｷﾌﾟﾚ『シブヤチャンプルー』2026.8.19",
+    "group": "寄絃 -Yo2La / Cosmoslay / SHAKEBE / クモリノチ。 / LUVRiX",
+    "date": "2026-08-19",
+    "venue": "渋谷近未来会館",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/teiki-24": {
+    "title": "『READY TO KISS定期公演vol.24 夏の爽やか少女公演』",
+    "group": "READY TO KISS / せいら",
+    "date": "2026-08-19",
+    "venue": "GOTANDA G2",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://livepocket.jp/e/9po9e": {
+    "title": "『木漏れ日の天窓 vol.7』",
+    "group": "Reverse Tokyo / キミイロプロジェクト / アオハルブレイブ / 揺メク夜ニ",
+    "date": "2026-08-19",
+    "venue": "AKIHABARA COSMICLAB",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/sel_summer": {
+    "title": "selfish 単独公演 「 Brand New Summer 」",
+    "group": "selfish",
+    "date": "2026-08-19",
+    "venue": "WOMB LIVE",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://tiget.net/events/499739": {
+    "title": "港ほのか生誕祭",
+    "group": "大阪24区ガールズ / イロハサクラ / ChanceMovement / てんぽぷりも♪ / 無花果とマシンガン",
+    "date": "2026-08-19",
+    "venue": "心斎橋SUNHALL",
+    "prefecture": "大阪",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/idolgate_esaka0819": {
+    "title": "IDOL GATE in ESAKA",
+    "group": "感情線は時をこえて / CLANCROWN / meluQ / POLARIS",
+    "date": "2026-08-19",
+    "venue": "ESAKA MUSE",
+    "prefecture": "大阪",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/uxdxgxwparty0819": {
+    "title": "『UxDxGxW PARTY』",
+    "group": "Quubi / Mirror,Mirror",
+    "date": "2026-08-19",
+    "venue": "SHIBUYA THE GAME",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/jHmkrHLmyqs29arF81iq": {
+    "title": "unSea定期ライブ ー週の真ん中はアン水！ス〜イスイー",
+    "group": "unSea",
+    "date": "2026-08-19",
+    "venue": "青山RizM",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/moonlight0819": {
+    "title": "月光通信8月号",
+    "group": "衛星とカラテア",
+    "date": "2026-08-19",
+    "venue": "恵比寿CreAto",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://livepocket.jp/e/r98de": {
+    "title": "徳野うみ生誕前夜祭2026",
+    "group": "瞬きもせず",
+    "date": "2026-08-19",
+    "venue": "SHIBUYAONE5",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/idol_infinity_premium_vol14": {
+    "title": "IDOL ∞ INFINITY PREMIUM vol.14",
+    "group": "ツヅリカ / Hey!Mommy! / LIT MOON",
+    "date": "2026-08-20",
+    "venue": "Spotify O-nest",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/pepcc0": {
+    "title": "Prothrive Entertainment presents「Cutie Cutie」",
+    "group": "オーシャンハーモニー / いつかのネバーランド」 / 煌きメリー☆ボップ / Pafio / May Love Rouge / Margaret / minipure / ミヤコワスレ / Milky Doll / BABBLY BUBBLY × ふれなぽ コラボLIVE!!",
+    "date": "2026-08-20",
+    "venue": "BUZZ music LABO Shinjuku",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/Idolzuki0820": {
+    "title": "アイドル好きで何がわるい",
+    "group": "アブソプ / SANUGLOW / Lumi Prima / GRINOAH / LOTUS MARRY / MeluCharm / リボンのないぷれぜんと / Serenade / sync sens / デスキャンディ / マギマギ研修生 / うぃるめり！",
+    "date": "2026-08-20",
+    "venue": "FANJ twice",
+    "prefecture": "大阪",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/ColorGroove20260820": {
+    "title": "Color Groove",
+    "group": "Floomie’s / &MEETs / 恋に落ちる確率は限りなく低いが0じゃない~コイカギ~ / しろくまいんど / ソラネルカンパニー / ToyTicTrap / Loulouchouchou",
+    "date": "2026-08-20",
+    "venue": "シアターマーキュリー新宿",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/ruru0820": {
+    "title": "縷々 個人オフ会 @渋谷",
+    "group": "縷々",
+    "date": "2026-08-20",
+    "venue": "池袋某所",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/lollipop_addiction_29": {
+    "title": "Lollipop♡CHU定期公演 vol.29 「 溶けちゃいそうだ♡ 」",
+    "group": "Lollipop♡CHU / みありー / リンカ / ナト☆カン / アステリア",
+    "date": "2026-08-20",
+    "venue": "NAGOYA JAMMIN'",
+    "prefecture": "愛知",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/pltr0820": {
+    "title": "『 プリュトラワンコイン 』 @SHIBUYA DESEO",
+    "group": "Lって何のLですか？ / 【eN】 / ゆにきゅーと / ルミルミ / はぐっと！",
+    "date": "2026-08-20",
+    "venue": "SHIBUYA DESEO",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://livepocket.jp/e/axgmp": {
+    "title": "8月20日(木)シンセカイヒーロー単独定期公演",
+    "group": "シンセカイヒーロー",
+    "date": "2026-08-20",
+    "venue": "仮面女子シアター",
+    "prefecture": "大阪",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://livepocket.jp/e/8aqz0": {
+    "title": "アイふた vol.77",
+    "group": "吉田尚記 / 星谷美来 / 橋本侑芽 / 花守笑 / 片瀬真花",
+    "date": "2026-08-20",
+    "venue": "LOFT9 Shibuya",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://livepocket.jp/e/odoro68": {
+    "title": "棘-おどろ-定期公演 【棘とおどろ】其ノ六十七八",
+    "group": "棘-おどろ- / kijō no kūron / 幻色シアター / SUMMER ROCKET",
+    "date": "2026-08-20",
+    "venue": "渋谷CHELSEA HOTEL",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://tiget.net/events/512439": {
+    "title": "電脳にゃんぱしー平日対バンLIVE『CROSS LINK』",
+    "group": "電脳にゃんぱしー / LOVE××BAD",
+    "date": "2026-08-20",
+    "venue": "SUNHALO THEATER",
+    "prefecture": "福岡",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://livepocket.jp/e/buttobibabys": {
+    "title": "ぶっとび!ベイビーズ ⭐",
+    "group": "スーパーベイビーズ / ぶっとび！パンデミック",
+    "date": "2026-08-20",
+    "venue": "SHIBUYA TAKEOFF7",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/SANUGLOWSolo0820": {
+    "title": "SANUGLOW 単独公演",
+    "group": "SANUGLOW",
+    "date": "2026-08-20",
+    "venue": "Live Bar BK",
+    "prefecture": "大阪",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/260821z": {
+    "title": "｢Tomorrow Land｣",
+    "group": "逆転ねこぱんちっ！ / SAI²Rium / ハレとハレ！ / Lollipop♡CHU / 輝きぱにっく / SnowComp/ex / ちゅーるちゅ〜ぶ",
+    "date": "2026-08-21",
+    "venue": "Zephyr hall",
+    "prefecture": "愛知",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/sekamono0821": {
+    "title": "『INTO THE WORLD LIVE vol.4』",
+    "group": "LuNaria(ex.NO:VA) / 來未あい / RURU:MERRY / Lily / スターチスのラブレター / SEKAMONO / 恋に落ちる確率は限りなく低いが0じゃない",
+    "date": "2026-08-21",
+    "venue": "GOTANDA G3",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/260821p": {
+    "title": "PSYCHOデリック 甘依えむ 生誕祭 『✝ 甘美心酔 ✝』",
+    "group": "PSYCHOデリック",
+    "date": "2026-08-21",
+    "venue": "aube shibuya",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/5Jbccw4tKktVtoLZXnQA": {
+    "title": "「あいみゅう真夏の無銭ライブ」",
+    "group": "I'mew（あいみゅう）",
+    "date": "2026-08-21",
+    "venue": "AOHARIUM TOKYO",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/GJF_260822": {
+    "title": "GEM JAM FES！",
+    "group": "あすとりーのうさぎ / 甘酸っぱいリズム / 無花果とマシンガン / イロハサクラ / Aim / 親不孝Dolls / KAMuRO / CLEAR’S / THE+BETH / すーぱーぷーばぁー!! / スキトオルアオ / スプスラッシュ / ゼロキョリハーツ / ソラネルカンパニー / tune time capsule / なないろパンダちゃん。 / にゃあにゃあ / ネテルダイヤ / NO♡AF / Beloved / Pure Palette / ブルーなままで / BLUE REGRET。 / POLARIS / メリーミューズ / meluQ / LuvHz / link start / LOTUS MARRY",
+    "date": "2026-08-22",
+    "venue": "club JOULE",
+    "prefecture": "大阪",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/DREAMBOX0822": {
+    "title": "GOTANDA DREAMBOX ～Saturday 1CoinLive special～",
+    "group": "キプリスモルホォ / 青山Rabness / るるぱにっく!! / ひとつキラリ / ルートプリュフォール / にとくり。 / Sistersあにま / 蓋然性オルトイズム / TEARS-ティアーズ- / メモワールパルファム / 瞬きのネビュラ / DOKUDOKU / 透明な栞 / SORRY.IDOL / Meteors / 依依≠恋恋 / Bright Charm / Fortuness / ドキドキハキミノセイ / NO FRAME / UNION×CARAT / ぷらちなまふぃあ。 / リベルナント / 夜とメルク / Palpitink / 絶望のポメラニアン / ツボミシンフォニー / SUGAR☆VEGA.com / 最愛のマルベリー / てんしろっ！",
+    "date": "2026-08-22",
+    "venue": "GOTANDA G6",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/IGNITION0822": {
+    "title": "IGNITION",
+    "group": "Amaryllis / Blue me!! / 金星☆ジュリエッタ / 恋セ界 / AiMEL!!-あいめる- / ちゅ〜るちゅーぶ / TZTZ / SHIROMIZAKANA / 天色のメロディー / すたでぃ→PIT / mofu / mofu / 夕凪のスピカ",
+    "date": "2026-08-22",
+    "venue": "DIVA",
+    "prefecture": "愛知",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/20260822_day": {
+    "title": "INFINITY LIVE presents『ASTROPUFF』",
+    "group": "雨模様のソラリス / GREAT MONKEYS / 棘-おどろ- / yumegiwa last girl / 8°世界が変われば、 / LOOPARADE",
+    "date": "2026-08-22",
+    "venue": "下北沢Flowers Loft",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://livepocket.jp/e/m0-2l": {
+    "title": "ルミナス撮影会【桜倉蛍、百野綾華、小猫しのい、天羽たまき】",
+    "group": "桜倉蛍 / 百野綾華 / 小猫しのい / 天羽たまき",
+    "date": "2026-08-22",
+    "venue": "Peter Studio",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://livepocket.jp/e/9lcd2": {
+    "title": "ルミナス撮影会【夜籠ぺち、広瀬とうか、四葉みこと、海景みく】",
+    "group": "夜籠ぺち / 広瀬とうか / 海景みく / 四葉みこと",
+    "date": "2026-08-22",
+    "venue": "Peter Studio",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/ShumatsuNoStellaCalorieConsumeSP20260822": {
+    "title": "終末のステラ単独主催！ BBQオフ会直前！ カロリー事前消費SP",
+    "group": "終末のステラ",
+    "date": "2026-08-22",
+    "venue": "新宿SAMURAI",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/idolkeystagemini_3": {
+    "title": "IDOL Key Stage mini Vol.3",
+    "group": "アップアップガールズ（仮）/ UNION FLEUR / 可愛いって言わないと呪う！ / NO FRAME / ポラリスマイル / Palpitink / 青春のフロンティア / BANKURUWASE!! / UNDO / SAKURADOLL / スターチスのラブレター / アオハルブレイブ / ゆにきゅーと / SHAKEBE / PLATINUM Princess研究生 / リルリボン / NOVA⭐︎CHAN / あいむふろむ！ / リットクロスxxx / Floomie’s / 夢色ビジョン",
+    "date": "2026-08-22",
+    "venue": "大塚FUTURE:",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/cafe_260822_suzuka": {
+    "title": "『きっと大切だった Cafe』神谷鈴花",
+    "group": "きっと大切だった / 神谷鈴花",
+    "date": "2026-08-22",
+    "venue": "名古屋市内某所",
+    "prefecture": "愛知",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/cafe_260822_rea": {
+    "title": "『きっと大切だった Cafe』藤城れあ",
+    "group": "きっと大切だった / 藤城れあ",
+    "date": "2026-08-22",
+    "venue": "名古屋市内某所",
+    "prefecture": "愛知",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/GOC_0822": {
+    "title": "『Girs on the cute in大阪』 ナンバーゲート",
+    "group": "Loulouchouchou / UPローチ / +Alpha / LumiPrima",
+    "date": "2026-08-22",
+    "venue": "＃G8 ナンバーゲート",
+    "prefecture": "大阪",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://tiget.net/events/504284": {
+    "title": "さわー Fes Vol.24",
+    "group": "沢井里奈 / Star☆T / Candy☆Drops / みありー / P-Loco / 4Ø4 . / おねがい!!フルハウス硏究生",
+    "date": "2026-08-22",
+    "venue": "ボトムライン",
+    "prefecture": "愛知",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://tiget.net/events/513890": {
+    "title": "MASH!SCREAM Vol.13",
+    "group": "ICECREAM SCREAM",
+    "date": "2026-08-22",
+    "venue": "MASH HALL（マッシュホール） イベントホール",
+    "prefecture": "北海道",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://tiget.net/events/504283": {
+    "title": "dela Fes mini Vol.35",
+    "group": "dela / 沢井里奈 / Star☆T / グランダルメ / Candy☆Drops / みありー / ViVe / Sweet Monster / おねがい!!フルハウス硏究生 / 今田希",
+    "date": "2026-08-22",
+    "venue": "ボトムライン",
+    "prefecture": "愛知",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://tiget.net/events/511192": {
+    "title": "Project-L主催『~夏の浴衣SP vol.2~』",
+    "group": "HiMEMENT / 電脳にゃんぱしー / I'LL / me to♡夢CHU",
+    "date": "2026-08-22",
+    "venue": "Galaxy Box",
+    "prefecture": "福岡",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/M8uBYF4xkbZwODkPxFCI": {
+    "title": "『一ノ瀬琳加生誕祭2026 ～きみのいちりんかにしてっ？～』",
+    "group": "NORMiL",
+    "date": "2026-08-22",
+    "venue": "渋谷音楽堂",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/260822LLCC": {
+    "title": "Loulouchouchouツアー2026『Histoire』大阪公演",
+    "group": "Loulouchouchou",
+    "date": "2026-08-22",
+    "venue": "ナンバーゲート",
+    "prefecture": "大阪",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/GJF_260823": {
+    "title": "GEM JAM FES！",
+    "group": "あすとりーのうさぎ / 甘酸っぱいリズム / 無花果とマシンガン / Aim / OGP研修生チーム / 親不孝Dolls / がおがおfluffy / caprice / KAMuRO / KiMiNiAiTAi / THE+BETH / Sugar♡Holic / すいーとふりる / スプスラッシュ / ソラネルカンパニー / ドットビーピーエム / 『TryVII』 / なないろパンダちゃん。 / NANI♡kaWA / ネテルダイヤ / NO♡AF / 花歌-ハナウタ- / Pure Palette / プリュネ♡トゥインクレット / BLUE REGRET。 / BOCCHI。 / ミケネコガールズ / メリーミューズ / More Sisters / LuvHz / LIT MOON / Little Rascal / link start / Loulouchouchou",
+    "date": "2026-08-23",
+    "venue": "#G8 ナンバーゲート",
+    "prefecture": "大阪",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/lnanfesta0823": {
+    "title": "『Lなんフェスタ-真夏のワンコインSP-』",
+    "group": "Lって何のLですか？ / めいどinみんな！ / アイドルキャリア / SoRaLis / 笑う門には福来たる / Tool to / LittleSignal（リトルシグナル） / BANKURUWASE!! / ぷれしゃす♡ぱーてぃー / iROTORiDOLLY / melt × melts / Re:M!ND / MOON RABBiTS / Re:♡（リライク） / はぐっと / Palpitink / SEKAMONO / 大スッキ♡新党！ / るるぱにっく!! / vVibe!（ヴィヴァイブ！） / ノベルノア / 恋に落ちる確率は限りなく低いが0じゃない / Amairo-Flip / 8WIZARD / ポジティブモンスター / ひまわりが咲く頃に / 空色ソルベ / Nody / ばたんキュン / ソライロの涙 / Newヒロイン",
+    "date": "2026-08-23",
+    "venue": "新宿DHNoA",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://livepocket.jp/e/ring0823": {
+    "title": "ライブジム 第65弾",
+    "group": "SecretMemory / キミトサクハナ / OTOMICHI / LumiDay / fairy☆dolls / @youuuuu!!! / Connect Call / きみパレ / 夜明けのアイリス / アオハルブレイブ / ワッツ◎さーくる / アイテムはてるてるのみ / Falench. / FLORERISA / SUPER JYAPON / ネコプラpixx. / KATA☆CHU / ぶっとび！パンデミック / KATACOTO＊BANK / Claire♡Dolls",
+    "date": "2026-08-23",
+    "venue": "渋谷RING",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/ABSOPTokoyoNoWa0823": {
+    "title": "アブソプ 定期公演 常世ノ輪",
+    "group": "アブソプ",
+    "date": "2026-08-23",
+    "venue": "アメリカ村BEYOND",
+    "prefecture": "大阪",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://tiget.net/events/513538": {
+    "title": "Honey sweet carnival",
+    "group": "Morpho / Fleur / matatabi / プラチナリボン / alpha⁂Lux / ミケネコガールズ / リリシック学園 / #PANnana / 青春シロップ / #BEMYLOVE / MeluCharm / ChanceMovement / ParaMilia / プリュネ♡トゥインクレット / ハピネスクラッカー！ / にゃあにゃあ / Fille mimi / 超★NOVA24' / NANIkaWA / OGP研修生チーム / AsteRythm / NaNiYoRi / わんみゅー",
+    "date": "2026-08-23",
+    "venue": "大阪ルイード",
+    "prefecture": "大阪",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/ex0823": {
+    "title": "エクスクラメーション!!!",
+    "group": "Floomie’s / miluμ！ / I'Rink / As a Cutie Pomeranian / Amairo-Flip / Anluce♡Sugar / KATA☆CHU / caSTORY研究生 / きゅんぱに！ / 最愛のマルベリー / SecretMemory / SHINKA↑ / SUPER JYAPON / 昼夜逆転 / New Crown / ネコプラpixx. / 遥か、彼方。 / PLATINUM Princess研究生 / ポラライト / MiX BeRRY / MATE×MATE! / LOVE C!DER / Re:INCARNATION / リルリボン / Lumiétoile / LEVEL7 / わんだふるぱれーど！",
+    "date": "2026-08-23",
+    "venue": "渋谷vident",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/EtoileWEST-ROCKTOWN": {
+    "title": "Etoile WEST -at 大阪ROCKTOWN-",
+    "group": "ReFLiA / エイアイカ / プエラの絶対値 / caprice / POLARiS",
+    "date": "2026-08-23",
+    "venue": "大阪ROCKTOWN",
+    "prefecture": "大阪",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/alamodepetite_139": {
+    "title": "アイドルアラモードプチVol.139",
+    "group": "放課後プリンセス / LEVEL7 / Dolly Kiss / Hey!Mommy! / 蛍 / 思い出とプレゼント / MORE* / SCRAMBLE SMILE / AND CaaaLL / Fancy Film* / 踊れ！神風 / Jewel☆Garden / miluμ！ / New Crown / ポップキャスト / 翔んでファレノプシス / Magi / このアイドルはフィクションです。 / FRESH CHARM / リボンクロック / アオノシグナル / TERIOS / AOSTARIA / UPDANCE Lily -Team A- / UPDANCE Lily -Team B-",
+    "date": "2026-08-23",
+    "venue": "WITH HARAJUKU",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://livepocket.jp/e/aperture11": {
+    "title": "FOKALITE Presents「Aperture Vol.11 ワニャ+生誕SP WANYA RUNE」",
+    "group": "BELLRING少女ハート / FOKALITE / クマリデパート / ワニャ+",
+    "date": "2026-08-23",
+    "venue": "新宿MARZ",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/0823_zeal": {
+    "title": "💛卯月ゆめ生誕祭2026💛",
+    "group": "ど〜げん坂69(ひらがなど〜げん) / 道玄坂69 / LOVE IZ DOLL / My Criminal Lovers' / Re:Yu / ARIStoCRAT / とわる",
+    "date": "2026-08-23",
+    "venue": "新橋ジールシアター",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://livepocket.jp/e/hbdrei2026": {
+    "title": "小毬零生誕「Project 零」",
+    "group": "ponderosa may bloom / VJ REI / 宝桜那（キュニコ） / 唄寧りな（ex-PUREGRIS） / 陽凪響子（ex-PUREGRIS） / あーちゃん（Real Sister）",
+    "date": "2026-08-23",
+    "venue": "大塚Hearts+",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/satueikai0823": {
+    "title": "シェリクラ×イーレン合同撮影会",
+    "group": "依依≠恋恋 / Cheriecla",
+    "date": "2026-08-23",
+    "venue": "studio Coucou",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://tiget.net/events/514297": {
+    "title": "【追加募集】あやぴぃと秘密結社(東京)",
+    "group": "あやぴぃ",
+    "date": "2026-08-23",
+    "venue": "下北沢某所",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/pikatan2026": {
+    "title": "青羽ひかる生誕祭2026 『 魔法少女ぴかるん爆誕祭〜ねえ、魔法ってあると思う？〜 』",
+    "group": "Melodys High",
+    "date": "2026-08-23",
+    "venue": "渋谷DAIA",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://livepocket.jp/e/satuei-ueno": {
+    "title": "HIRAETH.Tokyoお散歩&撮影会 制服(夏服)編",
+    "group": "HIRAETH.Tokyo",
+    "date": "2026-08-23",
+    "venue": "横浜ワールドポーターズ",
+    "prefecture": "神奈川",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://livepocket.jp/e/s-acg": {
+    "title": "ろりぽっぷ!!!!!!! 浴衣チェキ会",
+    "group": "ろりぽっぷ!!!!!!!",
+    "date": "2026-08-23",
+    "venue": "東京都台東区東上野 6203長谷川ビル3階",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://livepocket.jp/e/p6qb2": {
+    "title": "LRDJFES vol.14",
+    "group": "ぴぴちぁん / 夏焼雅 / まいあんつ / 不思議BOYS / YA'ABURNEE / スワリタガール / Risa",
+    "date": "2026-08-23",
+    "venue": "渋谷 Z MARUYAMA",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://livepocket.jp/e/neweraidol-nagoya": {
+    "title": "『NEWERAIDOL -NAGOYA-』",
+    "group": "GANGDEMIC / 鳴ル神 / PULSAR_CLIMAX / AMO milion / tzmiki",
+    "date": "2026-08-23",
+    "venue": "新栄シャングリラ",
+    "prefecture": "愛知",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/caramelbox_3": {
+    "title": "未完成のキャラメル主催 「caramel box vol.3」",
+    "group": "未完成のキャラメル / Aerolipop / 君のメインヒロイン / NORMiL / PiRiRi / めろでぃーぷれいす / 夢みるアドレセンス / リボンクロック",
+    "date": "2026-08-23",
+    "venue": "渋谷club asia",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/ForeverYouSaid": {
+    "title": "「一生好きってゆったじゃん！Forever, You Said.」",
+    "group": "diig",
+    "date": "2026-08-23",
+    "venue": "青山月見ル君想フ",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/myojou_0823": {
+    "title": "ここちゃんのお誕生日会",
+    "group": "myojou",
+    "date": "2026-08-23",
+    "venue": "下北沢シャングリラ",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/myst_vol16": {
+    "title": "My_Stage”無銭”定期公演 Spotlight vol.16",
+    "group": "My_Stage",
+    "date": "2026-08-23",
+    "venue": "表参道GROUND",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/kts0823": {
+    "title": "Made in Maiden主催3man Live 『神と罪、祈る少女。』",
+    "group": "Made in Maiden / 神様の言う通り / 美味しい贖罪",
+    "date": "2026-08-23",
+    "venue": "SHIBUYA THE GAME",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/towanphoto-20260824": {
+    "title": "SAY-LA とわん 『夏もみんなと想い出撮影会📷💭💓』",
+    "group": "とわん",
+    "date": "2026-08-24",
+    "venue": "渋谷エリア",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/kanzakiphoto-20260824": {
+    "title": "SAY-LA 神崎セナ 「夏のおもいで撮影会🍉𓂂𓏸🎐」",
+    "group": "神崎セナ",
+    "date": "2026-08-24",
+    "venue": "池袋エリア",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/MiracleSound_8-24": {
+    "title": "Miracle Sound ~新メンバーお披露目SP~",
+    "group": "ミラクルファンファーレ！ / なないろ∞ミルキーウェイ / Pure Palette / Preccy Park / 天色のメロディー / Aim / ちゅーるちゅ〜ぶ",
+    "date": "2026-08-24",
+    "venue": "NAGOYA ReNY limited",
+    "prefecture": "愛知",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/agemono": {
+    "title": "びっくえんじぇるまんぷく祭～揚げ揚げSP!～",
+    "group": "びっくえんじぇる",
+    "date": "2026-08-24",
+    "venue": "BLAZE GOTANDA",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://tiget.net/events/508638": {
+    "title": "もっちょりトークライブ in TOKYO vol.3",
+    "group": "森本優 / 高梨結 / 永松波留",
+    "date": "2026-08-24",
+    "venue": "LIVE STUDIO LODGE（ライブスタジオ・ロッジ）",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/FIRE-FIRE-SiLENTNOiSE-20260824": {
+    "title": "FIRE! FIRE! 〜SiLENT←NOiSE定期LIVE〜",
+    "group": "SiLENT←NOiSE / PLYDE",
+    "date": "2026-08-24",
+    "venue": "DEEP",
+    "prefecture": "愛知",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/DERAX_JAM": {
+    "title": "DERAX JAM ~ DERA MAXIMUM JAM ~",
+    "group": "ジエメイ / MADOROMI-マドロミ- / THE ENCORE / Maison de Queen / XINXIN / ギミック / Cosmoslay / あたまのなかは8ビット！？ / ぜろから☆すた→と / SiLENT←NOiSE / 白黒アリス / めっ！ / TOKYOてふてふ / Y∀KiN / Cherie! / AQA / AIWO / すてねこキャッツ / image / 花魁道中 / BOCCHI。 / ACEQUAD / LUVRiX / Question VI / PULSAR_CLIMAX / ミラクルファンファーレ！ / PLYDE / éclatcia / RED-i / GLIM of GRAND / ENVY PARANOID / Twilight BlooM. / HATENO / 親不孝Dolls / アリス症候群 / BLUE REGRET。 / リンカ / Re:bellious / Stella! / Everglich / アリビオ / lonlium / MAGMAZ / CYCLONISTA / ELEVYZ / カミサマパレード / DIAVEL / マーキュロ / ベロティカ / MerryMellow / アンチテーゼ / ArmaElla / 闇雲 / 逆転ねこぱんちっ！ / XILUX / SHIROMIZAKANA / 輝きぱにっく / OROCHI / シャニムニ=パレード",
+    "date": "2026-08-25",
+    "venue": "愛知県名古屋栄~大須のライブハウス",
+    "prefecture": "エラー 2042",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/Yukata_Cheki": {
+    "title": "浴衣大特典会",
+    "group": "TENRIN / ヒロインズ研究生",
+    "date": "2026-08-25",
+    "venue": "コモレ四谷タワーコンファレンス",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://livepocket.jp/e/frontier20260825": {
+    "title": "FRONTIER IDOL SUMMIT @Zirco Tokyo",
+    "group": "MOON RABBiTS / SoRaLis / 大スッキ♡新党！ / Re:♡ / Lily / Re:INCARNATION / LittleSignal / OTOMICHI / LumiDay / minipure",
+    "date": "2026-08-25",
+    "venue": "Zirco Tokyo",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/hoshinaphoto-20250825": {
+    "title": "SAY-LA 星奈きょうか 「きよごん撮影会⭐️in東京ドーム」",
+    "group": "星奈きょうか",
+    "date": "2026-08-25",
+    "venue": "東京ドームエリア",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/kctl_202608": {
+    "title": "こぐまカリー主催「トーキョーログ」",
+    "group": "いつかの夜に僕たちが、 / 月刊PAM / さよならステイチューン / BELLRING少女ハート / MAPA",
+    "date": "2026-08-25",
+    "venue": "渋谷近未来会館",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/DollyKiss_PS6": {
+    "title": "「Dolly Kiss 定期公演 Princess Story vol.6」",
+    "group": "Dolly Kiss",
+    "date": "2026-08-25",
+    "venue": "新宿DHNoA",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://livepocket.jp/e/aki_quattro": {
+    "title": "AKIARIM ONE-MAN LIVE One Moment. One Destiny.",
+    "group": "AKIARIM",
+    "date": "2026-08-25",
+    "venue": "渋谷 CLUB QUATTRO",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/mazaru_2631": {
+    "title": "NAMARA MAZARU",
+    "group": "MANACLE / 6174 / AVAClUB / SQRRL / エレクトロイド / WONDARIA",
+    "date": "2026-08-25",
+    "venue": "新高円寺LOFT X",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://livepocket.jp/e/coma0825": {
+    "title": "NINGENKYOU presents \"COMA\"",
+    "group": "NINGENKYOU / airattic / 9DayzGlitchClubTokyo / Lion net girl",
+    "date": "2026-08-25",
+    "venue": "下北沢CLUB251",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/SCLIVE0826": {
+    "title": "SCLIVE",
+    "group": "SPRISE / アブソプ / Lumi Prima / GRINOAH / LOTUS MARRY / 彩月莉愛 / Serenade / Squall Line / #PANnana / ココロシンドローム / マギマギ研修生 / うぃるめり！",
+    "date": "2026-08-26",
+    "venue": "Yogibo HOLY MOUNTAIN",
+    "prefecture": "大阪",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://livepocket.jp/e/vh7y6": {
+    "title": "うまお(vijon)presents　【アイドル超頭脳王決定戦】",
+    "group": "ネテルダイヤ / 妖狐繚乱 / マイフェアガ→ル",
+    "date": "2026-08-26",
+    "venue": "北堀江 club vijon",
+    "prefecture": "大阪",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/HPCV19": {
+    "title": "『ハッピーカーニバル vol.18』",
+    "group": "Aerolipop / SAY-LA / ハレとハレ！ / 未完成のキャラメル / Drug&Drop / I'mew（あいみゅう）",
+    "date": "2026-08-26",
+    "venue": "GRIT at Shibuya",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://livepocket.jp/e/260826sr": {
+    "title": "CYCLONISTA presents STORMY RIOT!",
+    "group": "CYCLONISTA / 9DayzGlitchClubTokyo / MiiS / maleficium / ArmaElla",
+    "date": "2026-08-26",
+    "venue": "東京 渋谷 Milkyway",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/mimiome": {
+    "title": "白姫みみ生誕祭〜君とみみで描くキャンパス〜",
+    "group": "恋に落ちる確率は限りなく低いが0じゃない / はぐっと！",
+    "date": "2026-08-26",
+    "venue": "渋谷studio freedom",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/cp0826": {
+    "title": "ちゃーむぽっしゅ単独公演『NEXT SCENE』",
+    "group": "ちゃーむぽっしゅ",
+    "date": "2026-08-26",
+    "venue": "恵比寿CreAto",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://livepocket.jp/e/spv_20260826": {
+    "title": "すーぱーぷーばぁー!! presents 定期公演 Road to Castle vol.3 6周年スペシャル",
+    "group": "すーぱーぷーばぁー!!",
+    "date": "2026-08-26",
+    "venue": "SUNHALL",
+    "prefecture": "大阪",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://livepocket.jp/e/sv4jn": {
+    "title": "Pixel Ribbon Summer LIVE TOUR 2026【ZOO to LOVE】in東京",
+    "group": "Pixel Ribbon",
+    "date": "2026-08-27",
+    "venue": "Shibuya LOVEZ",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://livepocket.jp/e/8jm6g": {
+    "title": "「いつかのネバーランド」『ソラリス』リリース主催",
+    "group": "おやすみセカイ / DRAWCY / HOT DOG CAT / キミトサクハナ / キミイロプロジェクト / Claire♡Dolls / EcruRare / 「いつかのネバーランド」",
+    "date": "2026-08-27",
+    "venue": "池袋SOUNDPEACE",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/NORMiL-20260827": {
+    "title": "#NORMiL夏のお試し無銭LIVE",
+    "group": "NORMiL",
+    "date": "2026-08-27",
+    "venue": "SHIBUYA VIDENT",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://livepocket.jp/e/8bitsoz": {
+    "title": "8bit零pre.【 SCREAM OUT ZERO 】 - COUNTDOWN TO Shangri-La - 参",
+    "group": "TIGHT / √REAL ｰルートリアルｰ / Dorothy∞Drop / メランコリック少女物語",
+    "date": "2026-08-27",
+    "venue": "新高円寺LOFT X",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://livepocket.jp/e/qpdak": {
+    "title": "エンジョイナス!!",
+    "group": "I to U $CREAMing!! / airattic / AFTERS / zanka",
+    "date": "2026-08-27",
+    "venue": "新宿MARZ",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://livepocket.jp/e/k08wz": {
+    "title": "Hotty&Rhythm 2026 Summer Festival",
+    "group": "Risky Melody / HONEYBEE / SHiROPiA / Jiggy Jade / レトロドール / RAIDEN / LUCIDA / FullMooN / Empress / Sirius / Qtwins / 青の流星群 / 小原涼 / RED HEELS / ユメノマニマニ / Lumi→A / 我我 / Disconnect Cendrillon / クレヨンゆーち / 森あんぱん / RIKA / 天女神樂 / 磯野未来 / シトリン / biki / 橋村姫 / つじりお / 梨奈 / Monochrome Cinderella / AKARA / エロティック大島 / AND CALL. / ABYSS / 今井舞衣 / 麻未 / MANACLE / ふれふら / えさのじかん / Anyu / SAYAKA YAMAGUCHI / shinokumatic / HALu / 結芽乃 / さわりさ / 愛奈 / リストネコ / MISSIW / 音夢凛ココ / 夢（らむ） / イロハマイ / usonaki / 佐藤和泉 / メイビスレーヌ / pipia / 中根もにゃ",
+    "date": "2026-08-28",
+    "venue": "所沢航空記念公園野外ステージ",
+    "prefecture": "埼玉",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/a_villa_zenya": {
+    "title": "A Villa 2026 前夜祭",
+    "group": "ambitious / 限りなく白く / HIBANA / myojou / ジエメイ / THE ORCHESTRA TOKYO / 衛星とカラテア / INUWASI / Devil ANTHEM. / タイトル未定 / 理想の少女 / ICECREAM SCREAM / NooNico / #MOUWAY / #よーよーよー / #Mooove! / iluxion / Tohkei / BYBBiT / WONDER*WHITE / MAGICAL SPEC / selfish / カラフルスクリーム / feelNEO / CYNHN / NUANCE / LITTLE*BLUE / Crystal☆Neige / Hello♡DayDream!",
+    "date": "2026-08-28",
+    "venue": "SYNC north/Sound lab mole/cube garden/SPiCE",
+    "prefecture": "北海道",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/buzzmini31": {
+    "title": "バズバズリサイタルmini",
+    "group": "UPローチ / Aurora / mementoa / Melodys High / ポラライト / アイテムはてるてるのみ / 君とのシナリオ / 『TryVII』 / 玉響storage / 昼夜逆転 / オカシリゾート",
+    "date": "2026-08-28",
+    "venue": "DESEO mini",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/kataban_nizinosoro0828": {
+    "title": "虹野ひいソロ公演〜虹のおすそ分け Vol.2〜",
+    "group": "KATACOTO＊BANK / 虹野ひい",
+    "date": "2026-08-28",
+    "venue": "SPACE UENO",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/magi07": {
+    "title": "「マギマギ特別感謝無料公演vol.6」",
+    "group": "ココロシンドローム / デスキャンディ",
+    "date": "2026-08-28",
+    "venue": "SOUNDNOTE OSAKA",
+    "prefecture": "大阪",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/PUREMORPH-ONEMAN-20260828": {
+    "title": "PUREMORPH 1st ANNIVERSARY ONEMAN LIVE「りあるたいむもふもふらんど」",
+    "group": "PUREMORPH",
+    "date": "2026-08-28",
+    "venue": "VIDENT",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/mrcr_0828": {
+    "title": "マリークラウン単独公演 『 夏の終わり、季節の始まり』",
+    "group": "マリークラウン",
+    "date": "2026-08-28",
+    "venue": "Veats Shibuya",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/musen3man_ueno0828": {
+    "title": "KATA☆CHU×KATACOTO＊BANK×SHINKA↑〜無銭3マン！！",
+    "group": "KATA☆CHU / KATACOTO＊BANK / SHINKA↑",
+    "date": "2026-08-28",
+    "venue": "SPACE UENO",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/AGE_FES_20260829": {
+    "title": "AGE FES!",
+    "group": "Drug&Drop / Cherie! / Aproof / Poppin’ Parade / Lily wonder / THE EUPHORIA / miao / ギガLOVEアップビート / メリーパレード / melnoir / きゅーんず！ / &CUTE / ラビットビット / 月とソーダ / iCON! / プエラの絶対値 / CoTei / ラフティア / 君と青 / BUNGEE GUM. / KAIJU ON THE STAGE / 遥か、彼方。 / ミルフィオーレ / ネコプラpixx. / Jewel☆Garden / MelMi / 恋に落ちる確率は限りなく低いが0ではない / アイドルは下剋上 / Loulouchouchou / SHAKEBE",
+    "date": "2026-08-29",
+    "venue": "渋谷音楽堂",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://tiget.net/events/513669": {
+    "title": "AWAKENING",
+    "group": "Arch Angel / うぃるめり！ / KAMuRO / 狂鳴-ｷｮｳﾒｲ- / sus-tain / にゃあにゃあ / Hi-Fi GIRLs PROJECT Osaka Fleur / Hi-Fi GIRLs PROJECT Osaka Poifull / 妖狐繚乱 / LuvHz / LyricalPopParadox",
+    "date": "2026-08-29",
+    "venue": "FANJ twice",
+    "prefecture": "大阪",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://livepocket.jp/e/bzst_829": {
+    "title": "「BLAZE STADIUM」",
+    "group": "iRiNE /Payrin’s/ MATE×MATE! / LUVRiX / Rea Lis / ParaLulu / I to U ＄CREAMing!! / Aivery / アストレイル / UNBS / エイアイカ / キミトサクハナ / 君とのシナリオ / キュン!?恋堕ちキューピッド / 空想ロマンス / Cosmoslay / 憑依中毒-シャーマンホリック- / スプスラッシュ / スーパーベイビーズ / ちゃーむぽっしゅ / NiLUNLOCK / buGG / フィルフェリーチェ / Blueberry Girls / べるべっとセンテンス / 星合いのライラック / Magi / ミスティア / may in film / ルシフェルの園 / KAMAITACI",
+    "date": "2026-08-29",
+    "venue": "BLAZE GOTANDA",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://livepocket.jp/e/260829p1": {
+    "title": "PARALLEL LIVES -day-",
+    "group": "OROCHI / CRYZ / GLIM of GRAND / ディノゾール / AIMIA / ENVY PARANOID / 神薙-時うさぎ- / キグルミ / Charlotte / tzmiki / ネテルダイヤ / PLYDE",
+    "date": "2026-08-29",
+    "venue": "大阪 福島LIVE SQUARE 2nd LINE",
+    "prefecture": "大阪",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/osufes_5thAnniversary_circuit0829": {
+    "title": "押忍フェス 5周年記念地方都市ツアー 〜愛媛・松山サーキット編〜",
+    "group": "WELIT / ゐ虎、 / PIMURI / ChanceMovement / 愛Dream / Candy Cross / たとえばカワウソ34 / ラフアロ / LILIUM / MEiSM / ふぁんたす！ / 卯月ひなみ / Nody / Marble-Maple / neomelty / risoluto / きみねむ。 / KiMiNOTANE PROJECT / VOLUPTE MEIDEN / ももにゃん",
+    "date": "2026-08-29",
+    "venue": "WstudioRED / Double-u studio / WstudioFREE",
+    "prefecture": "愛媛",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://livepocket.jp/e/m8sp9": {
+    "title": "2.4時間ライブ　アイアイは世界を救う？　DAY１　１部",
+    "group": "愛の量はハンパじゃない！(O.A.)( / キミの主人公( / 有栖川雛姫( / 刹那のセピア ( / モードラ( / きっずりたーん！( / ViVe( / HATE and TEARS( / 終演後",
+    "date": "2026-08-29",
+    "venue": "ライオンカフェ",
+    "prefecture": "愛知",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/tsCPG9rjUfEkV0uNiibT": {
+    "title": "GIRLS MUSIC SQUARE @池袋（8/29）",
+    "group": "シークレットシャノワール / スポポポポニー / にっぽんワチャチャ / 7テンフィーバーズ！ / Cheriecla / ヒトノユメ / New Crown / miluμ！ / vVibe! / チキータ / オトメルキュール",
+    "date": "2026-08-29",
+    "venue": "harevutai",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/20260829_zenyasai": {
+    "title": "キャンフェス スプラッシュ -前夜祭-",
+    "group": "Red Radiance / アステリア / 東京CuteCute / 究極人形 / LUMIA PLANET / Stella! / リンカ / CØCØRIZE / ほくりくアイドル部 / ナト☆カン / キャンレコ研究生 / 恋セ界 / AiMEL!!-あいめる-",
+    "date": "2026-08-29",
+    "venue": "新栄DAYTRIVE",
+    "prefecture": "愛知",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/0829_vampkin": {
+    "title": "IDOL KYUN2 サンバカーニバル Fes2026",
+    "group": "LOVE IZ DOLL / 道玄坂69 / My Criminal Lovers' / Re:Yu / メランコリック少女物語 / ど〜げん坂69 / ARIStoCRAT / とわる / QUON / 100-YOKAI / みらくる⋆☽ふぉーぜ-ZERO- / めたもる💟ふぉーぜ-Destiny- / 別所あみか / ▶RebooooT",
+    "date": "2026-08-29",
+    "venue": "浅草VAMPKIN",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/fujin_0829": {
+    "title": "FUJIN circuit！五反田Jack編",
+    "group": "LAST PiECE / Varia Noise. / Poupée² / 來未あい / PHiZZ / 残響のリフレイン / HERO CHARM / 6174 / neOen / ステラリオン / みらくる⋆☽ふぉーぜ-ZERO- / めいどinみんな！ / FandL / ブルベア / Blüme / あもるてぃえ / カグラツキ / オーシャンハーモニー / first crush / Margaret / リットクロスxxx / 自己概念宣言 / どようびもきしかいせい / 空色Glitter / Milky Doll / Marionette in the Mirror / ギガLOVEアップビート / √REAL ｰルートリアルｰ / Lunaria / 踊れ！神風 / My Starry Diary / きゅんぱに！ / 再生のルクトゥミー / UNION×CARAT / あいむふろむ！ / 虹色幻想曲〜プリズム・ファンタジア〜 / HEROINE CIRCUS / SEKAMONO / ヤンチャン学園音楽部 / ドキドキハキミノセイ / NO FRAME / ココロモノローグ / 異国のルミナリア / 病みエンジェル / アオハルブレイブ / ぷらちなまふぃあ。 / TERIOS / 戦国アニマル極楽浄土 / Meteorite of the huge ICE / キュン!?恋堕ちキューピッド / ルシフェルの園。 / アイスクリーム夢少女 / 終幕劇場 / 憑依中毒-シャーマンホリック- / 傾奇隊 / ミヤコワスレ / 闇雲 / Dr.CUTTER / LIE LILIE / メモワールパルファム / TEARS-ティアーズ- / にとくり。 / Sistersあにま / 蓋然性オルトイズム / ルートプリュフォール / ひとつキラリ / 縷々 / Claire♡Dolls / ゆにきゅーと / アカデミック・ホラー / 夢みるアドレセンス / il pleut / DRAWCY / 星合いのライラック / ミスティア！ / ラフティア / NEOTOKYO-TRIBE / HEARLATE / Reverse Tokyo / 大宮I☆DOLL / meltyamour / KimiTrial / らぶららら / LOVE 9 LOVE / 魔訶不思議変革者-デスデス- / Panic Monster !n Wonderland / ヲドルマヨナカ / MEOWME / KACHIDOKI / ヒトノユメ / PinkySpice / キュータルチェ / ゆるっと革命団 / ラプラス / 藍色アステリズム / 純真アムレット / RURU:MERY / 恋情アークライト / 「いつかのネバーランド」 / ノベルノア",
+    "date": "2026-08-29",
+    "venue": "GOTANDA G2 /GOTANDA G3 /GOTANDA G4 /GOTANDA G6 /GOTANDA G7",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://livepocket.jp/e/chronos_hare": {
+    "title": "ピューパ!! Acoustic Oneman Live 『Chronos』",
+    "group": "ピューパ!!",
+    "date": "2026-08-29",
+    "venue": "代官山 晴れたら空に豆まいて",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://livepocket.jp/e/p_25c": {
+    "title": "日向あいさ お誕生会",
+    "group": "Harley Queen / IDOL★ST∀R MINE / Amaryllis / エターナル / 仮面学園 / きいあのん / 金星☆ジュリエッタ / くまさん。 / SIREN / 真田愛生 / 津々楽 すぅ。 / ねこさん。 / なえぬう / 夏目さあや / はおちー⤴ / P-Loco / 日向あいさ / モードラ / 夕稀みや。 / Twilight BlooM,",
+    "date": "2026-08-29",
+    "venue": "シアターZONE",
+    "prefecture": "愛知",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://livepocket.jp/e/neweraidol-osaka": {
+    "title": "『NEWERAIDOL -OSAKA-』",
+    "group": "GANGDEMIC / ココロシンドローム / アブソプ / LOVExxBAD / ディノゾール / KAMuRO / 白黒アリス / CRYZ",
+    "date": "2026-08-29",
+    "venue": "Yogibo META VALLEY",
+    "prefecture": "大阪",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/BHUQxy376STb5GJCTWUm": {
+    "title": "Trinity",
+    "group": "ZIGA / CHECK×MATE / この夏、君に恋をした。",
+    "date": "2026-08-29",
+    "venue": "浅草橋MANHOLE",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://livepocket.jp/e/d0wju": {
+    "title": "【8/29(土)】東京CuteCute×Red Radiance 私服撮影会 in 名古屋",
+    "group": "東京CuteCute / Red Radiance",
+    "date": "2026-08-29",
+    "venue": "名古屋某所",
+    "prefecture": "愛知",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://livepocket.jp/e/7n5r_": {
+    "title": "2.4時間ライブ　アイアイは世界を救う？　DAY１　2部",
+    "group": "キミの主人公( / HATE and TEARS( / MiuLu ( / 已己巳己-いこみき-    ( / いざ参らん  ( / グランダルメ( / dela( / 終演後",
+    "date": "2026-08-29",
+    "venue": "ライオンカフェ",
+    "prefecture": "愛知",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://livepocket.jp/e/260829p2": {
+    "title": "PARALLEL LIVES -night-",
+    "group": "OROCHI / GLIM of GRAND / ディノゾール / AIMIA / ENVY PARANOID / 神薙-時うさぎ- / キグルミ / Charlotte / tzmiki / ネテルダイヤ / PLYDE",
+    "date": "2026-08-29",
+    "venue": "大阪 福島LIVE SQUARE 2nd LINE",
+    "prefecture": "大阪",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/feelneo-nexttour0829": {
+    "title": "feelNEO 10th Anniversary tour2026【NEXT】in HOKKAIDO",
+    "group": "feelNEO",
+    "date": "2026-08-29",
+    "venue": "小樽 GOLDSTONE",
+    "prefecture": "北海道",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/hip_829": {
+    "title": "HOKKAIDO IDOL PARTY",
+    "group": "きのホ。 / AQ / RAY / selfish / BYBBiT",
+    "date": "2026-08-29",
+    "venue": "Sound lab mole",
+    "prefecture": "北海道",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://tiget.net/events/512361": {
+    "title": "【追加募集】むぎことまきちゃんと野球観戦（大阪）",
+    "group": "むぎこ / まきちゃん",
+    "date": "2026-08-29",
+    "venue": "大阪市内某野球場",
+    "prefecture": "大阪",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://livepocket.jp/e/natsu2026": {
+    "title": "【朝野ナツ生誕祭2026】なつうさ♡パラダイス~今日はわっしょい言わないもんっ~",
+    "group": "朝野ナツ / イイトコドリ",
+    "date": "2026-08-29",
+    "venue": "渋谷BUZZLIVE",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/20260829_night": {
+    "title": "INFINITY LIVE presents『ASTROPUFF』",
+    "group": "スパンコールグットタイムズ / THE PINK MINDS / yumegiwa last girl / LiVS",
+    "date": "2026-08-29",
+    "venue": "新宿MARZ",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://www.tiget.net/events/513849": {
+    "title": "『#ワールドカオス桜かれん生誕祭』 〜桜の魔法にかけられて〜",
+    "group": "愛野可奈 / iLOUZ / ウルトラめっちゃ凄く良いグループ / enon / 音萌ねるね(𝐕𝐚𝐫𝐢𝐨𝐮𝐬 𝐂𝐮𝐭𝐞) / 擬人化にゃんた / 桜かれん / SAKURA Melody. / SUGAR☆VEGA .com / 城田ゆりあ / ちぃたん☆ぼんばーず / TJP / DOKUDOKU / 26時のシンデレラ / にちようびのきしかいせい / ばっきゅん！ / #ピンポンダッシュ / #初期メンカオス / #ワールドカオス / HEROINE☆JOURNEY / first crush / Fortuness EAST / プリンセスは眠らないっ！ / 星宮める / MARUMON! / 水萌みず / 望月みうな / ももいろ娘 / リットクロスxxx / 高橋未亜 / Яе*pa!R",
+    "date": "2026-08-30",
+    "venue": "新宿DHNoA",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/qlFTleVsYx8DvmZg98te": {
+    "title": "AGE FES",
+    "group": "chuLa / フルコース / STAiNY / アキシブproject / かすみ草とステラ / パラディーク / フューチャーサイダー / 君に、胸キュン。 / ドレスコード",
+    "date": "2026-08-30",
+    "venue": "duo MUSIC EXCHANGE",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/KAIHOKU_SUMMER": {
+    "title": "解放区-SUMMER SP 2026-",
+    "group": "YUGUREMI / AKIARIM / SHAKEBE / GREAT MONKEYS / RED-i / 僕には通じない / RIFFBABYZ / マイナーガール / KIKO / TIGHT / 折れないしっぽ / 僕と契約してライヴ信者になってよ。 / Gimme!×Gimme! / QUON / Re:んね / RICEMOSH⁉︎ / Candye♡Syrup",
+    "date": "2026-08-30",
+    "venue": "代官山space ODD",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/mf4BPsGx5TuxggBkXJql": {
+    "title": "ワチャチャライブ　8月東京定期",
+    "group": "にっぽんワチャチャ",
+    "date": "2026-08-30",
+    "venue": "秋葉原GALAXY",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://tiget.net/events/514125": {
+    "title": "fight style!!",
+    "group": "ガンジャバンギラス / 僕等のスイッチ / SICXXX. / SHOWTIME撃嬢 / LΛMBDA",
+    "date": "2026-08-30",
+    "venue": "LiVESTAGE NERVE",
+    "prefecture": "福岡",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://livepocket.jp/e/ov2pj": {
+    "title": "8月 30日『エキセントリックトーキョー』",
+    "group": "魔訶不思議変革者-デスデス- / LiVS / 花魁道中 / MiiS / MEOWMEW / 絶対少女 / yumegiwa last girl / LIE LILIE / SWANTICK / 美味しい贖罪 / メルクマールメルマール / XILUX / すーぱーぷーばぁー! / LEVEL7 / Question.VI",
+    "date": "2026-08-30",
+    "venue": "代官山 UNIT",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/nature_0830": {
+    "title": "『nature mate』",
+    "group": "LOOPARADE / Gimme!×Gimme! / AKIARIM / スーパーオーバー / il pleut / トナリア / SAZANAMi Λug. / ponderosa may bloom / KIKO",
+    "date": "2026-08-30",
+    "venue": "Twin Box AKIHABARA",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://tiget.net/events/514129": {
+    "title": "byebye style!!",
+    "group": "ガンジャバンギラス / 僕等のスイッチ / SHOWTIME撃嬢 / LΛMBDA / SØiD",
+    "date": "2026-08-30",
+    "venue": "LiVESTAGE NERVE",
+    "prefecture": "福岡",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/LC_0830": {
+    "title": "ろりちゅ〜と♡SUMMER - Lollipop♡CHU 5th One-man LIVE -",
+    "group": "Lollipop♡CHU",
+    "date": "2026-08-30",
+    "venue": "LivesFARM",
+    "prefecture": "愛知",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/kitto_20260831": {
+    "title": "『きっと東京散策だった8月号』〜ちいさな非日常空間で癒し補給編SUMMER〜",
+    "group": "きっと大切だった / 月島茜捺 / 湊ゆきの / 神谷鈴花 / 藤城れあ",
+    "date": "2026-08-31",
+    "venue": "東京都某所",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://tiget.net/events/514281": {
+    "title": "PIXELATION!!",
+    "group": "meluQ / AIMIA / EVERYTHING IS WONDER / cleomery / POLARiS / LØISLOID",
+    "date": "2026-08-31",
+    "venue": "FANJ twice",
+    "prefecture": "大阪",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/se-nodehazimaru": {
+    "title": "せーのではじまる！",
+    "group": "星もつもれば惑星となる！ / BUGTTE！ / +Alpha / キューハチパーセント！ / スイモアマイモン！ / グットクルー",
+    "date": "2026-08-31",
+    "venue": "梅田amHALL",
+    "prefecture": "大阪",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/yumeyorisutekina16": {
+    "title": "夢より素敵な EX.16",
+    "group": "Ange☆Reve / I’Rink / BABBLY BUBBLY / はぐっと！ / DRAWCY / ノベルノア",
+    "date": "2026-08-31",
+    "venue": "新宿MARZ",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://livepocket.jp/e/prettycodo": {
+    "title": "『Prettyコード』",
+    "group": "Pretty Chuu / ドレスコード",
+    "date": "2026-08-31",
+    "venue": "WWWX",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/MAGICALTIMEvol20": {
+    "title": "MAGICAL TIME vol.20",
+    "group": "MAGICAL SPEC / 森夏華",
+    "date": "2026-08-31",
+    "venue": "The Voodoo Lounge",
+    "prefecture": "福岡",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/260831v": {
+    "title": "べロティカ 怪造人間 生誕祭 『Astronautica』",
+    "group": "べロティカ",
+    "date": "2026-08-31",
+    "venue": "WOMBLIVE",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/summerhaze0831": {
+    "title": "高辻ひな&ろくでもない夜 presents-Summer Haze-",
+    "group": "高辻ひな / 中根もにゃ / yubne.38°c / 樹菜里",
+    "date": "2026-08-31",
+    "venue": "下北沢ろくでもない夜",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://livepocket.jp/e/4w2-0": {
+    "title": "美味しい水玉主催 「美味しいイベント」",
+    "group": "美味しい水玉 / kijō no kūron / UNDO / CoTei",
+    "date": "2026-08-31",
+    "venue": "Shibuya Milkyway",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/ruru0831": {
+    "title": "縷々 針ヶ谷優佳生誕祭『がやがや⭐️サマー』",
+    "group": "きゅーんず ! / 折れないしっぽ / 縷々",
+    "date": "2026-08-31",
+    "venue": "池袋Black Hole",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/bMe3aF1QbQj1yTpdfqWt": {
+    "title": "【 Qu♡Aly定期公演 Vol.25〜マリンルック衣装公演〜】",
+    "group": "Qu♡AIy",
+    "date": "2026-08-31",
+    "venue": "OSAKA RUIDO",
+    "prefecture": "大阪",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://livepocket.jp/e/ayrei": {
+    "title": "スキュラ定期公演 『ともだちひゃくにんできるかな？』",
+    "group": "スキュラ",
+    "date": "2026-08-31",
+    "venue": "Shinjuku HEIST",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/Kastella_0831": {
+    "title": "かすみ草とステラ3期生単独公演 「四つ葉の栞」 - VOL.1",
+    "group": "かすみ草とステラ３期生",
+    "date": "2026-08-31",
+    "venue": "日暮里ネコシアター",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/0831_cc": {
+    "title": "Chuu♡Cute 夏祭りSPイベント",
+    "group": "Chuu♡Cute",
+    "date": "2026-08-31",
+    "venue": "Grit at Shibuya",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/Melucha_vol5": {
+    "title": "MeluCharm定期公演vol.5",
+    "group": "MeluCharm",
+    "date": "2026-08-31",
+    "venue": "MILULARI",
+    "prefecture": "大阪",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/zuzu_2026": {
+    "title": "厭見ずず生誕祭2026 〜かわいいうさぎには逆らえない♡〜",
+    "group": "アンチテーゼ / 神様の言う通り / ArmaElla / ex.Dear.HOLIC",
+    "date": "2026-09-01",
+    "venue": "新宿MARZ",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/KarenBD": {
+    "title": "愛瀬かれん生誕祭 ❤Loving you hospitalized me❤",
+    "group": "愛瀬かれん / 白羽りあ / 甘依あう / 翼芽ゆいか / 夢咲のどか / 來莉みる",
+    "date": "2026-09-01",
+    "venue": "Zephyr Hall",
+    "prefecture": "愛知",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://livepocket.jp/e/hinoyui_bd": {
+    "title": "日野ゆい生誕ライブ 2026 『LIVE IS BEAUTIFUL』",
+    "group": "可愛いって言わないと呪う！ / 日野ゆい",
+    "date": "2026-09-01",
+    "venue": "新宿DHNoA",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://tiget.net/events/512009": {
+    "title": "モノクロだった世界がカラフルに vol.4",
+    "group": "カラタチ前田 / 四千頭身石橋 / 夏目涼風（ラフ×ラフ） / 東山恵里沙（高嶺のなでしこ）",
+    "date": "2026-09-01",
+    "venue": "渋谷ユーロライブ",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://tiget.net/events/511976": {
+    "title": "ラフメディカル アイドル科 vol.3",
+    "group": "カラタチ前田 / 夏目涼風（ラフ×ラフ） / サツマカワRPG / 新居歩美（ドラマチックレコード） / リニア / 橋本桃呼（高嶺のなでしこ） / ミカボ",
+    "date": "2026-09-01",
+    "venue": "渋谷ユーロライブ",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/PolaMate_04": {
+    "title": "ポラライト主催「PolaMate」",
+    "group": "UPローチ / 君とのシナリオ / シオリベル / Sugar♡Holic / べるべっとセンテンス / ポラライト / メノニューイヤー / Melodys High",
+    "date": "2026-09-02",
+    "venue": "SHIBUYA VIDENT",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/dakeno1": {
+    "title": "DAKENO IDOL VOL.01",
+    "group": "AZATOY / CHEMICAL X / CoTei / Drawry. / hakanai / HATENO",
+    "date": "2026-09-02",
+    "venue": "代官山 SPACE ODD",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/charisma_2026": {
+    "title": "カリスマ・ローズ生誕祭2026 - おいで、仔猫ﾁｨｬﾝ -",
+    "group": "アンチテーゼ / 白黒アリス",
+    "date": "2026-09-02",
+    "venue": "新宿MARZ",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/Kastella_0902": {
+    "title": "かすみ草とステラ定期公演2026「全校集会 Vol.17〜谷菜乃花お誕生日スペシャル〜」",
+    "group": "かすみ草とステラ",
+    "date": "2026-09-02",
+    "venue": "Spotify O-Crest",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/BBP_260903": {
+    "title": "Buzz Buzz Premium!!",
+    "group": "まねきケチャ / ラストシーン / STAiNY / ドレスコード / Maison de Queen / RiNCENT♯ / パラディーク / Ma’Scar’Piece / ルージュブック / ハニースパイスRe. / 月に足跡を残した少女達は一体何を見たのか... / I MY ME MINE / 君と見るそら / オカシリゾート / スプスラッシュ / しろもん / NEFRALISE / Aurora / 玉響storage / IWI! / Aivery / NANIMONO",
+    "date": "2026-09-03",
+    "venue": "Spotify O-EAST",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/ZqUboomyRRID3YeBr3av": {
+    "title": "Poppin' Parade Presents 『白坂音采卒業ライブ〜夢の続き、その最終章。アイドルになれて幸せでした。〜』",
+    "group": "Poppin' Parade / Lily wonder / THE EUPHORIA",
+    "date": "2026-09-03",
+    "venue": "BLAZE GOTANDA",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://tiget.net/events/509476": {
+    "title": "SCRAMBLE SMILE「土居麗菜生誕LIVE2026」世界で1番♡にゃんにゃん宣言！〜どいれなちゃんしか無理！♡〜",
+    "group": "SCRAMBLE SMILE",
+    "date": "2026-09-03",
+    "venue": "白金高輪SELENE STUDIO SELENE b2 セレネ",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/MirrorMirror20260903": {
+    "title": "Mirror,Mirror 紫煙りん生誕祭 2026 〜Let’s meet where the music lives.〜",
+    "group": "Mirror,Mirror",
+    "date": "2026-09-03",
+    "venue": "WOMBLIVE",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/mrcr_0903": {
+    "title": "森口葵/鈴木穂希合同生誕祭2026",
+    "group": "マリークラウン",
+    "date": "2026-09-03",
+    "venue": "渋谷音楽堂",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://livepocket.jp/e/thxaoi": {
+    "title": "【君へセレナーデ】AOI graduation live",
+    "group": "AMOmillion / Love it ice / 真田愛生 / Tiaraアイドルプロジェクト / LUMIA PLANET / 君へセレナーデ",
+    "date": "2026-09-04",
+    "venue": "sound space Deep",
+    "prefecture": "愛知",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://tiget.net/events/506992": {
+    "title": "N.R.R IGNITION/RED Release Tour 2026〜まる生誕〜",
+    "group": "Able-Gleam / on Bleed / Picobit / Keisandeath / コバラヘル",
+    "date": "2026-09-04",
+    "venue": "WildSideTokyo",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://livepocket.jp/e/stalove_statice": {
+    "title": "スターチスのラブレター 2期 1st Anniversary Live『STATICE』",
+    "group": "スターチスのラブレター",
+    "date": "2026-09-04",
+    "venue": "白金高輪SELENE b2",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/NUNNUS_2": {
+    "title": "NUANCE presents 『ヌュナッス』 supported by エンジョイナス!!",
+    "group": "NUANCE / FOKALITE / YA'ABURNEE / i_andscape.",
+    "date": "2026-09-04",
+    "venue": "SHIBUYA DESEO",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/QFriends5": {
+    "title": "おいでよ！クマリフレンズ♡ vol.5",
+    "group": "クマリデパート / フューチャーサイダー",
+    "date": "2026-09-04",
+    "venue": "恵比寿CreAto",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://livepocket.jp/e/p4zmh": {
+    "title": "魂扉歌 -konpika-",
+    "group": "くぴぽ",
+    "date": "2026-09-04",
+    "venue": "難波Mele",
+    "prefecture": "大阪",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://buzz-ticket.com/e/17jk4krxao": {
+    "title": "PLUMLIVE #125 | BUZZチケ",
+    "group": "LOVEME / airrow / 撫子の音返し / リルリボン / ろりぽっぷ!!!!!!! / PHiZZ / Newヒロイン / アイドルキャリア / UNION FLEUR / UNBS(アンビス) / 蓋然性オルトイズム / HALO PALLETE / ヒトノユメ / TubeRose / 終末のアンセム / セツナソウ / ひなてん！ / REMIC / 星合いのライラック / ソラネルカンパニー / 泡沫Lyrics / SoRaLis / ARLEY×EARLY / 奏音コレクト / Blüme / FLORERISA / 代々木女子音楽院 / InnocentFairy / はぐっと！ / Amairo-Flip / ConnectCall / melnoir / wonder channel / ルミルミ",
+    "date": "2026-09-05",
+    "venue": "新宿Zirco",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/ReLikeMOVEMENT01": {
+    "title": "ReLike MOVEMENT vol.1",
+    "group": "Re:♡【りらいく】 / アイドルキャリア / アイドルは下剋上 / iROTORiDOLLY / ブルーなままで",
+    "date": "2026-09-05",
+    "venue": "秋葉原Galaxy",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketvillage.jp/events/13856": {
+    "title": "IDOLEAD",
+    "group": "限りなく白く / 君と見るそら / SAI²Rium / Cherie! / シャルロット / selfish / 太陽と踊れ月夜に唄え / hakanai / Bunny La Crew / ポラリスマイル / フィルフェリーチェ",
+    "date": "2026-09-05",
+    "venue": "白金高輪 SELENE b2",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/myojou_0905": {
+    "title": "myojou autumn tour 2026\"秋星\" in NAGOYA",
+    "group": "myojou",
+    "date": "2026-09-05",
+    "venue": "新栄シャングリラ",
+    "prefecture": "愛知",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://livepocket.jp/e/r3u0s": {
+    "title": "『POP! POP!! POP!!! in 北海道』",
+    "group": "Panic Monster !n Wonderland / YELLOW*BEAT BOP / WONDER*WHITE / Crystal☆Neige / #MOUWAY / BYBBiT",
+    "date": "2026-09-05",
+    "venue": "VyPass.",
+    "prefecture": "北海道",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/diavel20260905b": {
+    "title": "DIAVEL 姫ノ実そあら生誕祭-2部単独編-「未睡少女集会」",
+    "group": "DIAVEL",
+    "date": "2026-09-05",
+    "venue": "心斎橋Fanj twice",
+    "prefecture": "大阪",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/nm260905": {
+    "title": "紫苑りんか生誕祭2026 『Moonlit Night』",
+    "group": "NANIMONO",
+    "date": "2026-09-05",
+    "venue": "赤羽ReNY alpha",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/G8IridoVvOmpcbjRE0wb": {
+    "title": "KAMAITACI 神緒みこと BIRTHDAY LIVE 〝 たくさん甘やかせ！♡ 〟",
+    "group": "KAMAITACI",
+    "date": "2026-09-05",
+    "venue": "Spotify O-Crest",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/5hmO1ntVLyGnWadGKlSc": {
+    "title": "瀬織津あい生誕祭2026",
+    "group": "寄絃 - Yo2La",
+    "date": "2026-09-05",
+    "venue": "SHIBUYA ONE 5",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/happy96": {
+    "title": "ﾊｯﾋﾟｰｽﾏｲﾙᵕ̈*",
+    "group": "ディノゾール / matatabi / キグルミ / tzmiki / DaTuRa-ダチュラ- / 狂鳴-ｷｮｳﾒｲ- / CRYZ / アブソプ / SANUGLOW / GRINOAH / ネテルダイヤ",
+    "date": "2026-09-06",
+    "venue": "ナンバーゲート",
+    "prefecture": "大阪",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://www.tiget.net/events/512540": {
+    "title": "Road to かがやきフェス in TOKYO 予選Day2",
+    "group": "ヴィランの掟 / KimiTrial / Seirius / BrainBeat / LittleSignal / れんてつ / 清麗使命女子 / クモリノチ。",
+    "date": "2026-09-06",
+    "venue": "Viblue EBISU",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/otameshi_teba0906": {
+    "title": "お試し手羽セン公演",
+    "group": "手羽先センセーション / めたセン",
+    "date": "2026-09-06",
+    "venue": "INSA Fukuoka",
+    "prefecture": "福岡",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/rincent_stainy_0906": {
+    "title": "RiNCENT♯ × STAiNY 2MAN LIVE - ECHOES -",
+    "group": "RiNCENT♯ / STAiNY",
+    "date": "2026-09-06",
+    "venue": "X-HALL ZEN",
+    "prefecture": "愛知",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/LUCYFES20260906": {
+    "title": "LUCY presents『LUCY FES』",
+    "group": "LUCY / ARCANA PROJECT / 会心ノ一撃 / キュニコ / MAPA / ゆるめるモ！ / KIKO / 8°世界が変われば、 / THE PINK MINDS",
+    "date": "2026-09-06",
+    "venue": "下北沢シャングリラ",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://tiget.net/events/513222": {
+    "title": "Our Generation vol.24 -星乃ユラネ卒業公演-",
+    "group": "The Grateful a MogAAAz",
+    "date": "2026-09-06",
+    "venue": "新大久保EARTHDOM",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://tiget.net/events/514384": {
+    "title": "150th RIOT DISCO - THE ONE HUNDRED FIFTIETH RIOT SHOW!",
+    "group": "XTEEN / Dusk / MANACLE / My Criminal Lovers' / MYUZAI / Re:Yu / エレクトロイド / 紫音の結社 / 滄茫RESONICA / ディアブルボア / 憂鬱少女物語 / リックホリック歌劇団 / ワタシは雨、",
+    "date": "2026-09-06",
+    "venue": "新宿 club SCIENCE",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://tiget.net/events/513815": {
+    "title": "打ち上げBBQ",
+    "group": "acroa-A",
+    "date": "2026-09-06",
+    "venue": "舞鶴公園",
+    "prefecture": "福岡",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/DeviUtaGe": {
+    "title": "Devil ANTHEM. VS UtaGe!『でび宴』",
+    "group": "Devil ANTHEM. / UtaGe!",
+    "date": "2026-09-06",
+    "venue": "KANDA SQUARE HALL",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/20260907ruido": {
+    "title": "リボンのないぷれぜんと新体制お披露目ライブ『Brand New Day』",
+    "group": "リボンのないぷれぜんと",
+    "date": "2026-09-07",
+    "venue": "OSAKA RUIDO",
+    "prefecture": "大阪",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://buzz-ticket.com/e/m19mv0blka": {
+    "title": "アイドル道場 Vol. 65 | BUZZチケ",
+    "group": "LOVEME / べるべっとセンテンス / フィルフェリーチェ / 終末のアンセム / 夢みるアドレセンス / wonder channel / BUNGEE GUM. / MiiS / 白地図プロローグ /『TryVII』/ きゅんパニ！ / ソラネルカンパニー / Amairo-Flip / ヒトノユメ / I'mew（あいみゅう） / ミライズ / DRAWCY / SEKAMONO / LittleSignal / ラストレイ",
+    "date": "2026-09-08",
+    "venue": "渋谷VIDENT",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/2026hana": {
+    "title": "びっくえんじぇる笑原はなプロデュース生誕祭",
+    "group": "びっくえんじぇる",
+    "date": "2026-09-08",
+    "venue": "SHIBUYA DIVE",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/zG6wzyeI65Lr37Mjomob": {
+    "title": "HYPER TAiNER! 〜GMG大運動会〜",
+    "group": "ぜろから☆すた→と / STARRY×NIGHT↗ / SiLENT←NOiSE",
+    "date": "2026-09-08",
+    "venue": "DIVA",
+    "prefecture": "愛知",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://livepocket.jp/e/hyuga0908": {
+    "title": "ヒューガー初生誕ライブ-名称非公開定期公演vol4-",
+    "group": "名称非公開",
+    "date": "2026-09-08",
+    "venue": "GRIT at shibuya",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/LvTqvTig5ZPkayuT7zQD": {
+    "title": "マジカル・パンチライン定期公演「Re:Load #04」",
+    "group": "マジカル・パンチライン",
+    "date": "2026-09-08",
+    "venue": "Spotify O-nest",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/soraki_seitan_2026": {
+    "title": "メルクマールメルマール空姫あみな生誕祭2026",
+    "group": "メルクマールメルマール",
+    "date": "2026-09-08",
+    "venue": "NINE SPICES",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/Etoile-After-Summer-20260909": {
+    "title": "Etoile -After Summer-",
+    "group": "もう一度恋しませんか? / アイドルキャリア / アオハルブレイブ / あ！恋見つけちゃいました...♡ / AZの理由 / あにもふっ！ / Aproof / あもるてぃえ / 異世界アイドル☆パラレルパレード / INOiZe ↯ / iROTORiDOLLY / wolfwaltz / éclatcia / 4次元コンパス / Lって何のLですか？ / おやすみセカイ / かけっこ！ / キミトサクハナ / KimiTrial / Jewelry Palette / 白色の1ページ / しろもん / Sepiacode / スリジエ / 青春のフロンティア / 空色Glitter / ソライロの涙 / Ci-nic / 天使の羽衣 / てんしめし！ / NEFRALISE / HEARLATE / 白地図プロローグ / ばたんキュン / Varia Noise. / BUNGEE GUM. / FIRST DREAM / プエラの絶対値 / Poupée² / Bright Charm / prologue / 文翠麗 / minipure / ミライズ / MYUZAI / Meteors / めろでぃーぷれいす / MOMENT COLLECTION / 桃色革命 / めろてぃっくちゃーむ / UNION×CARAT / 夢みるアドレセンス / 夜明けの一番星 / LIE LILIE / REMIC / Lily scale / ラビットビット / Lily's Doll / Lilite tune / ルージュブック / LUNARISE / Lumiétoile / RURU:MERRY / Rociena / 林檎を齧った僕たちは。 / 笑う門には福来たる / NiLUNLOCK / STRAWBERRY FEATHERSTAR",
+    "date": "2026-09-09",
+    "venue": "上野恩賜公園野外ステージ／上野AL-TEMA",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/TwilightHeroine": {
+    "title": "Twilight Heroine",
+    "group": "Cherie! / シオリベル / スーパーベイビーズ / Pafio / カリスマめんざいふっ！ / マイノリティアラート / 【eN】 / UNDO",
+    "date": "2026-09-09",
+    "venue": "渋谷VIDENT",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://livepocket.jp/e/collection0909": {
+    "title": "『COLLECTION　VOL.4』",
+    "group": "てんぽぷりも / COzMICぱれーど / ぼや～ぢゅ / うぃるめり！ / アクアリウム。 / むげんこんぜ / matatabi / BUGTTE!",
+    "date": "2026-09-09",
+    "venue": "心斎橋VARON",
+    "prefecture": "大阪",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/closerlounge_260909": {
+    "title": "Closer Lounge vo.2",
+    "group": "高辻ひな(MANACLE) / めい美によ(MANACLE)\u0003 / SaKi / 初ちひろ(FiDZ) / 妃理(TIGHT) / 美鳴らいら(ブルベア)",
+    "date": "2026-09-09",
+    "venue": "渋谷gee-ge",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://livepocket.jp/e/pikapikawanoro4": {
+    "title": "かわのろ定期公演2026『ピカピカ☆パーティ vol.4』",
+    "group": "可愛いって言わないと呪う！",
+    "date": "2026-09-09",
+    "venue": "渋谷DESEO",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/okashi_ttm": {
+    "title": "オカシリゾート単独公演『タルト・タタン・マジック』",
+    "group": "オカシリゾート",
+    "date": "2026-09-09",
+    "venue": "渋谷ONE5",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/JamsSessionVol8": {
+    "title": "ジャムズセッション!!Vol.8",
+    "group": "JamsCollection / 高嶺のなでしこ / Onephony / なみだ色の消しごむ / ドラマチックレコード / フルコース / Pastel Closet / Bunny La Crew / しろもん / UPDANCE Lily",
+    "date": "2026-09-10",
+    "venue": "品川ステラボール",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/at260910": {
+    "title": "AZATOY定期公演 vol.12 『AZATOY沼へようこそ♡』",
+    "group": "AZATOY",
+    "date": "2026-09-10",
+    "venue": "渋谷REX",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/HWSvd9eZSWa56GbzxusV": {
+    "title": "iRiNE 定期公演 vol.1",
+    "group": "iRiNE",
+    "date": "2026-09-10",
+    "venue": "TAKAE OFF 7",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/260910z": {
+    "title": "マーキュロ 珖夜ゼラ生誕祭『‪ 絶対教祖 ~ぜわわの言う事は絶対♡~ 』",
+    "group": "マーキュロ",
+    "date": "2026-09-10",
+    "venue": "WOMBLIVE",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://livepocket.jp/e/yoyu0": {
+    "title": "くぴアコ",
+    "group": "あやぴぃ(くぴぽ) / 服部真希 / 卯花うい / ちあき(くぴぽ)",
+    "date": "2026-09-10",
+    "venue": "阿佐ヶ谷mogumogu",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/gl0911ykt": {
+    "title": "Girls Live! -浴衣SP-",
+    "group": "Stella! / 夕凪のスピカ / もしもしも / Blue Cheese Choco Fondue / tzmiki / PLYDE / キュートアグレッションズ / きっずりたーん / mofu/mofu",
+    "date": "2026-09-11",
+    "venue": "DEEP",
+    "prefecture": "愛知",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/yume_challe": {
+    "title": "shibuya luisant Vol.56",
+    "group": "Palette Parade / タイトル未定 / ドラマチックレコード / ハルニシオン",
+    "date": "2026-09-11",
+    "venue": "duo MUSIC EXCHANGE",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://livepocket.jp/e/meteorfes12": {
+    "title": "【METEOR FES vol.12 -終末-】",
+    "group": "TIGHT / 終末のステラ",
+    "date": "2026-09-11",
+    "venue": "新宿ANTIKNOCK",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketvillage.jp/events/13854": {
+    "title": "LEADING NAGOYA",
+    "group": "THE ENCORE / 君に、胸キュン。 / サクヤコノハナ / 手羽先センセーション / ドラマチックレコード / AKANECLUB.",
+    "date": "2026-09-12",
+    "venue": "Zephyr Hall",
+    "prefecture": "愛知",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/iD_LANDHARAJUKU02": {
+    "title": "あいらんど HARAJUKU",
+    "group": "透色ドロップ / 美味しい曖昧 / まねきケチャ / MixVeil / 虜なるプレリュード / SEKAIE☆ / Bunny La Crew / SCRAMBLE SMILE / I MY ME MINE / CURE’T / しろもん / ルージュブック / Aivery / べるべっとセンテンス / @youuuuu!!! / 17秒前の瞬きに光を / ネクスタリア /『TryVII』/ Chuu♡Cute / mementoa / My_Stage / オカシリゾート / 寄絃 - Yo2La / FRESH CHARM",
+    "date": "2026-09-12",
+    "venue": "ラフォーレミュージアム原宿",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/mads_3man": {
+    "title": "MAD'S iNK主催 「COSPLAY 3MAN」",
+    "group": "マザリ / 絶望キネマ / MADOROMI-マドロミ-",
+    "date": "2026-09-12",
+    "venue": "RAD NINE",
+    "prefecture": "愛知",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketvillage.jp/events/13784": {
+    "title": "THE ORCHESTRA TOKYO主催 『URAWA CIRCUS 2MAN』",
+    "group": "THE ORCHESTRA TOKYO / Tohkei",
+    "date": "2026-09-12",
+    "venue": "浦和 Live House Narciss",
+    "prefecture": "埼玉",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/miraik_extra02": {
+    "title": "MIRAI系アイドルSPライブ 番外編#02-ちょっと長めにやってみた!-",
+    "group": "Ange☆Reve / 純情のアフィリア / DREAMING MONSTER / Next☆Rico / アップアップガールズ (仮)",
+    "date": "2026-09-12",
+    "venue": "AKABANE ReNY alpha",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/shibuyaLuisantVol57": {
+    "title": "shibuya luisant Vol.57",
+    "group": "Merry BAD TUNE. / UtaGe! / ハルニシオン",
+    "date": "2026-09-12",
+    "venue": "渋谷WWW X",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/20260912_fukuoka": {
+    "title": "INFINITY LIVE TOUR 2026『ASTROMIRAGE - FUKUOKA #1 -』",
+    "group": "I tie to / cleomery / スマートオブジェクト . / YUGUREMI / ルナリウム / LUCY / LOOPARADE / 僕等のスイッチ / ガンジャバンギラス",
+    "date": "2026-09-12",
+    "venue": "福岡Pocket",
+    "prefecture": "福岡",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/feelneo-nexttour0912": {
+    "title": "feelNEO 10th Anniversary tour2026【NEXT】in EHIME",
+    "group": "feelNEO",
+    "date": "2026-09-12",
+    "venue": "松山サロンキティ",
+    "prefecture": "愛媛",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/0912cook": {
+    "title": "aiDolce料理対決vol.97～anemoreel～",
+    "group": "anemoreel",
+    "date": "2026-09-12",
+    "venue": "aiDolce/神戸三宮",
+    "prefecture": "兵庫",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/PIF_0913": {
+    "title": "POP IN FESTIVAL 2026 ~ #PIF2026 ~",
+    "group": "Jewel☆Garden / カリスマめんざいふっ！ / Cent Heaven / 魔訶不思議変革者-デスデス- / スリジエ / まぶだちゅ！ / &CUTE / KATA☆CHU / KATACOTO＊BANK / 空想と妄想とキミの恋した世界 / えすれある / セレインノート / 異世界アイドル☆パラレルパレード / チキータ / 蓋然性オルトイズム / Sistersあにま / にとくり。 / メモワールパルファム / ひとつキラリ / ルートプリュフォール / ゆにきゅーと / 縷々 / Lily / 青春のフロンティア / RUN WiTH YOU / LOVE SPEARS / antares / アオハルブレイブ / SHINKA↑ / リルアムール / #ワールドカオス / NeoBiBit / FIRST DREAM / らぶららら / Poupée² / jamstep",
+    "date": "2026-09-13",
+    "venue": "Viblue EBISU",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/260913n": {
+    "title": "『名古屋事変』",
+    "group": "マーキュロ / べロティカ / VILLAINS HOUSE / ギミック / セクト / PSYCHOデリック / メモリーズ / サークルライチ塾生三期 / マザリ / MADOROMI-マドロミ- / 絶望キネマ / めっ！ / DIAVEL / カミサマパレード / 闇雲",
+    "date": "2026-09-13",
+    "venue": "zephyrhall",
+    "prefecture": "愛知",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/FROM062": {
+    "title": "FROM06",
+    "group": "ELEVYZ / ExciteOneSelf / 義澄牙-GIZGA- / 僕等のスイッチ / ガンジャバンギラス / I tie to",
+    "date": "2026-09-13",
+    "venue": "The Voodoo Lounge",
+    "prefecture": "福岡",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/ochiritan2026": {
+    "title": "Melodys High『越智あいり生誕祭2026～集まれ！おちりちゃんの森！～』",
+    "group": "Melodys High",
+    "date": "2026-09-13",
+    "venue": "渋谷DAIA",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/20260913_fukuoka": {
+    "title": "INFINITY LIVE TOUR 2026『ASTROMIRAGE - FUKUOKA #2 -』",
+    "group": "acro-A / ELEVYZ / cleomery / JINKS / MAGMAZ / YUGUREMI / LOVE××BAD / LUCY / LOOPARADE",
+    "date": "2026-09-13",
+    "venue": "福岡Pocket",
+    "prefecture": "福岡",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/260913s": {
+    "title": "サークルライチ主催『サブカル』",
+    "group": "マーキュロ / べロティカ / VILLAINS HOUSE / ギミック / セクト / PSYCHOデリック / メモリーズ / サークルライチ塾生三期 / マザリ / MADOROMI-マドロミ- / 絶望キネマ / めっ！ / DIAVEL / カミサマパレード / 闇雲",
+    "date": "2026-09-13",
+    "venue": "zephyrhall",
+    "prefecture": "愛知",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/0uH23Rfvl8k1mnbUOUNY": {
+    "title": "BLUEGOATS presents. Road to DAWN series “blue fight club”",
+    "group": "BLUEGOATS / カイジューバイミー",
+    "date": "2026-09-13",
+    "venue": "新宿MARZ",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/First_and_Last": {
+    "title": "Drawry.主催「First and Last」",
+    "group": "Drawry. / airattic",
+    "date": "2026-09-13",
+    "venue": "Shibuya Milkyway",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/9xiEvZY7UHJznCJzCiuV": {
+    "title": "アオハミライズ ―僕らの交点―NAGOYA（名古屋公演）",
+    "group": "プエラの絶対値 / Twilight BlooM. / 夕凪のスピカ",
+    "date": "2026-09-13",
+    "venue": "SOUND SPACE DEEP",
+    "prefecture": "愛知",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://livepocket.jp/e/ydyz4": {
+    "title": "私立くぴぽ学園～むぎこ卒ワンマン2026～",
+    "group": "くぴぽ",
+    "date": "2026-09-13",
+    "venue": "高円寺HIGH",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/LOVE_Together": {
+    "title": "LOVE 9 LOVE 単独公演「LOVE Together」",
+    "group": "LOVE 9 LOVE",
+    "date": "2026-09-13",
+    "venue": "Studio Freedom",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/Dw5Hvg80AGOwL65at22P": {
+    "title": "安達みよ生誕祭『Träumerei 』",
+    "group": "CoTei / 安達みよ / 深月りぜ（星合いのライラック) / もか",
+    "date": "2026-09-13",
+    "venue": "SHIBUYA DESEO mini",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/czmEMfWs6S418SOafmrm": {
+    "title": "Road to DAWN series “NO FIGHT”",
+    "group": "BLUEGOATS",
+    "date": "2026-09-13",
+    "venue": "新宿MARZ",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/20260914_wwwx": {
+    "title": "INFINITY LIVE presents『ASTROTRONIC』",
+    "group": "I to U $CREAMing!! / AFTERS / 美味しい曖昧 / カイジューバイミー / スパンコールグッドタイムズ / BELLRING少女ハート / MAPA / yumegiwa last girl / ゆるめるモ！ / 8°世界が変われば、 / THE PINK MINDS / SOMOSOMO",
+    "date": "2026-09-14",
+    "venue": "渋谷WWW X",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/Anotherstory_01": {
+    "title": "Another Story vol.1",
+    "group": "Ｏ₂ / なないろ∞ミルキーウェイ / 輝きぱにっく / みありー / 夕凪のスピカ",
+    "date": "2026-09-14",
+    "venue": "伏見ライオンシアター",
+    "prefecture": "愛知",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://tiget.net/events/513199": {
+    "title": "囁揺的音楽集団AsMR主催　語 ru 音 Vol.2",
+    "group": "囁揺的音楽集団AsMR / Traumagier / 仮面女子",
+    "date": "2026-09-14",
+    "venue": "SHIBUYA REX",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/260914p": {
+    "title": "PSYCHOデリック 儚くい 生誕祭 『Mafia Doll』",
+    "group": "PSYCHOデリック",
+    "date": "2026-09-14",
+    "venue": "aube shibuya",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/zmd0FkrvKv486aLywdDG": {
+    "title": "PUREMORPH鏡姉妹生誕祭2026",
+    "group": "PUREMORPH",
+    "date": "2026-09-14",
+    "venue": "新宿NINE SPICES",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/mads_live": {
+    "title": "MAD'S iNK presents 『MAD'S LIVE -撮可編-』",
+    "group": "マザリ / めっ！ / 神様の言う通り / 絶望キネマ / MADOROMI-マドロミ-",
+    "date": "2026-09-15",
+    "venue": "渋谷WOMBLIVE",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://livepocket.jp/e/l16ow": {
+    "title": "【一般販売】月刊桃色心臓vol.11 「御伽と念」",
+    "group": "THE PINK MINDS / 赤いくらげ",
+    "date": "2026-09-15",
+    "venue": "新宿MARZ",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/260918m": {
+    "title": "マーキュロ主催『グラン・ギニュルー』Vol.32",
+    "group": "マーキュロ / べロティカ / VILLAINS HOUSE / セクト / メモリーズ / AdamLilith /Ill【イル】/ MADOROMI-マドロミ- / 絶望キネマ / 闇雲",
+    "date": "2026-09-18",
+    "venue": "WOMBLIVE",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/IDOLby_0918": {
+    "title": "IDOL by...! delta",
+    "group": "acro-A / Chalca / LOVExxBAD",
+    "date": "2026-09-18",
+    "venue": "福岡Pocket",
+    "prefecture": "福岡",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/nagoya_01": {
+    "title": "名古屋定期公演vol.1",
+    "group": "手羽先センセーション",
+    "date": "2026-09-18",
+    "venue": "NAGOYA JAMMIN'",
+    "prefecture": "愛知",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/0919_pif": {
+    "title": "POP IN FESTIVAL 2026 ~ #PIF2026 ~",
+    "group": "Shibu3 project / SAKURADOLL / himawari(船橋) / 宵越しのアンサンブル / あまいものつめあわせ / sasanqua(船橋） / miao / カリスマめんざいふっ！ / Cent Heaven / SWANTICK / kimikara（きみから） / 魔訶不思議変革者-デスデス- / GANGDEMIC / Panic Monster !n Wonderland / 「いつかのネバーランド」 / 憑依中毒-シャーマンホリック- / Magi / 幻色シアター / きゅんﾀﾋに一生を!? / MiiS / ai*ai / miluμ！ / New Crown / 星合いのライラック / ミスティア！ / イイトコドリ / あいすなっつ / おむすびコロコロ / Hey!Say!♡Reviver / 向日葵プリンセス / INSRiA / Pafio / AZの理由 / キミトサクハナ / キミニハネ / あくまで天使 / Tri-Sphere / Innocent Lucia / セレインノート / SHINKA↑ / KATA☆CHU / KATACOTO＊BANK / このアイドルはフィクションです。 / MiDi ON! / iROTORiDOLLY / ひとつキラリ / メモワールパルファム / ルートプリュフォール / にとくり。 / 蓋然性オルトイズム / TEARS-ティアーズ- / Claire♡Dolls / 縷々 / PLATINUM Princess研究生 / GIRLS GIRLS IDOL PROJECT",
+    "date": "2026-09-19",
+    "venue": "渋谷音楽堂 / 渋谷チェルシーホテル / 渋谷スターラウンジ",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/IDOLSTORM_0919": {
+    "title": "IDOL STORM",
+    "group": "キングサリ / STAiNY / myojou / MAGICAL SPEC / RiNCENT♯ / LinQ / パラディーク",
+    "date": "2026-09-19",
+    "venue": "下北沢シャングリラ",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/shibuyaLuisantVol58": {
+    "title": "shibuya luisant Vol.58",
+    "group": "AKANECLUB. / Kolokol / 衛星とカラテア",
+    "date": "2026-09-19",
+    "venue": "渋谷clubasia",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://livepocket.jp/e/o7mdm": {
+    "title": "至極リア生誕祭",
+    "group": "CHEMICAL X / CYCLONISTA / HATENO / AdFicTioN",
+    "date": "2026-09-19",
+    "venue": "GARRET udagawa",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/260919v": {
+    "title": "VILLAINS HOUSE主催『ハンニバル』",
+    "group": "VILLAINS HOUSE / ギミック / セクト / PSYCHOデリック / サークルライチ塾生三期 / マザリ / MADOROMI-マドロミ- / 絶望キネマ / 神様の言う通り / めっ！",
+    "date": "2026-09-19",
+    "venue": "aube shibuya",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/diig2nd0919": {
+    "title": "diig 2nd Anniversary Live 「超絶☆愛と絆の永久宣言」",
+    "group": "diig",
+    "date": "2026-09-19",
+    "venue": "下北沢シャングリラ",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/nma_mads": {
+    "title": "めっ！×MADOROMI ツーマン「マっ！」",
+    "group": "めっ！ / MADOROMI-マドロミ-",
+    "date": "2026-09-19",
+    "venue": "渋谷スターラウンジ",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/myojou_0920": {
+    "title": "myojou autumn tour 2026\"秋星\" in OSAKA",
+    "group": "myojou",
+    "date": "2026-09-20",
+    "venue": "FANJ twice",
+    "prefecture": "大阪",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketvillage.jp/events/13855": {
+    "title": "楠えむ生誕祭 2026 「えむ様の言うとおり」",
+    "group": "AOAO",
+    "date": "2026-09-20",
+    "venue": "duo MUSIC EXCHANGE",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/iffactory20260920": {
+    "title": "IF FACTORY 秋のBBQオフ会",
+    "group": "DIAVEL / カミサマパレード",
+    "date": "2026-09-20",
+    "venue": "Hubble(大阪府大阪市中央区西心斎橋２丁目１０−２)",
+    "prefecture": "大阪",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://livepocket.jp/e/shishion": {
+    "title": "RizM presents 獅子音-Vol,37-",
+    "group": "Broken By The Scream / DIZZYREVERSE / LADYBABY / NEON ONI / Disconnect Cendrillon",
+    "date": "2026-09-21",
+    "venue": "青山RizM",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/ailassic-anniv2nd-20260921": {
+    "title": "『愛らしく！anniv.2nd』あいらしっく二周年記念イベント",
+    "group": "あいらしっく / Lit☆V / ルナリウム / QunQun / Lonely² &lt;3",
+    "date": "2026-09-21",
+    "venue": "BEAT STATION",
+    "prefecture": "福岡",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/260922m": {
+    "title": "メモリーズ 定期公演『 タイムリープ』Vol.2",
+    "group": "メモリーズ / サークルライチ塾生三期",
+    "date": "2026-09-22",
+    "venue": "aube shibuya",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://livepocket.jp/e/bebisupaartria-tokyo": {
+    "title": "Baby inspire ✖️ 凛々しくも臨界に咲くARTERIA 東京編",
+    "group": "Baby inspire / 凛々しくも臨界に咲くARTERIA",
+    "date": "2026-09-22",
+    "venue": "新高円寺ロフトX",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://livepocket.jp/e/uj2s5": {
+    "title": "るなゲーオンライン！ vol.4 アイドルによる真の「ケツバトラー」頂上ケッ戦！",
+    "group": "るなっち☆ほし / 松山あおい / せんす / 想唄こころ / 天音たると / チャーリー",
+    "date": "2026-09-23",
+    "venue": "阿佐ヶ谷ロフトA",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://tiget.net/events/501007": {
+    "title": "カムチンカレーフェス(ミニ)",
+    "group": "鎌田紘子 / 小日向結衣 / GOMESS / 餅田コシヒカリ / 沖田龍児 / 若手芸人ヒップホップ同好会 / 町あかり / ハハノシキュウ / 魁-KAI- / はる陽。 / じゆりぴ / 始発待ちアンダーグラウンド / THE TRAINTRAINS / あっすん / ZAZY / らいむたそ / 雨宮留菜 / アイス芸人たかたか / 高梨紫煙 / BAND merry.",
+    "date": "2026-09-23",
+    "venue": "LIVEHOUSE 下北沢 ろくでもない夜",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/nyanchu4thannivlastdance-shinjuku-loft": {
+    "title": "猫の眼に宇宙 4TH Anniversary『ラストダンス・シンジュクロフト』",
+    "group": "猫の眼に宇宙",
+    "date": "2026-09-23",
+    "venue": "新宿LOFT",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://livepocket.jp/e/20260924_gls": {
+    "title": "GALS復活ライブ『REALGALS』",
+    "group": "GALS / PASTEL RADIO / LABOnes.",
+    "date": "2026-09-24",
+    "venue": "渋谷WOMBLIVE",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://livepocket.jp/e/choyusyo-vol2": {
+    "title": "マイナーガール pre.『”超優勝”は誰だ！？🔥 vol.2』",
+    "group": "マイナーガール / Noreco / KIKO",
+    "date": "2026-09-24",
+    "venue": "下北沢CLUB251",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://tiget.net/events/513235": {
+    "title": "【各部】NANIWA SPLASH - DAY 1 -",
+    "group": "火将ロシエル / 純米あやの / 猫乃ここ / 仲村まひろ / 青葉ひなり / 土光瑠璃子 / まゆ / 天使りのあ / ちくわ / 猫 / 二宮綾香 / 今井美海 / 百瀬はな / 朝比奈りる / つき / なぎ / 美里杏里 / あい / うゆ / 比嘉こころ / てんてん / ゆあの / 眞志取 世里 / 足森いづみ / 羽澄るな / ソア / のん / 桃愛ゆうか / 唐仁原伶 / KIKKA",
+    "date": "2026-09-26",
+    "venue": "中之島GATEサウスピア",
+    "prefecture": "大阪",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://tiget.net/events/513059": {
+    "title": "DESERT 「石巻BLUE RESISTANCE　14th Anniversary｣",
+    "group": "SWANKY DANK / VII DAYS REASON / SEEK US NEED / NEVER FADE / T.O.C.A / AZ-ON / セパゾン",
+    "date": "2026-09-26",
+    "venue": "石巻BLUE RESISTANCE",
+    "prefecture": "宮城",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/Kastella_haru": {
+    "title": "比賀ハルソロライブ「逆夢」",
+    "group": "比賀ハル（かすみ草とステラ）",
+    "date": "2026-09-26",
+    "venue": "SHIBUYA RING",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://tiget.net/events/513201": {
+    "title": "【通し】NANIWA SPLASH",
+    "group": "火将ロシエル / 純米あやの / 猫乃ここ / 仲村まひろ / 青葉ひなり / 土光瑠璃子 / まゆ / 天使りのあ / ちくわ / 猫 / 二宮綾香 / 今井美海 / 百瀬はな / 朝比奈りる / つき / なぎ / 美里杏里 / あい / うゆ / 比嘉こころ / てんてん / ゆあの / 眞志取 世里 / 足森いづみ / 羽澄るな / ソア / のん / 桃愛ゆうか / 唐仁原伶 / KIKKA / 白田まい / 倉坂くるる / 米倉みゆ / 真白羽くう / みにょ / チャンルミ / 月雲さくら / なちゃ / ゆき / えびびちり / はむ / 犬甘 憂 / 桃実りえ / 佐藤べに仔 / やえと / 柊羽夏 / 日奈こゆ / 音琴うゆ / 遥麗みく / のこちん / tetote / 水谷みく / 桜伊りい子 / 柊ゆう / 柚原杏梨 / 有栖川かがみ / あざらし / るか / こうちゃ / 朝霧みと / 佐藤あむ / KIKKA / Saya",
+    "date": "2026-09-26",
+    "venue": "中之島GATEサウスピア",
+    "prefecture": "大阪",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://tiget.net/events/513236": {
+    "title": "【各部】NANIWA SPLASH - DAY 2 -",
+    "group": "白田まい / 倉坂くるる / 米倉みゆ / 真白羽くう / みにょ / チャンルミ / 月雲さくら / なちゃ / ゆき / えびびちり / はむ / 犬甘 憂 / 桃実りえ / 佐藤べに仔 / やえと / 柊羽夏 / 日奈こゆ / 音琴うゆ / 遥麗みく / のこちん / tetote / 水谷みく / 桜伊りい子 / 柊ゆう / 柚原杏梨 / 有栖川かがみ / あざらし / るか / こうちゃ / 朝霧みと / 佐藤あむ / KIKKA / Saya",
+    "date": "2026-09-27",
+    "venue": "中之島GATEサウスピア",
+    "prefecture": "大阪",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/feelneo-nexttour0927": {
+    "title": "feelNEO 10th Anniversary tour2026【NEXT】in OSAKA",
+    "group": "feelNEO / スキトオルアオ",
+    "date": "2026-09-27",
+    "venue": "ROCKTOWN",
+    "prefecture": "大阪",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/Polaristellavol28": {
+    "title": "Polaristella vol.28",
+    "group": "I'mew（あいみゅう） / フィルフェリーチェ / べるべっとセンテンス",
+    "date": "2026-09-30",
+    "venue": "TwinBox AKIHABARA",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/kinema_tour2026": {
+    "title": "哀愁見世物レトリック",
+    "group": "絶望キネマ",
+    "date": "2026-10-02",
+    "venue": "FANJ twice",
+    "prefecture": "大阪",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/Gdayfes2026": {
+    "title": "グデ祭2026",
+    "group": "グデイ / グデイBAND(Ba.三島想平(cinema staﬀ) / Gt.仲道良(ircle) / Gt.岡村耕介 / Dr.山﨑聖之) / DENIMS / Czecho No Republic / RAY / ONIGAWARA / BELLRING少女ハート / NaNoMoRaL / ママタルト(お笑い) / お抹茶(お笑い) / 寺田寛明(お笑い)",
+    "date": "2026-10-03",
+    "venue": "渋谷duo MUSIC EXCHANGE",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/WAVEFORM_1003": {
+    "title": "SPECIAL 5MAN LIVE WAVEFORM",
+    "group": "UtaGe! / chuLa / NEO JAPONISM / Merry BAD TUNE. / 夜光性アミューズ",
+    "date": "2026-10-03",
+    "venue": "WOMB LIVE",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/1003_2Kdeyolo": {
+    "title": "2Kでよろ‼ - FUKUOKA -",
+    "group": "YOLOZ / JINKS / PRSMIN",
+    "date": "2026-10-03",
+    "venue": "LIVE HOUSE DRUM SON",
+    "prefecture": "福岡",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/matsuba": {
+    "title": "HIBANA 2nd Anniversary Live『松葉-MATSUBA-』",
+    "group": "HIBANA",
+    "date": "2026-10-09",
+    "venue": "Spotify O-WEST",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://livepocket.jp/e/bebisupaartria-senndai": {
+    "title": "Baby inspire ✖️ 凛々しくも臨界に咲くARTERIA 仙台編",
+    "group": "Baby inspire / 凛々しくも臨界に咲くARTERIA",
+    "date": "2026-10-11",
+    "venue": "長町RIPPLE",
+    "prefecture": "宮城",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketvillage.jp/events/13806": {
+    "title": "ぐんまちゃんアイドルフェスティバル",
+    "group": "AOAO / UtaGe! / THE ORCHESTRA TOKYO / かすみ草とステラ / ジエメイ / Jams Collection / ドラマチックレコード / FES☆TIVE / アンスリューム / 可憐なアイボリー / タイトル未定 / 寺嶋由芙 / Palette Parade / マリークラウン / ラナキュラ / AKANECLUB. / アキシブproject / KAWAII LAB. MATES / キングサリ / こみっきゅおん！ / SAKURADOLL / しろもん / 透色ドロップ / なみだ色の消しごむ / フルコース / HzMe / 黛寿儒 / MATE×MATE! / metarium / Merry BAD TUNE. / #よーよーよー / Lumiétoile / log you",
+    "date": "2026-10-12",
+    "venue": "群馬県庁県民広場及び群馬会館他周辺",
+    "prefecture": "群馬",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://dearstage.zaiko.io/item/381694": {
+    "title": "Negicco × fishbowl ツーマンライブ 葱と金魚でイチャリバチョーデー東京祭",
+    "group": "Negicco × fishbowl ツーマンライブ 葱と金魚でイチャリバチョーデー東京祭",
+    "date": "2026-10-14",
+    "venue": "Spotify O-WEST",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/odokami_1014": {
+    "title": "🧡【葵咲りい】踊！生誕祭 🧡",
+    "group": "踊れ！神風",
+    "date": "2026-10-14",
+    "venue": "GOTANDA G6",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://livepocket.jp/e/mad_qkp": {
+    "title": "MAD JAMIE 五大都市ツアー\"QUEEN of KAWAII PUNK\"",
+    "group": "MAD JAMIE",
+    "date": "2026-10-26",
+    "venue": "SHIBUYA CLUB QUATTRO",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/hzme-attune": {
+    "title": "HzMe 1st ONEMAN LIVE『ATTUNE』",
+    "group": "HzMe",
+    "date": "2026-11-02",
+    "venue": "渋谷ストリームホール",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://livepocket.jp/e/yoimachi_day1": {
+    "title": "Hearts+ presents「秋のYOIMACHI」DAY1",
+    "group": "ヒカシュー / RAY / KAGERO / ゆるめるモ！ / ピューパ!! / よく吠えるいぬ / ponderosa may bloom / Emily likes tennis / XOXO EXTREME / 始発待ちアンダーグラウンド / 会心ノ一撃 / 東京妄想地図",
+    "date": "2026-11-03",
+    "venue": "大塚 Hearts＋、Hearts Next、Deepa、MEETS、LIVE BAR〇、お風呂ステージ(大塚記念湯)、ラーメンステージ(麺屋いぶすけ)",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://livepocket.jp/e/swing_ball1107": {
+    "title": "Swing Ball vol.1",
+    "group": "MUJINA / Lily Mizusaki / Hellzapoppin' / The Folie Phantom",
+    "date": "2026-11-07",
+    "venue": "SHIBUYA THE GAME",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://livepocket.jp/e/yoimachi_day2": {
+    "title": "Hearts+ presents「秋のYOIMACHI」DAY2",
+    "group": "RAY / 銀幕一楼とTIMECAFE / 変寺 / BLUEGOATS / ぼっちぼろまる / ALLiCA / オワリズム弁慶 / anew / THE GOD LIKE CHORD / BABYTANTS / 絶対忘れるな / Rip van cats",
+    "date": "2026-11-08",
+    "venue": "大塚 Hearts＋、Hearts Next、MEETS、LIVE BAR〇、お風呂ステージ(大塚記念湯)、ラーメンステージ(麺屋いぶすけ) 、他",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
+  },
+  "https://ticketdive.com/event/meltybear_tourfinal2026": {
+    "title": "Melty BeaR 全国ツアー 魔法がかかるとき final",
+    "group": "Melty BeaR",
+    "date": "2026-11-13",
+    "venue": "新宿ReNY",
+    "prefecture": "東京",
+    "source": "liveidol.blog（集約サイト）",
+    "firstSeen": "2026-08-16T12:33:15Z"
   }
 }
