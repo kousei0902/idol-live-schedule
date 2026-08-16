@@ -26208,5 +26208,113 @@
     "prefecture": "東京都",
     "source": "tiget（アイドルジャンル）",
     "firstSeen": "2026-08-16T00:59:29Z"
+  },
+  "https://tiget.net/events/514841": {
+    "title": "おいでよ！うさうさ あいどるの森",
+    "group": "XOXO EXTREME / チームぴょこん / さかさま...",
+    "date": "2026-09-13",
+    "venue": "宮城県",
+    "prefecture": "宮城県",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-16T03:46:35Z"
+  },
+  "https://tiget.net/events/514609": {
+    "title": "Challenge Girls",
+    "group": "彩星夏海 / 篠咲くれは / 空華なも",
+    "date": "2026-08-22",
+    "venue": "東京都",
+    "prefecture": "東京都",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-16T03:46:35Z"
+  },
+  "https://tiget.net/events/514734": {
+    "title": "女医カフェ〜まいかんじゃ喫茶〜",
+    "group": "女医カフェ〜まいかんじゃ喫茶〜",
+    "date": "2026-09-13",
+    "venue": "東京都",
+    "prefecture": "東京都",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-16T03:46:35Z"
+  },
+  "https://tiget.net/events/514843": {
+    "title": "IDOL THEATER vol.3",
+    "group": "Cutiv / アリス症候群 / QunQun",
+    "date": "2026-08-21",
+    "venue": "福岡県",
+    "prefecture": "福岡県",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-16T03:46:35Z"
+  },
+  "https://tiget.net/events/514355": {
+    "title": "Star’s light at Stage Vol.103 夜帯...",
+    "group": "なづ季澪 / Nyamire♡ / 彩星夏海×白瀬るあ /...",
+    "date": "2026-09-12",
+    "venue": "東京都",
+    "prefecture": "東京都",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-16T03:46:35Z"
+  },
+  "https://tiget.net/events/514973": {
+    "title": "〜After Party〜",
+    "group": "AKIARIM",
+    "date": "2026-08-28",
+    "venue": "東京都",
+    "prefecture": "東京都",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-16T03:46:35Z"
+  },
+  "https://tiget.net/events/514966": {
+    "title": "RETRORAIN無銭単独公演 「RAIN FALL」at AO...",
+    "group": "RETRORAIN",
+    "date": "2026-08-29",
+    "venue": "東京都",
+    "prefecture": "東京都",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-16T03:46:35Z"
+  },
+  "https://livepocket.jp/e/6vkw0": {
+    "title": "MUSIC BOX 99",
+    "group": "虹音 / 龍星 / 山本隼也 / ひいらぎ繭",
+    "date": "2026-10-02",
+    "venue": "SPADE BOX（愛知県）",
+    "prefecture": "愛知県",
+    "source": "livepocket（ファン・アイドル）",
+    "firstSeen": "2026-08-16T03:49:22Z"
+  },
+  "https://livepocket.jp/e/kuas0": {
+    "title": "MUSIC BOX 98",
+    "group": "ひおり / 作詞作曲倶楽部 / 一人バンドshogo / STMY",
+    "date": "2026-09-25",
+    "venue": "SPADE BOX（愛知県）",
+    "prefecture": "愛知県",
+    "source": "livepocket（ファン・アイドル）",
+    "firstSeen": "2026-08-16T03:49:22Z"
+  },
+  "https://livepocket.jp/e/yw0yy": {
+    "title": "ØUROBROS presents \" CLUB®️vol.9 \"",
+    "group": "ØUROBROS / LITTLE BOYS / OLEDICKFOGGY",
+    "date": "2026-10-09",
+    "venue": "SHIBUYA CYCLONE（東京都）",
+    "prefecture": "東京都",
+    "source": "livepocket（ファン・アイドル）",
+    "firstSeen": "2026-08-16T03:49:22Z"
+  },
+  "https://livepocket.jp/e/88fww": {
+    "title": "バキバキ童貞卒業への道 FINAL ネイキッドロフト横浜最終公演",
+    "group": "春とヒコーキ  / ぐんぴぃ / 土岡哲朗",
+    "date": "2026-09-30",
+    "venue": "Naked Loft Yokohama（神奈川県）",
+    "prefecture": "神奈川県",
+    "source": "livepocket（ファン・アイドル）",
+    "firstSeen": "2026-08-16T03:49:22Z"
+  },
+  "https://ticketdive.com/event/emHaPnkIx7r6DucWhaE8": {
+    "title": "『巨匠とマルガリータ』",
+    "group": "『巨匠とマルガリータ』",
+    "date": "2026-11-07",
+    "venue": "新国立劇場　中劇場",
+    "prefecture": null,
+    "source": "TicketDive（新着エントリー）",
+    "firstSeen": "2026-08-16T03:49:27Z"
   }
 }
