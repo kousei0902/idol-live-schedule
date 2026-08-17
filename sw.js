@@ -1,4 +1,4 @@
-const CACHE_NAME = 'oshisuke-v1';
+const CACHE_NAME = 'oshisuke-v2';
 const APP_SHELL = [
   './',
   './index.html',
@@ -33,18 +33,20 @@ self.addEventListener('fetch', (event) => {
   if (url.origin !== location.origin) return;
   if (event.request.method !== 'GET') return;
 
+  // Network-first: this app changes often during active development, so
+  // a visitor should get the latest code whenever they're online. The
+  // cache exists only as an offline fallback, not as a first responder -
+  // stale-while-revalidate (serve cached, update in background) meant a
+  // push could take two loads to actually show up.
   event.respondWith(
-    caches.match(event.request).then((cached) => {
-      const fetchPromise = fetch(event.request)
-        .then((response) => {
-          if (response.ok) {
-            const clone = response.clone();
-            caches.open(CACHE_NAME).then((cache) => cache.put(event.request, clone));
-          }
-          return response;
-        })
-        .catch(() => cached);
-      return cached || fetchPromise;
-    })
+    fetch(event.request)
+      .then((response) => {
+        if (response.ok) {
+          const clone = response.clone();
+          caches.open(CACHE_NAME).then((cache) => cache.put(event.request, clone));
+        }
+        return response;
+      })
+      .catch(() => caches.match(event.request))
   );
 });
