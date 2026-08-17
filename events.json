@@ -30951,5 +30951,50 @@
     "prefecture": null,
     "source": "TicketDive（新着エントリー）",
     "firstSeen": "2026-08-17T15:26:03Z"
+  },
+  "https://tiget.net/events/515454": {
+    "title": "ハウツー世界征服 のん生誕アフターパーティー！",
+    "group": "LuvHz / ハウツー世界征服",
+    "date": "2026-08-18",
+    "venue": "大阪府",
+    "prefecture": "大阪府",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-17T18:32:18Z"
+  },
+  "https://tiget.net/events/515453": {
+    "title": "あなただけの歌",
+    "group": "竹内一央",
+    "date": "2026-09-06",
+    "venue": "",
+    "prefecture": null,
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-17T18:32:18Z"
+  },
+  "https://tiget.net/events/515452": {
+    "title": "こゆきちゃんにからまれ隊　まだ食べてないですけど",
+    "group": "山口 小雪希",
+    "date": "2026-08-30",
+    "venue": "",
+    "prefecture": null,
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-17T18:32:18Z"
+  },
+  "https://eplus.jp/sf/detail/3667060001-P0030017P021001": {
+    "title": "反田葉月 めるサマ!おつサマ!乾杯Summer",
+    "group": "反田葉月 めるサマ!おつサマ!乾杯Summer",
+    "date": "2026-08-30",
+    "venue": "都内某所（東京都）",
+    "prefecture": "東京都",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-17T18:35:08Z"
+  },
+  "https://eplus.jp/sf/detail/3667060001-P0030017P021002": {
+    "title": "反田葉月 めるサマ!おつサマ!乾杯Summer",
+    "group": "反田葉月 めるサマ!おつサマ!乾杯Summer",
+    "date": "2026-08-30",
+    "venue": "都内某所（東京都）",
+    "prefecture": "東京都",
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-17T18:35:08Z"
   }
 }
