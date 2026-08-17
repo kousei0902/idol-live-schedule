@@ -8,6 +8,9 @@
   const COLOR_PALETTE = ['#ff5fa2', '#7c6cf0', '#2fb380', '#e8a53d', '#3ab0d8', '#e0507a', '#8c6cf0', '#4fb0a5'];
   const DOW = ['日', '月', '火', '水', '木', '金', '土'];
   const EVENTS_JSON_URL = 'https://raw.githubusercontent.com/sigure0000894/idol-live-schedule/main/events.json';
+  // raw.githubusercontent.com occasionally 429s under load; jsDelivr mirrors
+  // the same file off a real CDN and is used as a fallback below.
+  const EVENTS_JSON_MIRROR_URL = 'https://cdn.jsdelivr.net/gh/sigure0000894/idol-live-schedule@main/events.json';
   const PREFECTURES = [
     '北海道', '青森県', '岩手県', '宮城県', '秋田県', '山形県', '福島県',
     '茨城県', '栃木県', '群馬県', '埼玉県', '千葉県', '東京都', '神奈川県',
@@ -551,15 +554,36 @@
 
   // ---- Discover (search collected event data) ----
 
+  function sleep(ms) {
+    return new Promise((resolve) => setTimeout(resolve, ms));
+  }
+
+  async function fetchEventsJsonFrom(url) {
+    const res = await fetch(url);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    return res.json();
+  }
+
+  async function fetchEventsJson() {
+    try {
+      return await fetchEventsJsonFrom(EVENTS_JSON_URL);
+    } catch (err) {
+      await sleep(1200);
+      try {
+        return await fetchEventsJsonFrom(EVENTS_JSON_URL);
+      } catch (err2) {
+        return await fetchEventsJsonFrom(EVENTS_JSON_MIRROR_URL);
+      }
+    }
+  }
+
   async function loadDiscoveredEvents() {
     if (discoverState.events || discoverState.loading) return;
     discoverState.loading = true;
     discoverState.error = null;
     renderDiscoverList();
     try {
-      const res = await fetch(EVENTS_JSON_URL, { cache: 'no-store' });
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      const raw = await res.json();
+      const raw = await fetchEventsJson();
       const events = Object.entries(raw).map(([url, ev]) => ({ url, ...ev }));
       events.sort((a, b) => {
         if (!a.date && !b.date) return 0;
@@ -650,7 +674,23 @@
       return;
     }
     if (discoverState.error) {
-      els.discoverMeta.textContent = '取得に失敗しました。通信環境を確認してもう一度開いてみてください。';
+      els.discoverMeta.textContent = '取得に失敗しました。';
+      const wrap = document.createElement('div');
+      wrap.className = 'discover-error';
+      const msg = document.createElement('p');
+      msg.textContent = '通信環境を確認して、もう一度お試しください。';
+      const retryBtn = document.createElement('button');
+      retryBtn.type = 'button';
+      retryBtn.className = 'discover-retry-btn';
+      retryBtn.textContent = '再試行';
+      retryBtn.addEventListener('click', () => {
+        discoverState.error = null;
+        discoverState.events = null;
+        loadDiscoveredEvents();
+      });
+      wrap.appendChild(msg);
+      wrap.appendChild(retryBtn);
+      els.discoverList.appendChild(wrap);
       return;
     }
     if (!discoverState.events) return;
