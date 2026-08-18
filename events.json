@@ -31365,5 +31365,113 @@
     "prefecture": "東京都",
     "source": "tiget（アイドルジャンル）",
     "firstSeen": "2026-08-18T06:35:59Z"
+  },
+  "https://tiget.net/events/515326": {
+    "title": "Bask in IDOL vol.10",
+    "group": "かいじゅうのうた / 僕等のスイッチ / LOVExxBAD",
+    "date": "2026-08-22",
+    "venue": "福岡県",
+    "prefecture": "福岡県",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-18T09:29:21Z"
+  },
+  "https://tiget.net/events/515624": {
+    "title": "『 ONE-WISH TikTok撮影会 』",
+    "group": "『 ONE-WISH TikTok撮影会 』",
+    "date": "2026-08-25",
+    "venue": "東京都",
+    "prefecture": "東京都",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-18T09:29:21Z"
+  },
+  "https://tiget.net/events/515595": {
+    "title": "FULL OUT!!",
+    "group": "KID BANG / Ryunosuke / 1NE-G ...",
+    "date": "2026-09-18",
+    "venue": "東京都",
+    "prefecture": "東京都",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-18T09:29:21Z"
+  },
+  "https://tiget.net/events/515575": {
+    "title": "FULL OUT!!",
+    "group": "RYUNOSUKE / 1NE-G / kanju fro...",
+    "date": "2026-09-30",
+    "venue": "",
+    "prefecture": null,
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-18T09:29:21Z"
+  },
+  "https://tiget.net/events/515457": {
+    "title": "アイメモ！後夜祭2",
+    "group": "仙台flavor / ずんだ茜 / chairmans /...",
+    "date": "2026-08-30",
+    "venue": "宮城県",
+    "prefecture": "宮城県",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-18T09:29:21Z"
+  },
+  "https://tiget.net/events/515456": {
+    "title": "アイメモ！後夜祭",
+    "group": "仙台flavor / ずんだ茜 / chairmans /...",
+    "date": "2026-08-29",
+    "venue": "宮城県",
+    "prefecture": "宮城県",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-18T09:29:21Z"
+  },
+  "https://tiget.net/events/515438": {
+    "title": "まだまだ終わらないメゾリリの夏！🌻",
+    "group": "まだまだ終わらないメゾリリの夏！🌻",
+    "date": "2026-08-23",
+    "venue": "東京都",
+    "prefecture": "東京都",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-18T09:29:21Z"
+  },
+  "https://tiget.net/events/504711": {
+    "title": "SPiCA LIVE VOL.10",
+    "group": "SPiCA / さやか / Misora / あおい / ...",
+    "date": "2026-09-20",
+    "venue": "",
+    "prefecture": null,
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-18T09:29:21Z"
+  },
+  "https://livepocket.jp/e/20260912_night_lofta": {
+    "title": "第二回愛しのボカン大作戦会議『爆発前夜』vol.前",
+    "group": "山崎彬 / 佐藤新太 / 堀春菜",
+    "date": "2026-09-12",
+    "venue": "阿佐ヶ谷ロフトA（東京都）",
+    "prefecture": "東京都",
+    "source": "livepocket（ファン・アイドル）",
+    "firstSeen": "2026-08-18T09:32:04Z"
+  },
+  "https://livepocket.jp/e/o2dms": {
+    "title": "第2部『はるこの秘密Vol.32 30周年ってすごくない！？』ネットじゃ見れない秘密の映像鑑賞会！〜はるこの夢叶えし時〜",
+    "group": "桃井はるこ",
+    "date": "2026-09-22",
+    "venue": "ロフトプラスワン（東京都）",
+    "prefecture": "東京都",
+    "source": "livepocket（ファン・アイドル）",
+    "firstSeen": "2026-08-18T09:32:04Z"
+  },
+  "https://livepocket.jp/e/ys9rf": {
+    "title": "第1部『はるこの秘密Vol.32 30周年ってすごくない！？』PC・ケータイ・カメラ・雑誌！あの日の相棒・秋葉原とヲタクの未来",
+    "group": "桃井はるこ",
+    "date": "2026-09-22",
+    "venue": "ロフトプラスワン（東京都）",
+    "prefecture": "東京都",
+    "source": "livepocket（ファン・アイドル）",
+    "firstSeen": "2026-08-18T09:32:04Z"
+  },
+  "https://livepocket.jp/e/9lc52": {
+    "title": "通し券『はるこの秘密Vol.32 30周年ってすごくない！？』第1部＋第2部",
+    "group": "桃井はるこ",
+    "date": "2026-09-22",
+    "venue": "ロフトプラスワン（東京都）",
+    "prefecture": "東京都",
+    "source": "livepocket（ファン・アイドル）",
+    "firstSeen": "2026-08-18T09:32:04Z"
   }
 }
