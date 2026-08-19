@@ -31995,5 +31995,320 @@
     "prefecture": null,
     "source": "TicketDive（新着エントリー）",
     "firstSeen": "2026-08-19T00:59:45Z"
+  },
+  "https://tiget.net/events/515611": {
+    "title": "下谷あゆと影咲ひなの下北で",
+    "group": "下谷あゆ / 影咲ひなの",
+    "date": "2026-08-30",
+    "venue": "東京都",
+    "prefecture": "東京都",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-19T03:44:25Z"
+  },
+  "https://tiget.net/events/515579": {
+    "title": "2026年9月12日(土)amabile主宰 MUSIC TRA...",
+    "group": "amabile / CuN / Tri-Sphere / ...",
+    "date": "2026-09-12",
+    "venue": "東京都",
+    "prefecture": "東京都",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-19T03:44:25Z"
+  },
+  "https://tiget.net/events/515757": {
+    "title": "夏祭り酒場",
+    "group": "安森あや那 / 根本羽衣 / ゆうな。 / ムートン伊藤",
+    "date": "2026-08-29",
+    "venue": "東京都",
+    "prefecture": "東京都",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-19T03:44:25Z"
+  },
+  "https://tiget.net/events/515754": {
+    "title": "アイドルパーティー in MBL 2026 8 30〜Me-ri...",
+    "group": "せせらぎ小町 / Me-rise / Dorothy Li...",
+    "date": "2026-08-30",
+    "venue": "福島県",
+    "prefecture": "福島県",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-19T03:44:25Z"
+  },
+  "https://livepocket.jp/e/ypkk0": {
+    "title": "おこたしゃべりライブ 「おこたんどく～Movie Star～」",
+    "group": "トンツカタン森本 / とりやま生配信",
+    "date": "2026-09-17",
+    "venue": "プーク人形劇場（東京都）",
+    "prefecture": "東京都",
+    "source": "livepocket（ファン・アイドル）",
+    "firstSeen": "2026-08-19T03:47:18Z"
+  },
+  "https://livepocket.jp/e/0u0ka": {
+    "title": "アクトレスインキュベーション応援観覧",
+    "group": "紫原夕莉乃 / 森田咲空 / 安藤咲 / 石野花呼 / 香月星来 / 佐野ななか / 水瀬かのん",
+    "date": "2026-08-30",
+    "venue": "ドラマデザイン社スタジオ（東京都）",
+    "prefecture": "東京都",
+    "source": "livepocket（ファン・アイドル）",
+    "firstSeen": "2026-08-19T03:47:18Z"
+  },
+  "https://livepocket.jp/e/ohmi_birthday2026": {
+    "title": "近江知永Birthday Live〜届けたいうた〜",
+    "group": "近江知永",
+    "date": "2026-10-03",
+    "venue": "あさがやドラム（東京都）",
+    "prefecture": "東京都",
+    "source": "livepocket（ファン・アイドル）",
+    "firstSeen": "2026-08-19T03:47:18Z"
+  },
+  "https://livepocket.jp/e/p-t_6": {
+    "title": "彩〜 ChapterⅦ〜",
+    "group": "Yumi / Saya / Miyu / Rie / Miu / Hitomi / Mii / Kazuki / Ren / Shie",
+    "date": "2026-09-23",
+    "venue": "新横浜BeLL‘s（神奈川県）",
+    "prefecture": "神奈川県",
+    "source": "livepocket（ファン・アイドル）",
+    "firstSeen": "2026-08-19T03:47:18Z"
+  },
+  "https://livepocket.jp/e/wps9i": {
+    "title": "2026/8/24(月)【シュガーバニーズ ふわふわめじるしアクセサリー】販売整理券（抽選）<#C-pla なんばCITY>",
+    "group": "2026/8/24(月)【シュガーバニーズ ふわふわめじるしアクセサリー】販売整理券（抽選）<#C-pla なんばCITY>",
+    "date": "2026-08-24",
+    "venue": "#C-pla なんばCITY店（大阪府）",
+    "prefecture": "大阪府",
+    "source": "livepocket（ファン・アイドル）",
+    "firstSeen": "2026-08-19T03:47:18Z"
+  },
+  "https://livepocket.jp/e/cyc3u": {
+    "title": "八木奈々 Birthday Party 2026",
+    "group": "八木奈々",
+    "date": "2026-09-13",
+    "venue": "LOFT9 Shibuya（東京都）",
+    "prefecture": "東京都",
+    "source": "livepocket（ファン・アイドル）",
+    "firstSeen": "2026-08-19T03:47:18Z"
+  },
+  "https://livepocket.jp/e/shdoh": {
+    "title": "『雛形みくる写真集　みくるのひみつ。』発売記念イベント(秋葉原)",
+    "group": "雛形みくる",
+    "date": "2026-09-20",
+    "venue": "書泉ブックタワー（東京都）",
+    "prefecture": "東京都",
+    "source": "livepocket（ファン・アイドル）",
+    "firstSeen": "2026-08-19T03:47:18Z"
+  },
+  "https://livepocket.jp/e/s340t": {
+    "title": "OR 6th ANNIVERSARY DAY1",
+    "group": "tofubeats(DJ SET)  / SU(RIP SLYME)  / ZEN-LA-ROCK  / 5leaf  / vividboooy  / TOSHIKI  / TOSHIKI  / BIDO / AYAKA from SHUFFLE!  / WATARU YOSHIDA  / SHINGO / KOPERO / D.A.I / SHIVA  / ivu 鬼  / $till.J.Cark / TGG /  Mikiya Sakuraba (TGG) / まろん  / つんこ / X♡coisioringoX♡(バンもん！)  / TAICHIRO  / イヌザキ  / kzk / ISSEY  / Dychu  / 旅人 / JIRo  / Coyoote  / KENKEN / GUNSAKU / Mitsuaki / yana. / VJ JUNJUN / HAZIME / HOKUTO / TOHMA / IZUMI / KAT / NIKKA NINJA / KOUJIRO  / SHO / NAOYA",
+    "date": "2026-09-18",
+    "venue": "or（東京都）",
+    "prefecture": "東京都",
+    "source": "livepocket（ファン・アイドル）",
+    "firstSeen": "2026-08-19T03:47:18Z"
+  },
+  "https://livepocket.jp/e/7s_ka": {
+    "title": "こずかふぇしょーたいむ！ DD全グループ楽曲カバーSP",
+    "group": "なお / あさひ / ふうた / けい / とみー / きくちょー / けんてぃー / とあ / ちから / れおん",
+    "date": "2026-11-16",
+    "venue": "川崎セルビアンナイト（神奈川県）",
+    "prefecture": "神奈川県",
+    "source": "livepocket（ファン・アイドル）",
+    "firstSeen": "2026-08-19T03:47:18Z"
+  },
+  "https://livepocket.jp/e/s1233": {
+    "title": "【ふぇると】あっとトークルーム＜9/29(火) 19:20枠＞",
+    "group": "【ふぇると】あっとトークルーム＜9/29(火) 19:20枠＞",
+    "date": "2026-09-29",
+    "venue": "お持ちのスマートフォン、タブレットもしくはPC（Web会議サービスを使用）（その他）",
+    "prefecture": null,
+    "source": "livepocket（ファン・アイドル）",
+    "firstSeen": "2026-08-19T03:47:18Z"
+  },
+  "https://livepocket.jp/e/g4r8e": {
+    "title": "【ぽぽん】あっとトークルーム＜9/29(火) 20:20枠＞",
+    "group": "【ぽぽん】あっとトークルーム＜9/29(火) 20:20枠＞",
+    "date": "2026-09-29",
+    "venue": "お持ちのスマートフォン、タブレットもしくはPC（Web会議サービスを使用）（その他）",
+    "prefecture": null,
+    "source": "livepocket（ファン・アイドル）",
+    "firstSeen": "2026-08-19T03:47:18Z"
+  },
+  "https://livepocket.jp/e/94q7-": {
+    "title": "MAD JAMIE Europe Tour 2026 \"HYPER NATURAL\" Fuckin' Celemony",
+    "group": "MAD JAMIE Europe Tour 2026 \"HYPER NATURAL\" Fuckin' Celemony",
+    "date": "2026-09-29",
+    "venue": "渋谷チェルシーホテル（東京都）",
+    "prefecture": "東京都",
+    "source": "livepocket（ファン・アイドル）",
+    "firstSeen": "2026-08-19T03:47:18Z"
+  },
+  "https://livepocket.jp/e/senamahi_sep": {
+    "title": "まひせな 屋形船オフ会",
+    "group": "胡桃沢まひる / 堀越せな",
+    "date": "2026-09-26",
+    "venue": "都内某所（東京都）",
+    "prefecture": "東京都",
+    "source": "livepocket（ファン・アイドル）",
+    "firstSeen": "2026-08-19T03:47:18Z"
+  },
+  "https://livepocket.jp/e/wjg2c": {
+    "title": "【ぱるふぇがとけないうちに】奏あい生誕祭",
+    "group": "ぱるふぇがとけないうちに",
+    "date": "2026-09-23",
+    "venue": "Studio314（北海道）",
+    "prefecture": "北海道",
+    "source": "livepocket（ファン・アイドル）",
+    "firstSeen": "2026-08-19T03:47:18Z"
+  },
+  "https://livepocket.jp/e/brgh260922": {
+    "title": "UNOKNOWN PLEASURES〜GYOZA Pulse〜 小廻うの加入3.5ヵ月中間報告",
+    "group": "BELLRING少女ハート",
+    "date": "2026-09-22",
+    "venue": "渋谷CYCLONE（東京都）",
+    "prefecture": "東京都",
+    "source": "livepocket（ファン・アイドル）",
+    "firstSeen": "2026-08-19T03:47:18Z"
+  },
+  "https://livepocket.jp/e/0mgts": {
+    "title": "【みづきん】あっとトークルーム＜9/19(土) 19:20枠＞",
+    "group": "【みづきん】あっとトークルーム＜9/19(土) 19:20枠＞",
+    "date": "2026-09-19",
+    "venue": "お持ちのスマートフォン、タブレットもしくはPC（Web会議サービスを使用）（その他）",
+    "prefecture": null,
+    "source": "livepocket（ファン・アイドル）",
+    "firstSeen": "2026-08-19T03:47:18Z"
+  },
+  "https://livepocket.jp/e/ighp8": {
+    "title": "【ふぇると】あっとトークルーム＜9/19(土) 20:20枠＞",
+    "group": "【ふぇると】あっとトークルーム＜9/19(土) 20:20枠＞",
+    "date": "2026-09-19",
+    "venue": "お持ちのスマートフォン、タブレットもしくはPC（Web会議サービスを使用）（その他）",
+    "prefecture": null,
+    "source": "livepocket（ファン・アイドル）",
+    "firstSeen": "2026-08-19T03:47:18Z"
+  },
+  "https://livepocket.jp/e/kikican20260918_1": {
+    "title": "『きききゃん　arc.38（1部）』（ki:ki単独公演）",
+    "group": "ki:ki",
+    "date": "2026-09-18",
+    "venue": "渋谷音楽堂（東京都）",
+    "prefecture": "東京都",
+    "source": "livepocket（ファン・アイドル）",
+    "firstSeen": "2026-08-19T03:47:18Z"
+  },
+  "https://livepocket.jp/e/next_1": {
+    "title": "NEXT STAGE（1部）",
+    "group": "えつや / かなめ / ふゆみ / あむ / ゆき / らいと / はやと / ひかる / りお / りゅうせい / あかね / なつ / ゆら",
+    "date": "2026-09-18",
+    "venue": "新宿ReNY（東京都）",
+    "prefecture": "東京都",
+    "source": "livepocket（ファン・アイドル）",
+    "firstSeen": "2026-08-19T03:47:18Z"
+  },
+  "https://livepocket.jp/e/next_2": {
+    "title": "NEXT STAGE（2部）",
+    "group": "えつや / かなめ / ふゆみ / あむ / ゆき / ゆら / りんたろ",
+    "date": "2026-09-18",
+    "venue": "新宿ReNY（東京都）",
+    "prefecture": "東京都",
+    "source": "livepocket（ファン・アイドル）",
+    "firstSeen": "2026-08-19T03:47:18Z"
+  },
+  "https://livepocket.jp/e/radnine0918": {
+    "title": "シャニムニ=パレード6周年LIVE Beyond Our Best-最高のその先へ-",
+    "group": "シャニムニ=パレード6周年LIVE Beyond Our Best-最高のその先へ-",
+    "date": "2026-09-18",
+    "venue": "RAD NINE（愛知県）",
+    "prefecture": "愛知県",
+    "source": "livepocket（ファン・アイドル）",
+    "firstSeen": "2026-08-19T03:47:18Z"
+  },
+  "https://livepocket.jp/e/kikican20260918_2": {
+    "title": "『きききゃん　arc.38（2部）』（ki:ki単独公演）",
+    "group": "ki:ki",
+    "date": "2026-09-18",
+    "venue": "渋谷音楽堂（東京都）",
+    "prefecture": "東京都",
+    "source": "livepocket（ファン・アイドル）",
+    "firstSeen": "2026-08-19T03:47:18Z"
+  },
+  "https://livepocket.jp/e/y_1g-": {
+    "title": "【ゆるる】あっとトークルーム＜9/17(木) 20:20枠＞",
+    "group": "【ゆるる】あっとトークルーム＜9/17(木) 20:20枠＞",
+    "date": "2026-09-17",
+    "venue": "お持ちのスマートフォン、タブレットもしくはPC（Web会議サービスを使用）（その他）",
+    "prefecture": null,
+    "source": "livepocket（ファン・アイドル）",
+    "firstSeen": "2026-08-19T03:47:18Z"
+  },
+  "https://livepocket.jp/e/girlsdelight415": {
+    "title": "『GIRLS☆DELIGHT#415-上野野音無銭祭-』",
+    "group": "Bunny La Crew / メイビーME / 4次元コンパス / I'mew（あいみゅう） / カリスマめんざいふっ！ / CURE’T / SAI²Rium / JAPANARIZM / Cent Heaven / ツヅリカ / -天架- / New Crown / HIGH SPIRITS / Panic Monster !n Wonderland / ハレとハレ！ / Magi / ミスティア！ / Melty BeaR",
+    "date": "2026-09-17",
+    "venue": "上野恩賜公園野外ステージ（東京都）",
+    "prefecture": "東京都",
+    "source": "livepocket（ファン・アイドル）",
+    "firstSeen": "2026-08-19T03:47:18Z"
+  },
+  "https://livepocket.jp/e/mrp7-2": {
+    "title": "めろぱーくvol.7 2部~ゆせ生誕祭~",
+    "group": "めろぐらびてぃ",
+    "date": "2026-09-16",
+    "venue": "BUZZ LIVE 渋谷（東京都）",
+    "prefecture": "東京都",
+    "source": "livepocket（ファン・アイドル）",
+    "firstSeen": "2026-08-19T03:47:18Z"
+  },
+  "https://livepocket.jp/e/rizbirth": {
+    "title": "キミイロプロジェクト 姫月りず 生誕祭",
+    "group": "キミイロプロジェクト / キミイロユース",
+    "date": "2026-09-16",
+    "venue": "渋谷チェルシーホテル（東京都）",
+    "prefecture": "東京都",
+    "source": "livepocket（ファン・アイドル）",
+    "firstSeen": "2026-08-19T03:47:18Z"
+  },
+  "https://livepocket.jp/e/mrp7-1": {
+    "title": "めろぱーくvol.7 1部~るいな生誕祭~",
+    "group": "めろぐらびてぃ",
+    "date": "2026-09-16",
+    "venue": "BUZZ LIVE 渋谷（東京都）",
+    "prefecture": "東京都",
+    "source": "livepocket（ファン・アイドル）",
+    "firstSeen": "2026-08-19T03:47:18Z"
+  },
+  "https://livepocket.jp/e/iyo_shinohara_260913_ev": {
+    "title": "【大阪】9月13日（日）篠原いよ DVDイベント【大阪】",
+    "group": "篠原いよ",
+    "date": "2026-09-13",
+    "venue": "関西トレンド書店２６号線葛の葉店（大阪府）",
+    "prefecture": "大阪府",
+    "source": "livepocket（ファン・アイドル）",
+    "firstSeen": "2026-08-19T03:47:18Z"
+  },
+  "https://livepocket.jp/e/lj80n": {
+    "title": "MofruRock 2nd Anniversary Live ～僕たちノラネコ2年生～",
+    "group": "MofruRock",
+    "date": "2026-09-13",
+    "venue": "池袋LIVEINNROSA（東京都）",
+    "prefecture": "東京都",
+    "source": "livepocket（ファン・アイドル）",
+    "firstSeen": "2026-08-19T03:47:18Z"
+  },
+  "https://eplus.jp/sf/detail/4589750002-P0030001P021001": {
+    "title": "高瀬くるみ 『オンラインイベント 高瀬くるみ挑戦中』",
+    "group": "高瀬くるみ 『オンラインイベント 高瀬くるみ挑戦中』",
+    "date": "2026-08-23",
+    "venue": "",
+    "prefecture": null,
+    "source": "eplus（アイドル）",
+    "firstSeen": "2026-08-19T03:47:24Z"
+  },
+  "https://ticketdive.com/event/dancestadium2026_summer_final_ticket": {
+    "title": "第19回 日本高校ダンス部選手権 夏の全国公式大会　【全国決勝大会】",
+    "group": "第19回 日本高校ダンス部選手権 夏の全国公式大会　【全国決勝大会】",
+    "date": "2026-09-06",
+    "venue": "日本工学院アリーナ",
+    "prefecture": null,
+    "source": "TicketDive（新着エントリー）",
+    "firstSeen": "2026-08-19T03:47:25Z"
   }
 }
