@@ -32832,5 +32832,59 @@
     "prefecture": "大阪府",
     "source": "livepocket（ファン・アイドル）",
     "firstSeen": "2026-08-19T12:43:08Z"
+  },
+  "https://tiget.net/events/515683": {
+    "title": "CUBΣLICあいうえまし子生誕祭『ましちゃんは 3日前にバース...",
+    "group": "CUBΣLIC / グデイ / SAKA-SAMA / 噛...",
+    "date": "2026-09-01",
+    "venue": "東京都",
+    "prefecture": "東京都",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-19T18:30:25Z"
+  },
+  "https://tiget.net/events/515978": {
+    "title": "『Welcome back presents PASSION!!...",
+    "group": "『Welcome back presents PASSION!!...",
+    "date": "2026-09-08",
+    "venue": "東京都",
+    "prefecture": "東京都",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-19T18:30:25Z"
+  },
+  "https://tiget.net/events/515787": {
+    "title": "夏空ゆか生誕祭2026応援企画",
+    "group": "夏空ゆか",
+    "date": "2026-08-28",
+    "venue": "東京都",
+    "prefecture": "東京都",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-19T18:30:25Z"
+  },
+  "https://livepocket.jp/e/cm1114_day": {
+    "title": "COTOQUIWA PRESENTS Vol.1 「THE MUSIC GOES ON - 音楽は鳴り続ける -」",
+    "group": "COTOQUIWA / PORTRIVERS / MIX MARKET / Submarino",
+    "date": "2026-11-14",
+    "venue": "渋谷ClubMalcolm（東京都）",
+    "prefecture": "東京都",
+    "source": "livepocket（ファン・アイドル）",
+    "firstSeen": "2026-08-19T18:33:15Z"
+  },
+  "https://livepocket.jp/e/0903kurumi2": {
+    "title": "【2部】くるみの弾き語らNight",
+    "group": "くるみ",
+    "date": "2026-09-03",
+    "venue": "shibuya gee-ge.（東京都）",
+    "prefecture": "東京都",
+    "source": "livepocket（ファン・アイドル）",
+    "firstSeen": "2026-08-19T18:33:15Z"
+  },
+  "https://livepocket.jp/e/0903kurumi": {
+    "title": "【1部】くるみの弾き語らNight",
+    "group": "くるみ",
+    "date": "2026-09-03",
+    "venue": "shibuya gee-ge.（東京都）",
+    "prefecture": "東京都",
+    "source": "livepocket（ファン・アイドル）",
+    "firstSeen": "2026-08-19T18:33:15Z"
   }
 }
