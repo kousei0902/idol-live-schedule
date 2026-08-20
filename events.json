@@ -34065,5 +34065,68 @@
     "prefecture": null,
     "source": "TicketDive（新着エントリー）",
     "firstSeen": "2026-08-20T12:41:29Z"
+  },
+  "https://tiget.net/events/503945": {
+    "title": "10/12(月祝) けっぱって東北定期公演 -福島ゆか生誕SP-",
+    "group": "けっぱって東北 / 福島ゆか / めんこいな東北",
+    "date": "2026-10-12",
+    "venue": "福島県",
+    "prefecture": "福島県",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-20T15:30:48Z"
+  },
+  "https://tiget.net/events/515040": {
+    "title": "【燦楽景定期公演】親愛なる燦愛へ Vol.15",
+    "group": "燦楽景",
+    "date": "2026-09-13",
+    "venue": "東京都",
+    "prefecture": "東京都",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-20T15:30:48Z"
+  },
+  "https://tiget.net/events/516349": {
+    "title": "【08/22】単独公演",
+    "group": "【08/22】単独公演",
+    "date": "2026-08-22",
+    "venue": "愛知県",
+    "prefecture": "愛知県",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-20T15:30:48Z"
+  },
+  "https://tiget.net/events/516348": {
+    "title": "WAZZE LIVE 〜shigeP birthday event〜",
+    "group": "きりしまサンシャインガールズ / ボニート☓ボニート / ...",
+    "date": "2026-09-20",
+    "venue": "鹿児島県",
+    "prefecture": "鹿児島県",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-20T15:30:48Z"
+  },
+  "https://tiget.net/events/516307": {
+    "title": "肯定解放！",
+    "group": "きゅんきゅん♡ぷりえーる / SUMMER ROCKET",
+    "date": "2026-08-23",
+    "venue": "東京都",
+    "prefecture": "東京都",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-20T15:30:48Z"
+  },
+  "https://tiget.net/events/516300": {
+    "title": "【 IDOL CONTENT EXPO ＠秋葉原ゼスト～緊急コス...",
+    "group": "【 IDOL CONTENT EXPO ＠秋葉原ゼスト～緊急コス...",
+    "date": "2026-08-23",
+    "venue": "東京都",
+    "prefecture": "東京都",
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-20T15:30:48Z"
+  },
+  "https://livepocket.jp/e/d_i_t_k_m": {
+    "title": "dance in the kitchen mess",
+    "group": "LIGHTERS",
+    "date": "2026-11-25",
+    "venue": "下北沢BASEMENTBAR（東京都）",
+    "prefecture": "東京都",
+    "source": "livepocket（ファン・アイドル）",
+    "firstSeen": "2026-08-20T15:33:39Z"
   }
 }
