@@ -35280,5 +35280,23 @@
     "prefecture": "東京都",
     "source": "eplus（アイドル）",
     "firstSeen": "2026-08-21T15:33:15Z"
+  },
+  "https://tiget.net/events/516591": {
+    "title": "【配信視聴チケット】小桃音まい生誕祭2026",
+    "group": "小桃音まい",
+    "date": "2026-08-22",
+    "venue": "ライブ配信",
+    "prefecture": null,
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-21T18:31:20Z"
+  },
+  "https://tiget.net/events/516590": {
+    "title": "【配信視聴チケット】桃色革命 志柿じゅみ生誕祭2026-東京-",
+    "group": "志柿じゅみ / 桃色革命",
+    "date": "2026-08-22",
+    "venue": "ライブ配信",
+    "prefecture": null,
+    "source": "tiget（アイドルジャンル）",
+    "firstSeen": "2026-08-21T18:31:20Z"
   }
 }
