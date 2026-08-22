@@ -27,9 +27,6 @@ self.addEventListener('activate', (event) => {
 
 self.addEventListener('fetch', (event) => {
   const url = new URL(event.request.url);
-  // Only the app shell is cached. events.json lives on
-  // raw.githubusercontent.com and must always hit the network - it's
-  // the whole point of the discover screen, so never serve it stale.
   if (url.origin !== location.origin) return;
   if (event.request.method !== 'GET') return;
 

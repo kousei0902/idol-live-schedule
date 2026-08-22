@@ -7,10 +7,7 @@
   const FAVORITES_FILTER = '__favorites__';
   const COLOR_PALETTE = ['#ff5fa2', '#7c6cf0', '#2fb380', '#e8a53d', '#3ab0d8', '#e0507a', '#8c6cf0', '#4fb0a5'];
   const DOW = ['日', '月', '火', '水', '木', '金', '土'];
-  const EVENTS_JSON_URL = 'https://raw.githubusercontent.com/sigure0000894/idol-live-schedule/main/events.json';
-  // raw.githubusercontent.com occasionally 429s under load; jsDelivr mirrors
-  // the same file off a real CDN and is used as a fallback below.
-  const EVENTS_JSON_MIRROR_URL = 'https://cdn.jsdelivr.net/gh/sigure0000894/idol-live-schedule@main/events.json';
+  const EVENTS_JSON_URL = './events.json';
   const PREFECTURES = [
     '北海道', '青森県', '岩手県', '宮城県', '秋田県', '山形県', '福島県',
     '茨城県', '栃木県', '群馬県', '埼玉県', '千葉県', '東京都', '神奈川県',
@@ -569,11 +566,7 @@
       return await fetchEventsJsonFrom(EVENTS_JSON_URL);
     } catch (err) {
       await sleep(1200);
-      try {
-        return await fetchEventsJsonFrom(EVENTS_JSON_URL);
-      } catch (err2) {
-        return await fetchEventsJsonFrom(EVENTS_JSON_MIRROR_URL);
-      }
+      return await fetchEventsJsonFrom(EVENTS_JSON_URL);
     }
   }
 
